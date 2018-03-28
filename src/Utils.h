@@ -16,4 +16,6 @@ typedef std::string TextWord;
 typedef std::vector<TextWord> TextSentence;
 typedef std::vector<TextSentence> TextSentenceList;
 
-typedef std::map<TextWord, int> TextVocab;
+typedef std::unordered_map<TextWord, int> TextVocab;
+typedef std::vector<std::pair<TextWord, int>> TextOccurrenceCountsVec;
+typedef std::unordered_map<TextWord, int> TextOccurrenceCountsMap;
