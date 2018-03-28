@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>145</x>
-      <y>150</y>
+      <x>200</x>
+      <y>35</y>
       <w>350</w>
       <h>110</h>
     </coordinates>
@@ -17,9 +17,8 @@
 -
 + RecurrentNeuralNetwork()
 + const feedForward(const arma::mat&amp; x, 
-						                                 std::unique_ptr&lt;arma::mat&gt;&amp; saved_states,
-						                                 std::unique_ptr&lt;arma::mat&gt;&amp; outputs)
-+ const predict(const arma::mat&amp; x): std::unique_ptr&lt;arma::colvec&gt;
+						                                 std::unique_ptr&lt;arma::mat&gt;&amp; out_saved_states,
+						                                 std::unique_ptr&lt;arma::mat&gt;&amp; out_outputs)
 + const getW() : const arma::mat&amp;
 + const getU() : const arma::mat&amp;
 + const getV() : const arma::mat&amp;</panel_attributes>
@@ -28,54 +27,55 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>145</x>
-      <y>275</y>
+      <x>200</x>
+      <y>160</y>
       <w>350</w>
       <h>85</h>
     </coordinates>
-    <panel_attributes>TextRnn&lt;SavedStateActivation, OutputActivation&gt; &lt; RecurrentNeuralNetwork
+    <panel_attributes>TextRnn&lt;SavedStateActivation, OutputActivation&gt; &lt; RecurrentNeuralNetwork&lt;...&gt;
 -
-- vocab: std::map&lt;std::string, int&gt;
+- vocab: const std::shared_ptr&lt;TextVocab&gt;
 -
-+ const strsToOneHotMat(const std::vector&lt;std::string&gt;&amp; words): std::unique_ptr&lt;arma::mat&gt;
-+ const oneHotMatToStrs(const arma::mat one_hot_mat): std::unique_ptr&lt;std::vector&lt;std::string\&gt;&gt;
-+ const oneHotVecToStr(const arma::colvec one_hot_vec): std::unique_ptr&lt;std::string&gt;
++ TextRnn(new_vocab: const std::shared_ptr&lt;TextVocab&gt;)
++ const strsToOneHotMat(const std::vector&lt;std::string&gt;&amp; strs): std::unique_ptr&lt;arma::mat&gt;
++ const oneHotMatToStrs(const arma::mat&amp; one_hot_mat): std::unique_ptr&lt;std::vector&lt;std::string\&gt;&gt;
++ const oneHotVecToStr(const arma::colvec&amp; one_hot_vec): std::unique_ptr&lt;std::string&gt;
 + const generateText(const std::string&amp; x_zero)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>145</x>
-      <y>480</y>
+      <x>200</x>
+      <y>365</y>
       <w>235</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>SoftMaxActivation
 -
-+ static eval(arma::colvec in): std::unique_ptr&lt;arma::colvec&gt;
-+ static evalPrime(arma::colvec in): std::unique_ptr&lt;arma::mat&gt;</panel_attributes>
++ eval(arma::colvec in): std::unique_ptr&lt;arma::colvec&gt;
++ evalPrime(arma::colvec in): std::unique_ptr&lt;arma::mat&gt;</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>145</x>
-      <y>415</y>
+      <x>200</x>
+      <y>300</y>
       <w>235</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>TanHActivation
 -
-+ static eval(arma::colvec in): std::unique_ptr&lt;arma::colvec&gt;
-+ static evalPrime(arma::colvec in): std::unique_ptr&lt;arma::colvec&gt;</panel_attributes>
++ eval(arma::colvec in): std::unique_ptr&lt;arma::colvec&gt;
++ evalPrime(arma::colvec in): std::unique_ptr&lt;arma::colvec&gt;</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>150</y>
+      <x>615</x>
+      <y>35</y>
       <w>380</w>
       <h>110</h>
     </coordinates>
@@ -93,28 +93,55 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>145</x>
-      <y>540</y>
+      <x>200</x>
+      <y>425</y>
       <w>325</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>TextCrossEntropyLossFunction
 -
-+ static eval(arma::colvec correct, arma::colvec predict): std::unique_ptr&lt;arma::colvec&gt;
-+ static evalPrime(arma::colvec correct, arma::colvec predict): std::unique_ptr&lt;arma::colvec&gt;</panel_attributes>
++ eval(arma::colvec correct, arma::colvec predict): std::unique_ptr&lt;arma::colvec&gt;
++ evalPrime(arma::colvec correct, arma::colvec predict): std::unique_ptr&lt;arma::colvec&gt;</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>145</x>
-      <y>600</y>
+      <x>200</x>
+      <y>485</y>
       <w>420</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>TextProgressEvaluator&lt;NetworkType&gt;
+    <panel_attributes>TextProgressEvaluator
 -
-+ static evalPercentCorrect(const NetworkType&amp; network, const arma::mat&amp; predict, const arma::mat&amp; correct): double</panel_attributes>
++ evalPercentCorrect&lt;NetworkType&gt;(const NetworkType&amp; network, const arma::mat&amp; predict, const arma::mat&amp; correct): double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>680</x>
+      <y>285</y>
+      <w>350</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>TextVocabGenerator
+-
++ generateVocab(int max_vocab, std::vector&lt;std::vector&lt;std::string\&gt;&gt;): TextVocab</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>35</y>
+      <w>175</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Utils
+-
+typedef std::map&lt;std::string, int&gt; TextVocab;
+typedef std::vector&lt;std::string&gt; TextSentence;</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
