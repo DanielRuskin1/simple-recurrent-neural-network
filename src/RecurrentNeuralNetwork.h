@@ -10,13 +10,14 @@
 
 #include <armadillo>
 #include <memory>
+#include "Utils.h"
 
 template<class SavedStateActivation, class OutputActivation>
 class RecurrentNeuralNetwork {
 public:
-	RecurrentNeuralNetwork();
+	RecurrentNeuralNetwork(int x_size, int out_size, int saved_state_size);
 
-	void feedForward(const arma::mat& x, std::unique_ptr<arma::mat>& out_saved_states, std::unique_ptr<arma::mat>& out_outputs);
+	void feedForward(const Sentence& x, std::unique_ptr<arma::mat>& out_saved_states, std::unique_ptr<arma::mat>& out_outputs);
 
 	const arma::mat& getW() const { return W; }
 	const arma::mat& getU() const { return U; }
