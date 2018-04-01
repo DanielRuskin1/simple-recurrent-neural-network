@@ -22,6 +22,9 @@ public:
 	const arma::mat& getW() const { return W; }
 	const arma::mat& getU() const { return U; }
 	const arma::mat& getV() const { return V; }
+	void setW(const arma::mat& newW) { W = newW; }
+	void setU(const arma::mat& newU) { U = newU; }
+	void setV(const arma::mat& newV) { V = newV; }
 private:
 	arma::mat W;
 	arma::mat U;
