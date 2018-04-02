@@ -14,8 +14,8 @@
 
 // TODO: Does public inheritance mean that the superclass's ctor will also be available here?
 //		 If so, need to fix that.
-template<class SavedStateActivation, class OutputActivation>
-class TextRnn : public RecurrentNeuralNetwork<SavedStateActivation, OutputActivation> {
+template<class ActivationLossConfig>
+class TextRnn : public RecurrentNeuralNetwork<ActivationLossConfig> {
 public:
 	TextRnn(int x_size, int out_size, int saved_state_size, const std::shared_ptr<TextVocab> new_vocab);
 

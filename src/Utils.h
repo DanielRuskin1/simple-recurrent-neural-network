@@ -11,7 +11,7 @@
 // A word just represents a single prediction or example, it may not represent text (it could represent an image, etc).
 typedef arma::colvec Word;
 typedef arma::mat Sentence; // Colvec = word
-typedef std::vector<arma::mat> SentenceList; // Slice = sentence
+typedef std::vector<Sentence> SentenceList; // Slice = sentence
 
 typedef std::string TextWord;
 typedef std::vector<TextWord> TextSentence;

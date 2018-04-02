@@ -12,7 +12,7 @@
 #include <memory>
 #include "Utils.h"
 
-template<class SavedStateActivation, class OutputActivation>
+template<class ActivationLossConfig>
 class RecurrentNeuralNetwork {
 public:
 	RecurrentNeuralNetwork(int x_size, int out_size, int saved_state_size);
