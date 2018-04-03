@@ -10,11 +10,10 @@
 
 #include "Utils.h"
 
-template<class NetworkType>
+template<class ActivationLossConfig>
 class TextProgressEvaluator {
 public:
-	template<class NetworkType>
-	static double evalPercentWordsCorrect(const NetworkType& network, const SentenceList& predict, const SentenceList& correct) {
+	static double evalPercentWordsCorrect(const TextRnn<ActivationLossConfig>& network, const SentenceList& predict, const SentenceList& correct) {
 		double correctAmount = 0;
 		double totalAmount = 0;
 

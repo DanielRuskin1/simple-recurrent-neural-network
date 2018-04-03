@@ -17,7 +17,7 @@ std::unique_ptr<arma::colvec> TextActivationLossConfig::evalSavedStateActivation
 	return std::unique_ptr<arma::colvec>(new arma::colvec(arma::tanh(in)));
 }
 
-void TextActivationLossConfig::addGradients(const RecurrentNeuralNetwork<TextActivationLossConfig> network, int bptt_truncate, const Sentence& x, const Sentence& y, const arma::mat& saved_states, const arma::mat& outputs, arma::mat& out_dCdW, arma::mat& out_dCdU, arma::mat& out_dCdV) {
+void TextActivationLossConfig::addGradients(const TextRnn<TextActivationLossConfig>& network, int bptt_truncate, const Sentence& x, const Sentence& y, const arma::mat& saved_states, const arma::mat& outputs, arma::mat& out_dCdW, arma::mat& out_dCdU, arma::mat& out_dCdV) {
 	for(int time = x.n_cols - 1; time >= 0; time--) {
 		// Derivative of cost for this time w/r/t V is trivial
 		out_dCdV += arma::kron((outputs.col(time) - y.col(time)), saved_states.col(time));

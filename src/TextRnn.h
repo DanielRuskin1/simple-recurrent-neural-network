@@ -17,18 +17,88 @@
 template<class ActivationLossConfig>
 class TextRnn : public RecurrentNeuralNetwork<ActivationLossConfig> {
 public:
-	TextRnn(int x_size, int out_size, int saved_state_size, const std::shared_ptr<TextVocab> new_vocab);
+	TextRnn(int x_size, int out_size, int saved_state_size, std::shared_ptr<const TextVocab> new_vocab)
+		: RecurrentNeuralNetwork<ActivationLossConfig>(x_size, out_size, saved_state_size) {
+		vocab = new_vocab;
 
-	std::unique_ptr<Word> textWordToWord(const TextWord& text_word) const; // Convert to one-hot
-	std::unique_ptr<TextWord> wordToTextWord(const Word& word) const; // Convert from one-hot
-	std::unique_ptr<Sentence> textSentenceToSentence(const TextSentence& text_sentence) const; // Convert to one-hot
-	std::unique_ptr<TextSentence> sentenceToTextSentence(const Sentence& sentence) const; // Convert from one-hot
-	std::unique_ptr<SentenceList> textSentenceListToSentenceList(const TextSentenceList& text_sentences) const; // Convert to one-hot
-	std::unique_ptr<TextSentenceList> sentenceListToTextSentenceList(const SentenceList& sentences) const; // Convert from one-hot
+		for(std::unordered_map<TextWord, int>::const_iterator it = vocab->begin(); it != vocab->end(); it++) {
+			vocab_rev[it->second] = it->first;
+		}
+	}
 
-	std::unique_ptr<TextSentence> generateSentence(const TextWord& word_zero, const TextWord& end_token, int max_words) const;
+	std::unique_ptr<Word> textWordToWord(const TextWord& text_word) const {
+		std::unique_ptr<Word> ret(new Word(vocab->size(), arma::fill::zeros));
+		if(vocab->find(text_word) == vocab->end()) {
+			text_word = UNKNOWN_CHAR_VAL;
+		}
+		(*ret)(vocab->at(text_word)) = 1;
+
+		return ret;
+	}
+
+	std::unique_ptr<TextWord> wordToTextWord(const Word& word) const {
+		return std::unique_ptr<TextWord>(new TextWord(vocab_rev.at(word.index_max())));
+	}
+
+	std::unique_ptr<Sentence> textSentenceToSentence(const TextSentence& text_sentence) const {
+		std::unique_ptr<Sentence> ret(new Sentence(vocab->size(), text_sentence.size(), arma::fill::zeros));
+
+		for(int at = 0; at < text_sentence.size(); at ++) {
+			(*ret)(at, vocab->at(text_sentence[at])) = 1;
+		}
+
+		return ret;
+	}
+
+	std::unique_ptr<TextSentence> sentenceToTextSentence(const Sentence& sentence) const {
+		std::unique_ptr<TextSentence> ret(new TextSentence);
+
+		for(int at = 0; at < sentence.n_cols(); at ++) {
+			ret->push_back(vocab_rev.at(sentence.col(at).index_max()));
+		}
+
+		return ret;
+	}
+
+	std::unique_ptr<SentenceList> textSentenceListToSentenceList(const TextSentenceList& text_sentences) const {
+		std::unique_ptr<SentenceList> ret(new SentenceList);
+
+		for(int at = 0; at < text_sentences.size(); at++) {
+			ret->push_back(std::move(*(textSentenceToSentence(text_sentences[at])))); // TODO: is this correct?  If so, use more.
+		}
+
+		return ret;
+	}
+
+	std::unique_ptr<TextSentenceList> sentenceListToTextSentenceList(const SentenceList& sentences) const {
+		std::unique_ptr<TextSentenceList> ret(new TextSentenceList);
+
+		for(int at = 0; at < sentences.size(); at++) {
+			ret->push_back(std::move(*(sentenceToTextSentence(sentences[at]))));
+		}
+
+		return ret;
+	}
+
+	std::unique_ptr<TextSentence> generateSentence(const TextWord& word_zero, const TextWord& end_token, int max_words) const {
+		std::unique_ptr<TextSentence> ts(new TextSentence);
+		ts->push_back(word_zero);
+
+		arma::colvec last_saved_state(this->W.n_rows);
+		Word last_output = *(textWordToWord(word_zero));
+		while(!(ts->back() == end_token || ts->size() < max_words)) {
+			last_saved_state = *(ActivationLossConfig::evalSavedStateActivation(
+				(this->U * last_output) + (this->W * last_saved_state)
+			));
+			last_output = *(ActivationLossConfig::evalOutputActivation(this->V * last_saved_state));
+			ts->push_back(*(wordToTextWord(last_output)));
+		}
+
+		return ts;
+	}
+
 private:
-	const std::shared_ptr<TextVocab> vocab;
+	std::shared_ptr<const TextVocab> vocab;
 	TextVocabRev vocab_rev;
 };
 

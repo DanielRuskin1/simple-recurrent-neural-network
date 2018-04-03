@@ -11,12 +11,6 @@
 #include <unordered_map>
 #include "Utils.h"
 
-struct VocabCompare {
-    bool operator() (const std::pair<TextWord, int>& lhs, const std::pair<TextWord, int>& rhs) const {
-        return lhs.second > lhs.first;
-    }
-};
-
 std::unique_ptr<TextVocab> generateVocab(int max_vocab, const TextSentenceList& sentences) {
 	// Get occurrence counts for each word (roughly O(n)
 	TextOccurrenceCountsMap occurrence_counts;
@@ -38,8 +32,10 @@ std::unique_ptr<TextVocab> generateVocab(int max_vocab, const TextSentenceList& 
 		occurrence_counts_pairs.end()
 	);
 
-	// Set vocab to top n words
-	return std::unique_ptr<TextVocab>(new TextVocab(occurrence_counts_pairs.begin(), occurrence_counts_pairs.begin() + max_vocab));
+	std::unique_ptr<TextVocab> res(new TextVocab(occurrence_counts_pairs.begin(), occurrence_counts_pairs.begin() + max_vocab));
+	(*res)[UNKNOWN_CHAR_VAL] = max_vocab;
+
+	return res;
 }
 
 #endif /* SRC_TEXTVOCABGENERATOR_H_ */
