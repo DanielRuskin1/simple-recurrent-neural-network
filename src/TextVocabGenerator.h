@@ -32,7 +32,10 @@ std::unique_ptr<TextVocab> generateVocab(int max_vocab, const TextSentenceList& 
 		occurrence_counts_pairs.end()
 	);
 
-	std::unique_ptr<TextVocab> res(new TextVocab(occurrence_counts_pairs.begin(), occurrence_counts_pairs.begin() + max_vocab));
+	std::unique_ptr<TextVocab> res(new TextVocab());
+	for(int idx = 0; idx < max_vocab; idx++) {
+		(*res)[occurrence_counts_pairs[idx].first] = idx;
+	}
 	(*res)[UNKNOWN_CHAR_VAL] = max_vocab;
 
 	return res;

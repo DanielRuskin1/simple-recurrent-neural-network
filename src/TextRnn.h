@@ -29,9 +29,10 @@ public:
 	std::unique_ptr<Word> textWordToWord(const TextWord& text_word) const {
 		std::unique_ptr<Word> ret(new Word(vocab->size(), arma::fill::zeros));
 		if(vocab->find(text_word) == vocab->end()) {
-			text_word = UNKNOWN_CHAR_VAL;
+			(*ret)(vocab->at(UNKNOWN_CHAR_VAL)) = 1;
+		} else {
+			(*ret)(vocab->at(text_word)) = 1;
 		}
-		(*ret)(vocab->at(text_word)) = 1;
 
 		return ret;
 	}
@@ -44,7 +45,11 @@ public:
 		std::unique_ptr<Sentence> ret(new Sentence(vocab->size(), text_sentence.size(), arma::fill::zeros));
 
 		for(int at = 0; at < text_sentence.size(); at ++) {
-			(*ret)(at, vocab->at(text_sentence[at])) = 1;
+			if(vocab->find(text_sentence[at]) == vocab->end()) {
+				(*ret)(vocab->at(UNKNOWN_CHAR_VAL), at) = 1;
+			} else {
+				(*ret)(vocab->at(text_sentence[at]), at) = 1;
+			}
 		}
 
 		return ret;
@@ -70,6 +75,16 @@ public:
 		return ret;
 	}
 
+	void sentenceListToTrainingSentenceList(const SentenceList& sl, std::unique_ptr<SentenceList>& out_x, std::unique_ptr<SentenceList>& out_y) {
+		out_x.reset(new SentenceList);
+		out_y.reset(new SentenceList);
+
+		for(int ex = 0; ex < sl.size(); ex++) {
+			out_x->push_back(sl[ex].cols(0, sl[ex].n_cols - 2)); // Drop last word for X
+			out_y->push_back(sl[ex].cols(1, sl[ex].n_cols - 1)); // Drop first word for Y
+		}
+	}
+
 	std::unique_ptr<TextSentenceList> sentenceListToTextSentenceList(const SentenceList& sentences) const {
 		std::unique_ptr<TextSentenceList> ret(new TextSentenceList);
 
@@ -86,7 +101,7 @@ public:
 
 		arma::colvec last_saved_state(this->W.n_rows);
 		Word last_output = *(textWordToWord(word_zero));
-		while(!(ts->back() == end_token || ts->size() < max_words)) {
+		while(ts->back() != end_token && ts->size() < max_words) {
 			last_saved_state = *(ActivationLossConfig::evalSavedStateActivation(
 				(this->U * last_output) + (this->W * last_saved_state)
 			));

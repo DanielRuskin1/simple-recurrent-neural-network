@@ -10,6 +10,7 @@
 
 #include <memory>
 #include <armadillo>
+#include <boost/log/trivial.hpp>
 #include "RecurrentNeuralNetwork.h"
 #include "TextRnn.h"
 

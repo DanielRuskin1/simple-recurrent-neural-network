@@ -15,6 +15,9 @@ raw_text = raw_text.downcase
 # Remove quotes
 raw_text = raw_text.gsub("“", "").gsub("”", "")
 
+# Replace multibyte chars
+raw_text = raw_text.gsub("…", " ELLIPSE")
+
 # Split by newline to get distinct sentences
 raw_text = raw_text.split("\n")
 

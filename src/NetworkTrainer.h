@@ -15,19 +15,20 @@
 template<class NetworkType, class ActivationLossConfig, class ProgressEvaluator>
 class NetworkTrainer {
 public:
-	NetworkTrainer(int num_epochs_new, int samples_per_epoch_new, double learning_rate_new, double test_data_frac_new, int bptt_truncate_new, std::shared_ptr<NetworkType> network_new)
-		: num_epochs(num_epochs_new), samples_per_epoch(samples_per_epoch_new), learning_rate(learning_rate_new), test_data_frac(test_data_frac_new), bptt_truncate(bptt_truncate_new), network(network_new) {
+	NetworkTrainer(int num_epochs_new, int samples_per_batch_new, double learning_rate_new, double test_data_frac_new, int bptt_truncate_new, std::shared_ptr<NetworkType> network_new)
+		: num_epochs(num_epochs_new), samples_per_batch(samples_per_batch_new), learning_rate(learning_rate_new), test_data_frac(test_data_frac_new), bptt_truncate(bptt_truncate_new), network(network_new) {
 
 	}
 
 	void train(const SentenceList& x, const SentenceList& y) {
 		// Figure out how many test/training examples we will have
-		int num_test_exs = x.size() * test_data_frac;
+		int num_test_exs = std::ceil(x.size() * test_data_frac);
 		int num_training_exs = x.size() - num_test_exs;
 		std::vector<int> test_examples(num_test_exs);
 		std::vector<int> training_examples(num_training_exs);
 
 		// Randomly assign test/training examples
+		BOOST_LOG_TRIVIAL(info) << "Assigning examples to test/training set...";
 		std::vector<int> randomized_examples(x.size());
 		std::iota(randomized_examples.begin(), randomized_examples.end(), 0);
 		std::random_shuffle(randomized_examples.begin(), randomized_examples.end());
@@ -47,22 +48,28 @@ public:
 		}
 
 		// Iterate through training epochs
-		int num_batches_per_epoch = std::floor(training_examples.size() / samples_per_epoch);
+		int num_batches_per_epoch = std::floor(training_examples.size() / samples_per_batch);
 		if(num_batches_per_epoch == 0) { num_batches_per_epoch = 1; }
 		for(int epoch = 0; epoch < num_epochs; epoch++) {
+			BOOST_LOG_TRIVIAL(info) << "Training epoch " << epoch << "...";
+
 			// Randomize training example #s
+			BOOST_LOG_TRIVIAL(info) << "Randomizing training examples...";
 			std::vector<int> examples_remaining_for_epoch(training_examples.size());
 			std::iota(examples_remaining_for_epoch.begin(), examples_remaining_for_epoch.end(), 0);
 			std::random_shuffle(examples_remaining_for_epoch.begin(), examples_remaining_for_epoch.end());
 
 			// Iterate through batches and take examples each time
 			for(int batch = 0; batch < num_batches_per_epoch; batch++) {
+				BOOST_LOG_TRIVIAL(info) << "Training epoch " << epoch << ", batch " << batch << "...";
+
 				// If on last batch, take rest of examples.  Otherwise, take normal size.
 				int num_examples_in_batch;
 				if(batch == num_batches_per_epoch - 1) { num_examples_in_batch = examples_remaining_for_epoch.size(); }
-				else { num_examples_in_batch = samples_per_epoch; }
+				else { num_examples_in_batch = samples_per_batch; }
 
 				// Calculate avg gradients
+				BOOST_LOG_TRIVIAL(info) << "Training epoch " << epoch << ", batch " << batch << ", calculating gradients...";
 				arma::mat dCdW(network->getW().n_rows, network->getW().n_cols, arma::fill::zeros);
 				arma::mat dCdU(network->getU().n_rows, network->getU().n_cols, arma::fill::zeros);
 				arma::mat dCdV(network->getV().n_rows, network->getV().n_cols, arma::fill::zeros);
@@ -90,6 +97,7 @@ public:
 				dCdV /= num_examples_in_batch;
 
 				// Update weights per gradients
+				BOOST_LOG_TRIVIAL(info) << "Training epoch " << epoch << ", batch " << batch << ", updating weights...";
 				network->setW(network->getW() - (dCdW * learning_rate));
 				network->setU(network->getU() - (dCdU * learning_rate));
 				network->setV(network->getV() - (dCdV * learning_rate));
@@ -106,12 +114,12 @@ public:
 				predict[ex_num] = std::move(*tmp_outputs);
 			}
 			double percent = ProgressEvaluator::evalPercentWordsCorrect(*network, predict, test_examples_correct);
-			BOOST_LOG_TRIVIAL(info) << percent << "% correct!";
+			BOOST_LOG_TRIVIAL(info) << percent << " fraction correct!";
 		}
 	}
 private:
 	int num_epochs;
-	int samples_per_epoch;
+	int samples_per_batch;
 	double learning_rate;
 	double test_data_frac;
 	int bptt_truncate;

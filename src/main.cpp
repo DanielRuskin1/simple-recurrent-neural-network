@@ -36,7 +36,7 @@ int main(int argc, char **argv)
 	std::ifstream data_file;
 	std::string line;
 	TextSentenceList data;
-	data_file.open("../data/parsed.txt");
+	data_file.open("data.csv");
 	while(getline(data_file, line)) {
 		TextSentence words;
 		boost::split(words, line, boost::is_any_of(" "));
@@ -45,15 +45,15 @@ int main(int argc, char **argv)
 
 	BOOST_LOG_TRIVIAL(info) << "Creating vocab...";
 
-	// Create vocab with top 5000 words
-	std::shared_ptr<TextVocab> tv = std::move(generateVocab(5000, data));
+	// Create vocab with top 3 words + unknown val
+	std::shared_ptr<TextVocab> tv = std::move(generateVocab(3, data));
 
 	BOOST_LOG_TRIVIAL(info) << "Creating network...";
 
 	// Create text network
 	std::shared_ptr<TextRnn<TextActivationLossConfig>> trnn(new TextRnn<TextActivationLossConfig>(
-		5001,
-		5001,
+		4,
+		4,
 		100,
 		tv
 	));
@@ -62,19 +62,24 @@ int main(int argc, char **argv)
 
 	// Convert our data to valid training data
 	std::unique_ptr<SentenceList> data_one_hot = trnn->textSentenceListToSentenceList(data);
-	SentenceList::const_iterator it_a = data_one_hot->begin();
-	SentenceList::const_iterator it_b = data_one_hot->end() - 1;
-	SentenceList x(it_a, it_b - 1);
-	SentenceList y(it_a + 1, it_b);
+	std::unique_ptr<SentenceList> x;
+	std::unique_ptr<SentenceList> y;
+	trnn->sentenceListToTrainingSentenceList(*data_one_hot, x, y);
 
 	BOOST_LOG_TRIVIAL(info) << "Training network...";
 	NetworkTrainer<TextRnn<TextActivationLossConfig>, TextActivationLossConfig, TextProgressEvaluator<TextActivationLossConfig>> nnt(
-		10,
+		100,
 		100,
 		0.1,
 		0.05,
 		5,
 		trnn
 	);
-	nnt.train(x, y);
+	nnt.train(*x, *y);
+
+	BOOST_LOG_TRIVIAL(info) << "Generating test text...";
+	std::unique_ptr<TextSentence> ts = trnn->generateSentence("1", "END_TOKEN", 100);
+	for(int i = 0; i < ts->size(); i++) {
+		BOOST_LOG_TRIVIAL(info) << "Word " << i << ": " << ts->at(i);
+	}
 }

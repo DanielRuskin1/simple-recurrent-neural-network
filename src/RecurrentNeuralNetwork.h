@@ -50,7 +50,7 @@ public:
 	void setW(const arma::mat& newW) { W = newW; }
 	void setU(const arma::mat& newU) { U = newU; }
 	void setV(const arma::mat& newV) { V = newV; }
-private:
+protected:
 	arma::mat W;
 	arma::mat U;
 	arma::mat V;

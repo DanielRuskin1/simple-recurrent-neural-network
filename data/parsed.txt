@@ -261,7 +261,7 @@ the rest is backdrop , a painting END_TOKEN
 honor put this rubble here , dalinar said , waving toward the broken walls heaped before him END_TOKEN
 backdrop or not , his knowledge of the world and our enemy couldn’t help but affect the way he made this vision END_TOKEN
 dalinar hiked up the rubble of the outer walls END_TOKEN
-kholinar had been… storm it , kholinar was END_TOKEN
+kholinar had been ELLIPSE storm it , kholinar was END_TOKEN
 a grand city , like few in the world END_TOKEN
 instead of hiding in the shadow of a cliff or inside a sheltered chasm , kholinar trusted in its enormous walls to buffer it from highstorm winds END_TOKEN
 it defied the winds , and did not bow to the storms END_TOKEN
@@ -325,7 +325,7 @@ dalinar blinked , looking to navani , the woman he loved , her face painfully co
 in this strange place and stranger time , she was something real END_TOKEN
 a mature beauty—in some ways the picture of a perfect vorin woman : lush lips , light violet eyes , silvering black hair in perfect braids , curves accentuated by the tight silk havah END_TOKEN
 no man would ever accuse navani of being scrawny END_TOKEN
-i’m… he drew in a deep breath END_TOKEN
+i’m ELLIPSE he drew in a deep breath END_TOKEN
 and i know what we must do END_TOKEN
 i have to unite the world against the enemy faster than he can destroy it END_TOKEN
 he had to find a way to make the other monarchs of the world listen to him END_TOKEN
@@ -334,7 +334,7 @@ and , barring that , he had to help them survive the effects END_TOKEN
 but if he succeeded , he wouldn’t have to face the desolation alone END_TOKEN
 this was not a matter of one nation against the voidbringers END_TOKEN
 he needed the kingdoms of the world to join him , and he needed to find the knights radiant who were being created among their populations END_TOKEN
-dalinar , she said , i think that’s a worthy goal… but storms , what of ourselves END_TOKEN
+dalinar , she said , i think that’s a worthy goal ELLIPSE but storms , what of ourselves END_TOKEN
 this mountainside is a wasteland—what are we going to feed our armies END_TOKEN
 will run out of gemstones eventually , navani said END_TOKEN
 and they can create only the basic necessities END_TOKEN
@@ -431,9 +431,10 @@ the bridgeman looked abashed , then saluted with a stiff gesture END_TOKEN
 dalinar knelt , pulling the jacket back from sadeas’s face END_TOKEN
 he’s been lying here for some time END_TOKEN
 we’ve been looking for him , said the officer in green END_TOKEN
+we got turned about and ELLIPSE
 thought he might have returned to another part of the tower , a man said END_TOKEN
 we spent last night searching for him there END_TOKEN
-some people said they thought they’d seen him , but they were wrong , and…
+some people said they thought they’d seen him , but they were wrong , and ELLIPSE
 and a highprince was left lying here in his own gore for half a day , dalinar thought END_TOKEN
 we couldn’t find him , the officer said , because your men murdered him and moved the body—
 that blood has been pooling there for hours END_TOKEN
@@ -487,7 +488,7 @@ navani , with her hand on his shoulder END_TOKEN
 even the aging kalami , hands clasped before her , meeting his eyes and nodding END_TOKEN
 you all agree , don’t you END_TOKEN
 yes , this murder was inconvenient for dalinar’s reputation , and they certainly wouldn’t have gone so far as to kill sadeas themselves END_TOKEN
-but now that he was gone… well , why shed any tears END_TOKEN
+but now that he was gone ELLIPSE well , why shed any tears END_TOKEN
 days spent with sadeas , listening to gavilar’s grand plans END_TOKEN
 the night before dalinar’s wedding , when he’d shared wine with sadeas at a rowdy feast that sadeas had organized in his name END_TOKEN
 it was hard to reconcile that younger man , that friend , with the thicker , older face on the slab before him END_TOKEN
@@ -555,7 +556,7 @@ this is why i cannot rejoice to find sadeas dead END_TOKEN
 he was a thorn in my side , but he was a capable general and a brilliant mind END_TOKEN
 before this is through , we’ll need everyone who can fight END_TOKEN
 i used to be like the other highprinces END_TOKEN
-but what i saw on that battlefield… those red eyes… sir , i’m with you END_TOKEN
+but what i saw on that battlefield ELLIPSE those red eyes ELLIPSE sir , i’m with you END_TOKEN
 i will follow you to the ends of the storms themselves END_TOKEN
 what do you want me to do END_TOKEN
 aladar , i name you our new highprince of information , in command of the judgment and law of this city END_TOKEN
@@ -595,8 +596,8 @@ renarin , who stood beside shallan and adolin END_TOKEN
 other radiants will be coming to us , and you two will need to lead them END_TOKEN
 the knights were once our greatest weapon against the voidbringers END_TOKEN
 they will need to be so again END_TOKEN
-father , i… renarin stumbled over the words END_TOKEN
-i don’t know how to… let alone…
+father , i ELLIPSE renarin stumbled over the words END_TOKEN
+i don’t know how to ELLIPSE let alone ELLIPSE
 son , dalinar said , stepping over END_TOKEN
 he took renarin by the shoulder END_TOKEN
 the almighty and the spren have granted you powers to defend and protect this people END_TOKEN
@@ -667,7 +668,7 @@ this man didn’t get a chance to cry for his mother END_TOKEN
 dalinar let his elites handle the others ; the way was open to the brightlord END_TOKEN
 the highprince fought to the north END_TOKEN
 was this some other important lighteyes END_TOKEN
-or… didn’t dalinar remember hearing something about a son during gavilar’s endless planning meetings END_TOKEN
+or ELLIPSE didn’t dalinar remember hearing something about a son during gavilar’s endless planning meetings END_TOKEN
 well , this man certainly looked grand on that white mare , watching the battle from within his helm’s visor , cape streaming around him END_TOKEN
 the foe raised his sword to his helm toward dalinar in a sign of challenge accepted END_TOKEN
 dalinar raised his shield arm and pointed , counting on at least one of his strikers to have stayed with him END_TOKEN
@@ -723,7 +724,7 @@ dalinar grinned as he watched them go , gloryspren popping up around him as glow
 his men unhooked shortbows and shot a good dozen of the fleeing enemy in the back END_TOKEN
 damnation , it felt good to best a force larger than your own END_TOKEN
 nearby , the fallen brightlord groaned softly END_TOKEN
-why… the man said from within his helm END_TOKEN
+why ELLIPSE the man said from within his helm END_TOKEN
 don’t know , dalinar said , tossing the poleaxe back to dym END_TOKEN
 my brother chooses , dalinar said END_TOKEN
 i just go where he points me END_TOKEN
@@ -734,6 +735,7 @@ it had a chip the size of a thumb right in the blade END_TOKEN
 looked like it had bent as well END_TOKEN
 you’re supposed to stick it into the squishy parts , brightlord , dym said , not pound it against the hard parts END_TOKEN
 i’ll keep that in mind , dalinar said , tossing the sword aside as one of his men selected a replacement from among the fallen END_TOKEN
+you ELLIPSE all right , brightlord END_TOKEN
 never been better , dalinar said , voice faintly distorted by the clogged nose END_TOKEN
 hurt like damnation itself , and he drew a small flock of painspren— like little sinewy hands—up from the ground END_TOKEN
 his men formed up around him , and dalinar led the way farther down the street END_TOKEN
@@ -840,7 +842,7 @@ the riches would come once they started into the centers of the princedoms END_T
 he let his horse carry him in a leisurely gait through the town , passing soldiers who had settled down to water themselves and rest from the protracted engagement END_TOKEN
 his nose still smarted , and he had to forcibly prevent himself from snorting up blood END_TOKEN
 if it was well and truly broken , that wouldn’t turn out well for him END_TOKEN
-dalinar kept moving , fighting off the dull sense of… nothingness that often followed a battle END_TOKEN
+dalinar kept moving , fighting off the dull sense of ELLIPSE nothingness that often followed a battle END_TOKEN
 he could still remember being alive , but now had to face a return to mundanity END_TOKEN
 sadeas already had the local highprince’s head—and those of his officers—up on spears END_TOKEN
 such a showman , sadeas was END_TOKEN
@@ -927,7 +929,7 @@ the enemy seemed more interested in preying upon the small towns END_TOKEN
 though it was not as destructive as he’d feared , it would still leave thousands dead END_TOKEN
 it would leave cities broken , particularly those without shelter to the west END_TOKEN
 more importantly , it would steal the parshmen laborers and turn them into voidbringers , loosed on the public END_TOKEN
-all in all , this storm would exact a price in blood from roshar that hadn’t been seen since… well , since the desolations END_TOKEN
+all in all , this storm would exact a price in blood from roshar that hadn’t been seen since ELLIPSE well , since the desolations END_TOKEN
 he lifted his hand to grasp navani’s , as she in turn held to him END_TOKEN
 you did what you could , dalinar , she whispered after a time watching END_TOKEN
 don’t insist on carrying this failure as a burden END_TOKEN
@@ -993,7 +995,7 @@ she wasn’t trying to be seductive right now ; she was merely comfortable aroun
 intimately familiar , past the point where she felt embarrassed for him to see her uncovered END_TOKEN
 it was good that one of them was willing to take the initiative in the relationship END_TOKEN
 for all his impatience to advance on the battlefield , this was one area in which he’d always needed encouragement END_TOKEN
-same as it had been all those years ago…
+same as it had been all those years ago ELLIPSE
 when i married last , dalinar said softly , i did many things wrong END_TOKEN
 you married shshshsh for her shardplate , but many marriages are for political reasons END_TOKEN
 that doesn’t mean you were wrong END_TOKEN
@@ -1024,11 +1026,11 @@ she’s gone , leaving debris that mars my memory END_TOKEN
 i can’t remember how she died END_TOKEN
 that one gets to me , because there are parts of that day i know i should remember END_TOKEN
 something about a city in rebellion against my brother , and my wife being taken hostage END_TOKEN
-that… and a long march alone , accompanied only by hatred and the thrill END_TOKEN
+that ELLIPSE and a long march alone , accompanied only by hatred and the thrill END_TOKEN
 he’d brought vengeance to those who had taken his wife from him END_TOKEN
 navani settled down on the seat beside dalinar , resting her head on his shoulder END_TOKEN
 would that i could create a fabrial , she whispered , to take away this kind of pain END_TOKEN
-i think… i think losing her must have hurt me terribly , dalinar whispered , because of what it drove me to do END_TOKEN
+i think ELLIPSE i think losing her must have hurt me terribly , dalinar whispered , because of what it drove me to do END_TOKEN
 i am left with only the scars END_TOKEN
 regardless , navani , i want it to be right with us END_TOKEN
 done properly , with oaths , spoken to you before someone END_TOKEN
@@ -1186,7 +1188,7 @@ he remembered kadash , bloodied , kneeling on the ground having retched until hi
 a hardened soldier who had encountered something so vile that even he was shaken END_TOKEN
 he’d left to become an ardent the next day END_TOKEN
 dark times need not be dredged up , kadash said END_TOKEN
-this isn’t about… that day , dalinar END_TOKEN
+this isn’t about ELLIPSE that day , dalinar END_TOKEN
 it’s about today , and what you’ve been spreading among the scribes END_TOKEN
 talk of these things you’ve seen in visions END_TOKEN
 holy messages , dalinar said , feeling cold END_TOKEN
@@ -1202,8 +1204,9 @@ but dalinar , that was before you started teaching that the almighty was dead EN
 they’re angry enough over that , and now you’ve gone and defied convention , spitting in the eyes of the ardents END_TOKEN
 i personally don’t think it matters if you marry navani END_TOKEN
 that prohibition is outdated to be sure END_TOKEN
+but what you’ve done tonight ELLIPSE
 dalinar reached to place a hand on kadash’s shoulder , but the man pulled away END_TOKEN
-old friend , dalinar said softly , honor might be dead , but i have felt… something else END_TOKEN
+old friend , dalinar said softly , honor might be dead , but i have felt ELLIPSE something else END_TOKEN
 it is not that god has died , it is that the almighty was never god END_TOKEN
 he did his best to guide us , but he was an impostor END_TOKEN
 a being not unlike a spren—he had the power of a god , but not the pedigree END_TOKEN
@@ -1263,7 +1266,7 @@ he now wore a spare generic kholin uniform END_TOKEN
 it felt wrong not to bear the symbol of bridge four END_TOKEN
 he crested a hill and spotted a river to his right END_TOKEN
 trees sprouted along its banks , hungry for the extra water END_TOKEN
-so if he looked directly west…
+so if he looked directly west ELLIPSE
 hand shading his eyes , he could see hills that had been stripped of grass and rockbuds END_TOKEN
 they’d soon be slathered with seed - crem , and lavis polyps would start to bud END_TOKEN
 that hadn’t started yet ; this was supposed to be the weeping END_TOKEN
@@ -1292,7 +1295,7 @@ she asked , forming into a young woman and resting on his shoulder END_TOKEN
 i’m sure i was scolding you END_TOKEN
 oh , yes , you’re home END_TOKEN
 sometimes , for all her curiosity , she could be oblivious END_TOKEN
-but… it’s your home… syl said END_TOKEN
+but ELLIPSE it’s your home ELLIPSE syl said END_TOKEN
 the everstorm , syl , kaladin said END_TOKEN
 we were supposed to beat it here END_TOKEN
 he’d needed to beat it here END_TOKEN
@@ -1309,7 +1312,7 @@ it will be all right , kaladin , syl promised from his shoulder END_TOKEN
 she’d created an umbrella for herself , and still wore the traditional vorin dress instead of her usual girlish skirt END_TOKEN
 the sky had darkened by the time he finally crested the last lavis hill and looked down on hearthstone END_TOKEN
 he braced himself for the destruction , but it shocked him nonetheless END_TOKEN
-some of the buildings he remembered were simply… gone END_TOKEN
+some of the buildings he remembered were simply ELLIPSE gone END_TOKEN
 he couldn’t see the entire town from his vantage , not in the gloom of the weeping , but many of the structures he could make out were hollow and ruined END_TOKEN
 he stood for a long time as night fell END_TOKEN
 he didn’t spot a glimmer of light in the town END_TOKEN
@@ -1322,7 +1325,7 @@ instead , he rounded hearthstone on the northwestern side , where a hill led up 
 the larger rural towns like this served as a kind of hub for the small farming communities around them END_TOKEN
 because of that , hearthstone was cursed with the presence of a lighteyed ruler of some status END_TOKEN
 brightlord roshone , a man whose greedy ways had ruined far more than one life END_TOKEN
-moash… kaladin thought as he trudged up the hill toward the manor , shivering in the chill and the darkness END_TOKEN
+moash ELLIPSE kaladin thought as he trudged up the hill toward the manor , shivering in the chill and the darkness END_TOKEN
 he’d have to face his friend’s betrayal—and near assassination of elhokar—at some point END_TOKEN
 for now , he had more pressing wounds that needed tending END_TOKEN
 the manor was where the town’s parshmen had been kept ; they’d have begun their rampage here END_TOKEN
@@ -1334,7 +1337,7 @@ he’d seen its like only once or twice before END_TOKEN
 people feel gloomy all the time END_TOKEN
 i’m pretty sure one of my aunts liked to hunt these things END_TOKEN
 like , try to spot them END_TOKEN
-can’t remember her name… syl cocked her head , oblivious to the fact that rain was falling through her form END_TOKEN
+can’t remember her name ELLIPSE syl cocked her head , oblivious to the fact that rain was falling through her form END_TOKEN
 just an honorspren i referred to that way END_TOKEN
 more seems to be coming back to you END_TOKEN
 the longer i’m with you , the more it happens END_TOKEN
@@ -1348,7 +1351,7 @@ no , it seemed to be candles or lanterns inside END_TOKEN
 someone , it appeared , had survived END_TOKEN
 he needed to be careful , though as he approached , he found that he didn’t want to be END_TOKEN
 he wanted to be reckless , angry , destructive END_TOKEN
-if he found the creatures that had taken his home from him…
+if he found the creatures that had taken his home from him ELLIPSE
 be ready , he mumbled to syl END_TOKEN
 he stepped off the pathway , which was kept free of rockbuds and other plants , and crept carefully toward the manor END_TOKEN
 light shone between boards that had been pounded across the building’s windows , replacing glass that the everstorm undoubtedly broke END_TOKEN
@@ -1428,10 +1431,10 @@ a figure knelt by one of the pallets carefully splinting a broken arm END_TOKEN
 kaladin had known as soon as he’d heard those moans of pain where he’d find his father END_TOKEN
 kaladin’s father looked weathered , bags underneath his dark brown eyes END_TOKEN
 the hair was greyer than kaladin remembered , the face gaunter END_TOKEN
-balding , diminutive , thin , bespectacled… and amazing END_TOKEN
+balding , diminutive , thin , bespectacled ELLIPSE and amazing END_TOKEN
 lirin asked , turning back to his work END_TOKEN
 did the highprince’s house send soldiers already END_TOKEN
-we can certainly use… lirin hesitated , then looked back at kaladin END_TOKEN
+we can certainly use ELLIPSE lirin hesitated , then looked back at kaladin END_TOKEN
 hello , father , kaladin said END_TOKEN
 the guardsman finally caught up , shouldering past gawking townspeople and waving his mace toward kaladin like a baton END_TOKEN
 kaladin sidestepped absently , then pushed the man so he stumbled farther down the hallway END_TOKEN
@@ -1453,10 +1456,10 @@ oh , kaladin , hesina said , kneeling down beside him and pulling him into an em
 we got your letter , but over a year ago they told us you had died as well END_TOKEN
 i should have saved him , kaladin whispered END_TOKEN
 you shouldn’t have gone in the first place , lirin said END_TOKEN
-but now… almighty , now you’re back END_TOKEN
+but now ELLIPSE almighty , now you’re back END_TOKEN
 lirin stood up , tears leaking down his cheeks END_TOKEN
 a short time later , kaladin sat among the wounded , holding a cup of warm soup in his hands END_TOKEN
-he hadn’t had a hot meal since… when END_TOKEN
+he hadn’t had a hot meal since ELLIPSE when END_TOKEN
 that’s obviously a slave’s brand , lirin , a soldier said , speaking with kaladin’s father near the doorway into the room END_TOKEN
 sas glyph , so it happened here in the princedom END_TOKEN
 they probably told you he’d died to save you the shame of the truth END_TOKEN
@@ -1475,7 +1478,7 @@ we had to dedicate your spot to something else , kal , but we can make space for
 captain of roshone’s guard ; kaladin thought he remembered the man END_TOKEN
 he almost seemed too pretty to be a soldier , but then , he was lighteyed END_TOKEN
 don’t worry about that , hesina said END_TOKEN
-we’ll deal with it , whatever the… trouble is END_TOKEN
+we’ll deal with it , whatever the ELLIPSE trouble is END_TOKEN
 with all these wounded pouring in from the villages around , roshone will need your father’s skill END_TOKEN
 roshone won’t go making a storm and risk lirin’s discontent—and you won’t be taken from us again END_TOKEN
 she talked to him as if he were a child END_TOKEN
@@ -1484,7 +1487,7 @@ three men bearing their son’s name had lived and died in that time END_TOKEN
 the soldier who had been forged in amaram’s army END_TOKEN
 the slave , so bitter and angry END_TOKEN
 his parents had never met captain kaladin , bodyguard to the most powerful man in roshar END_TOKEN
-and then… there was the next man , the man he was becoming END_TOKEN
+and then ELLIPSE there was the next man , the man he was becoming END_TOKEN
 a man who owned the skies and spoke ancient oaths END_TOKEN
 he’s a runaway slave , the guard captain hissed END_TOKEN
 we can’t just ignore that , surgeon END_TOKEN
@@ -1496,6 +1499,7 @@ tell roshone he can either let this slide , or he can go without a surgeon END_T
 unless he assumes mara can take over after just a few years of apprenticeship END_TOKEN
 did they think they were speaking softly enough that he couldn’t hear END_TOKEN
 look at the wounded people in this room , kaladin END_TOKEN
+the wounded ELLIPSE they displayed fractures END_TOKEN
 this was not the aftermath of a battle , but of a natural disaster END_TOKEN
 so what had happened to the voidbringers END_TOKEN
 things have gotten better since you left , hesina promised kaladin , squeezing his shoulder END_TOKEN
@@ -1526,8 +1530,8 @@ i didn’t know you then , but the winds did , and i am of the winds END_TOKEN
 the winds are of honor , she said , laughing as if he’d said something ridiculous END_TOKEN
 and you don’t have an imagination , it appears END_TOKEN
 she landed in the air before him and became a young woman END_TOKEN
-besides , there was… another voice END_TOKEN
-pure , with a song like tapped crystal , distant yet demanding… she smiled , and zipped away END_TOKEN
+besides , there was ELLIPSE another voice END_TOKEN
+pure , with a song like tapped crystal , distant yet demanding ELLIPSE she smiled , and zipped away END_TOKEN
 well , the world might have been upended , but syl was as impenetrable as ever END_TOKEN
 kaladin set aside his soup and climbed to his feet END_TOKEN
 he stretched to one side , then the other , feeling satisfying pops from his joints END_TOKEN
@@ -1563,7 +1567,7 @@ please , no , kaladin’s mother cried , clinging to lirin END_TOKEN
 kaladin held out a hand toward her , palm forward , in a quieting motion END_TOKEN
 that was only payment for a little unsettled debt between roshone and me END_TOKEN
 he met the eyes of the guards , each in turn , and they shuffled uncertainly END_TOKEN
-unexpectedly , kaladin felt in complete control of the situation—and… well , more than a little embarrassed END_TOKEN
+unexpectedly , kaladin felt in complete control of the situation—and ELLIPSE well , more than a little embarrassed END_TOKEN
 suddenly , the perspective of it crashed down on him END_TOKEN
 since leaving hearthstone , kaladin had met true evil , and roshone hardly compared END_TOKEN
 hadn’t he sworn to protect even those he didn’t like END_TOKEN
@@ -1585,7 +1589,7 @@ i know amaram recruited most of the able - bodied men in the region , but i’ve
 the soldiers looked to one another END_TOKEN
 then , red - faced , the lighteyed one slid his sword back into its sheath END_TOKEN
 brightlord , sir , the man said , eyes down END_TOKEN
-i may not be the best soldier around , but… well , sir , trust me on this END_TOKEN
+i may not be the best soldier around , but ELLIPSE well , sir , trust me on this END_TOKEN
 we should just pretend that punch never happened END_TOKEN
 the other two soldiers nodded their heads in agreement END_TOKEN
 roshone sized kaladin up , dabbing at his nose , which wasn’t bleeding badly END_TOKEN
@@ -1667,12 +1671,12 @@ i am an elegant and graceful weapon , stupid END_TOKEN
 secondly , why would you be bothered END_TOKEN
 it doesn’t feel right , kaladin replied , still whispering END_TOKEN
 you’re a woman , not a weapon END_TOKEN
-wait… so this is about me being a girl END_TOKEN
+wait ELLIPSE so this is about me being a girl END_TOKEN
 no , kaladin said immediately , then hesitated END_TOKEN
 you don’t ask your other weapons how they feel about being swung about END_TOKEN
 she looked at him with head cocked and eyebrows raised , as if he’d said something very stupid END_TOKEN
 his mother had taught him that from an early age END_TOKEN
-so… some of my spears have been women , then END_TOKEN
+so ELLIPSE some of my spears have been women , then END_TOKEN
 female , at least , syl said END_TOKEN
 roughly half , as these things tend to go END_TOKEN
 she flitted up into the air in front of him END_TOKEN
@@ -1718,6 +1722,7 @@ i’ve got one to the queen regent in kholinar , but that one hasn’t been resp
 fortunately , we do have one to tashikk , as you asked about END_TOKEN
 if you think that the king will respond to you , we can go through an intermediary END_TOKEN
 she walked back out the doorway END_TOKEN
+laral ELLIPSE he said , following END_TOKEN
 i hear you stabbed my floor , she noted END_TOKEN
 that’s good hardwood , i’ll have you know END_TOKEN
 i dreamed of coming back , kaladin said , stopping in the hallway outside the library END_TOKEN
@@ -1749,9 +1754,9 @@ he reached the bottom of the steps and looked back up END_TOKEN
 roshone had joined laral at the top of the stairs , carrying the gems kaladin had left on the table END_TOKEN
 five or six ruby broams , he thought , and maybe a sapphire or two END_TOKEN
 he did the calculations in his head END_TOKEN
-storms… that was a ridiculous sum— more money than the goblet full of spheres that roshone and kaladin’s father had spent years fighting over back in the day END_TOKEN
+storms ELLIPSE that was a ridiculous sum— more money than the goblet full of spheres that roshone and kaladin’s father had spent years fighting over back in the day END_TOKEN
 that was now mere pocket change to kaladin END_TOKEN
-he’d always thought of all lighteyes as rich , but a minor brightlord in an insignificant town… well , roshone was actually poor , just a different kind of poor END_TOKEN
+he’d always thought of all lighteyes as rich , but a minor brightlord in an insignificant town ELLIPSE well , roshone was actually poor , just a different kind of poor END_TOKEN
 kaladin searched back through the house , passing people he’d once known—people who now whispered shardbearer and got out of his way with alacrity END_TOKEN
 he’d accepted his place the moment he’d seized syl from the air and spoken the words END_TOKEN
 lirin was back in the parlor , working on the wounded again END_TOKEN
@@ -1798,7 +1803,7 @@ you’re a surgeon , father , but i’m something else END_TOKEN
 words spoken to dalinar kholin in a vision END_TOKEN
 i will protect those who need it END_TOKEN
 today , that means hunting down some voidbringers END_TOKEN
-i am… glad you returned , son END_TOKEN
+i am ELLIPSE glad you returned , son END_TOKEN
 kaladin rested his hand on his father’s shoulder END_TOKEN
 see your mother before you leave , lirin said END_TOKEN
 she has something to show you END_TOKEN
@@ -1845,15 +1850,16 @@ she packed up the spanreed for him without a word , and he took it gratefully , 
 his activities had drawn quite a crowd of people , who had gathered in the small entry hall before the steps END_TOKEN
 he intended to ask if anyone had infused spheres , but was interrupted by the sight of his mother END_TOKEN
 she was speaking with several young girls , and held a toddler in her arms END_TOKEN
+what was she doing with ELLIPSE
 kaladin stopped at the foot of the steps END_TOKEN
 the little boy was perhaps a year old , chewing on his hand and babbling around his fingers END_TOKEN
 kaladin , meet your brother , hesina said , turning toward him END_TOKEN
 some of the girls were watching him while i helped with the triage END_TOKEN
 it had never occurred to him END_TOKEN
-his mother would be forty - one this year , and…
+his mother would be forty - one this year , and ELLIPSE
 his mother let him take the little boy , hold him in hands that seemed too rough to be touching such soft skin END_TOKEN
 kaladin trembled , then pulled the child tight against him END_TOKEN
-memories of this place had not broken him , and seeing his parents had not overwhelmed him , but this…
+memories of this place had not broken him , and seeing his parents had not overwhelmed him , but this ELLIPSE
 he could not stop the tears END_TOKEN
 it wasn’t as if this changed anything—bridge four were his brothers now , as close to him as any blood relative END_TOKEN
 child of peace , kaladin whispered END_TOKEN
@@ -1881,7 +1887,7 @@ storms ; kaladin should have done this in private END_TOKEN
 i know of a place that is safe END_TOKEN
 please don’t be stubborn , for once in your life END_TOKEN
 you can take them , if they’ll go , lirin said END_TOKEN
-particularly if… what you just said is true END_TOKEN
+particularly if ELLIPSE what you just said is true END_TOKEN
 i’ll return as soon as i can END_TOKEN
 kaladin set his jaw , then walked to the front door of the manor END_TOKEN
 he pulled it open , letting in the sounds of rain , the scents of a drowned land END_TOKEN
@@ -1903,7 +1909,7 @@ he’d stop at stringken , about half a day’s walk—or a short flight—to th
 that moment notwithstanding , i can honestly say this book has been brewing in me since my youth END_TOKEN
 she scraped her drawing pad with agitated , bold streaks END_TOKEN
 she twisted the charcoal stick in her fingers every few lines , seeking the sharpest points to make the lines a deep black END_TOKEN
-mmm… pattern said from near her calves , where he adorned her skirt like embroidery END_TOKEN
+mmm ELLIPSE pattern said from near her calves , where he adorned her skirt like embroidery END_TOKEN
 she kept drawing , filling the page with black strokes END_TOKEN
 i understand why you hate me , shallan END_TOKEN
 i did not mean to help you kill your mother , but it is what i did END_TOKEN
@@ -1911,6 +1917,7 @@ shallan set her jaw and kept sketching END_TOKEN
 she sat outside at urithiru , her back against a cold chunk of stone , her toes frigid , coldspren growing up like spikes around her END_TOKEN
 her frazzled hair whipped past her face in a gust of air , and she had to pin the paper of her pad down with her thumbs , one trapped in her left sleeve END_TOKEN
 it’s all right , shallan said in a hushed voice as the wind died down END_TOKEN
+just ELLIPSE just let me draw END_TOKEN
 a simple landscape ; she should be able to draw a simple , calming landscape END_TOKEN
 she sat on the edge of one of the ten oathgate platforms , which rose ten feet higher than the main plateau END_TOKEN
 earlier in the day , she’d activated this oathgate , bringing forth a few hundred more of the thousands who were waiting at narak END_TOKEN
@@ -1986,7 +1993,7 @@ can i ask you a question END_TOKEN
 as that was a question , apparently you can END_TOKEN
 what did you want to know END_TOKEN
 that one was actually a statement , and that’s making me doubt my previous assertion END_TOKEN
-i just… i’m curious , brightness END_TOKEN
+i just ELLIPSE i’m curious , brightness END_TOKEN
 so that was where this was going END_TOKEN
 i assure you , shallan said , it is quite possible to remain properly feminine while fulfilling my duties as a knight END_TOKEN
 oddly , she seemed disappointed by that response END_TOKEN
@@ -2022,6 +2029,7 @@ dalinar grunted , rubbing his chin with one hand END_TOKEN
 claims he’s an aspect of the almighty END_TOKEN
 shallan sniffed as she slipped into the seat beside adolin , setting her satchel and drawing pad on the floor END_TOKEN
 dalinar turned toward her , then clasped his hands behind his back END_TOKEN
+he always seemed so ELLIPSE large END_TOKEN
 bigger than any room he was in , brow perpetually furrowed by the deepest of thoughts END_TOKEN
 dalinar kholin could make choosing what to have for breakfast look like the most important decision in all of roshar END_TOKEN
 tell me , how would you deal with the makabaki kingdoms END_TOKEN
@@ -2030,14 +2038,14 @@ azir is the most important , but just faced a succession crisis END_TOKEN
 emul and tukar are , of course , at war , as navani noted END_TOKEN
 we could certainly use tashikk’s information networks , but they’re so isolationist END_TOKEN
 perhaps the weight of their involvement would persuade their neighbors END_TOKEN
-yes , yes… shallan said , thoughtful END_TOKEN
+yes , yes ELLIPSE shallan said , thoughtful END_TOKEN
 i have heard of several of those places END_TOKEN
 dalinar drew his lips to a line , and pattern hummed in concern on her skirts END_TOKEN
 dalinar did not seem the type of man you joked with END_TOKEN
 i’m sorry , brightlord , shallan continued , leaning back in her chair END_TOKEN
 but i’m confused as to why you want my input END_TOKEN
 i know of those kingdoms , of course—but my knowledge is an academic thing END_TOKEN
-i could probably name their primary export for you , but as to foreign policy… well , i’d never even spoken to someone from alethkar before leaving my homeland END_TOKEN
+i could probably name their primary export for you , but as to foreign policy ELLIPSE well , i’d never even spoken to someone from alethkar before leaving my homeland END_TOKEN
 i see , dalinar said softly END_TOKEN
 does your spren offer some counsel END_TOKEN
 could you bring him out to speak to us END_TOKEN
@@ -2074,12 +2082,12 @@ the light swirled in the chamber and became another , larger map—floating at a
 mountains grew up like furrows in a piece of cloth pressed together END_TOKEN
 vast plains shone green from vines and fields of grass END_TOKEN
 barren stormward hillsides grew splendid shadows of life on the leeward sides END_TOKEN
-stormfather… as she watched , the topography of the landscape became real END_TOKEN
+stormfather ELLIPSE as she watched , the topography of the landscape became real END_TOKEN
 her illusions usually required a previous drawing to imitate END_TOKEN
 the map stretched to the sides of the room , shimmering at the edges END_TOKEN
 adolin stood up from his seat , crashing through the middle of the illusion somewhere near kharbranth END_TOKEN
 wisps of stormlight broke around him , but when he moved , the image swirled and neatly re - formed behind him END_TOKEN
-how… dalinar leaned down near their section , which detailed the reshi isles END_TOKEN
+how ELLIPSE dalinar leaned down near their section , which detailed the reshi isles END_TOKEN
 i can almost see the cities END_TOKEN
 i don’t know if i did anything , shallan said , stepping into the illusion , feeling the stormlight swirl around her END_TOKEN
 despite the detail , the perspective was still from very far away , and the mountains weren’t even as tall as one of her fingernails END_TOKEN
@@ -2105,6 +2113,7 @@ we protect the cities with oathgates END_TOKEN
 the voidbringers are everywhere , but we can be more mobile END_TOKEN
 we can shore up capitals , deliver food or soulcasters quickly between kingdoms END_TOKEN
 we can make those ten cities bastions of light and strength END_TOKEN
+the man with nine shadows ELLIPSE
 the enemy’s champion , dalinar said , eyes narrowing END_TOKEN
 in the visions , honor told me our best chance of survival involved forcing odium to accept a contest of champions END_TOKEN
 i’ve seen the enemy’s champion—a creature in black armor , with red eyes END_TOKEN
@@ -2134,6 +2143,7 @@ a knock at the door interrupted dalinar’s response END_TOKEN
 he called admittance , and the scout from before peeked in END_TOKEN
 brightlord , she said , looking concerned END_TOKEN
 there’s something you need to see END_TOKEN
+there’s ELLIPSE there’s been another murder END_TOKEN
 the sum of my experiences has pointed at this moment END_TOKEN
 one benefit of having become brightness radiant was that for once , shallan was expected to be a part of important events END_TOKEN
 nobody questioned her presence during the rush through the corridors , lit by oil lanterns carried by guards END_TOKEN
@@ -2172,7 +2182,7 @@ he’s even lying in the same position , navani said , grabbing her skirts and d
 it made up almost the entire room END_TOKEN
 shallan looked toward the upper reaches of the chamber , where several stone sculptures—like the heads of horses—extended from the walls with their mouths open END_TOKEN
 navani knelt beside the body , away from the blood running toward a drain on the far side of the basin END_TOKEN
-remarkable… the positioning , the puncturing of the eye… it’s exactly like what happened to sadeas END_TOKEN
+remarkable ELLIPSE the positioning , the puncturing of the eye ELLIPSE it’s exactly like what happened to sadeas END_TOKEN
 this has to be the same killer END_TOKEN
 nobody tried to shelter navani from the sight—as if it were completely proper for the king’s mother to be poking at a corpse END_TOKEN
 maybe in alethkar , ladies were expected to do this sort of thing END_TOKEN
@@ -2180,8 +2190,8 @@ it was still odd to shallan how temerarious the alethi were about towing their w
 she looked to adolin to get his read on the situation , and found him staring , aghast , mouth open and eyes wide END_TOKEN
 he didn’t seem to hear her END_TOKEN
 this is impossible , he muttered END_TOKEN
-i… no , i didn’t know him , shallan END_TOKEN
-but i’d assumed… i mean , i figured the death of sadeas was an isolated crime END_TOKEN
+i ELLIPSE no , i didn’t know him , shallan END_TOKEN
+but i’d assumed ELLIPSE i mean , i figured the death of sadeas was an isolated crime END_TOKEN
 any number of people could have wanted him dead , right END_TOKEN
 looks like it was something more than that , shallan said , folding her arms as dalinar walked down the steps to join navani , trailed by peet , lopen , and—remarkably—rlain of bridge four END_TOKEN
 that one drew attention from the other soldiers , several of whom positioned themselves subtly to protect dalinar from the parshendi END_TOKEN
@@ -2191,8 +2201,8 @@ you’re an archer , aren’t you END_TOKEN
 we have you scouting the tower with bridge four END_TOKEN
 the windrunners needed extra feet , sir , and access to more scouts and scribes for maps END_TOKEN
 figured it was better than doing parade drills in the cold , so i volunteered my company END_TOKEN
-fifth battalion… who was your policing force END_TOKEN
-he… didn’t make it , sir END_TOKEN
+fifth battalion ELLIPSE who was your policing force END_TOKEN
+he ELLIPSE didn’t make it , sir END_TOKEN
 i’m sorry , captain , dalinar said END_TOKEN
 would you and your men withdraw for a moment so i can consult with my son END_TOKEN
 maintain that perimeter until i tell you otherwise , but do inform king elhokar of this and send a messenger to sebarial END_TOKEN
@@ -2216,7 +2226,7 @@ this is troubling , dalinar said END_TOKEN
 we face a terrible threat that would wipe our kind from roshar like leaves before the stormwall END_TOKEN
 i don’t have time to worry about a murderer slinking through these tunnels END_TOKEN
 most of the men i’d have assigned to an investigation like this are dead END_TOKEN
-niter , malan… the king’s guard is no better , and the bridgemen—for all their fine qualities—have no experience with this sort of thing END_TOKEN
+niter , malan ELLIPSE the king’s guard is no better , and the bridgemen—for all their fine qualities—have no experience with this sort of thing END_TOKEN
 i’ll need to leave it to you , son END_TOKEN
 you did well investigating the incident with the king’s saddle , even if that turned out to be something of a wind chase END_TOKEN
 go to him , explain what happened , and set one of his policing teams to investigate END_TOKEN
@@ -2279,7 +2289,7 @@ gumfrems , a kind of chull - like beast , were less common pasture animals harve
 syl turned into a ribbon of light and zipped in front of him , making loops END_TOKEN
 it was difficult not to feel uplifted , even in the gloomy weather END_TOKEN
 he’d spent the entire sprint to alethkar worrying—and then assuming—that he’d be too late to save hearthstone END_TOKEN
-to find his parents alive… well , it was an unexpected blessing END_TOKEN
+to find his parents alive ELLIPSE well , it was an unexpected blessing END_TOKEN
 the type his life had been severely lacking END_TOKEN
 so he gave in to the urging of the stormlight END_TOKEN
 though he’d spent two days chasing the voidbringers , kaladin’s exhaustion had faded END_TOKEN
@@ -2299,7 +2309,7 @@ you’re the one who brought it up END_TOKEN
 in comparing syl to his mother for nagging him END_TOKEN
 are you even capable of having children END_TOKEN
 i have no idea , syl proclaimed END_TOKEN
-you call the stormfather… well , father END_TOKEN
+you call the stormfather ELLIPSE well , father END_TOKEN
 helped shape me , is more like it END_TOKEN
 so maybe you could do that , kaladin said END_TOKEN
 find little , uh , bits of the wind END_TOKEN
@@ -2365,12 +2375,13 @@ it felt odd to not have the rain on his head , though he could still hear it pat
 she was young , pretty , and nervous END_TOKEN
 obviously she didn’t know where he fit into the scheme of her religion END_TOKEN
 the knights radiant had been founded by the heralds , but they were also traitors END_TOKEN
-so… he was either a divine being of myth or a cretin one step above a voidbringer END_TOKEN
+so ELLIPSE he was either a divine being of myth or a cretin one step above a voidbringer END_TOKEN
 yes , please , kaladin said END_TOKEN
-of the five eyewitnesses , the ardent said , four , um , independently counted the number of attackers at… fifty or so END_TOKEN
+of the five eyewitnesses , the ardent said , four , um , independently counted the number of attackers at ELLIPSE fifty or so END_TOKEN
 anyway , it’s safe to say that they’ve got large numbers , considering how many sacks of grain they were able to carry away in such a short time END_TOKEN
 they , um , didn’t look exactly like parshmen END_TOKEN
 too tall , and wearing armor END_TOKEN
+the sketch i made ELLIPSE um ELLIPSE
 she tried showing him her sketch again END_TOKEN
 it wasn’t much better than a child’s drawing : a bunch of scribbles in vaguely humanoid shapes END_TOKEN
 anyway , the young ardent continued , oblivious to the fact that syl had landed on her shoulder and was inspecting her face END_TOKEN
@@ -2406,10 +2417,11 @@ thank you for the boost of confidence END_TOKEN
 i guess when there’s nobody about but farmers , your standards really drop END_TOKEN
 she’s an ardent , kaladin said END_TOKEN
 she’d have to marry another ardent END_TOKEN
-i don’t think she was thinking about marriage , kaladin… syl said , turning and looking backward over her shoulder END_TOKEN
+i don’t think she was thinking about marriage , kaladin ELLIPSE syl said , turning and looking backward over her shoulder END_TOKEN
 i know you’ve been busy lately fighting guys in white clothing and stuff , but i’ve been doing research END_TOKEN
 people lock their doors , but there’s plenty of room to get in underneath END_TOKEN
 i figured , since you don’t seem inclined to do any learning yourself , i should study END_TOKEN
+so if you have questions ELLIPSE
 i’m well aware of what is involved END_TOKEN
 maybe we could have that ardent draw you a picture END_TOKEN
 she seems like she’d be really eager END_TOKEN
@@ -2422,12 +2434,12 @@ i don’t trust him one bit END_TOKEN
 you don’t trust anyone who carries a shardblade , syl , kaladin said with a sigh END_TOKEN
 it’s not a mark of bad character to have bonded one of the weapons END_TOKEN
 yes , well , let’s have someone swing around the corpse of your sisters by the feet , and we’ll see whether you consider it a ‘mark of bad character’ or not END_TOKEN
-like that lightweaver could be for you…
+like that lightweaver could be for you ELLIPSE
 shallan’s a lighteyes , kaladin said END_TOKEN
 that’s the end of the conversation END_TOKEN
 end , he said , stepping into the home of the village lighteyes END_TOKEN
 then he added under his breath , and stop spying on people when they’re being intimate END_TOKEN
-the way she spoke , she expected to be there when kaladin… well , he’d never considered that before , though she went with him everywhere else END_TOKEN
+the way she spoke , she expected to be there when kaladin ELLIPSE well , he’d never considered that before , though she went with him everywhere else END_TOKEN
 could he convince her to wait outside END_TOKEN
 she’d still listen , if not sneak in to watch END_TOKEN
 his life just kept getting stranger END_TOKEN
@@ -2479,11 +2491,11 @@ you’re as bad as aunt navani , adolin noted END_TOKEN
 that’s why you came running , isn’t it END_TOKEN
 the horse turned his head , looking at adolin with one watery blue eye , rectangular pupil at the center END_TOKEN
 adolin often had felt he could read his own ryshadium’s emotions END_TOKEN
-there had been a… bond between him and sureblood END_TOKEN
+there had been a ELLIPSE bond between him and sureblood END_TOKEN
 more delicate and indefinable than the bond between man and sword , but still there END_TOKEN
 of course , adolin was the one who talked to his sword sometimes , so he had a habit of this sort of thing END_TOKEN
 i know the two of you liked to run together END_TOKEN
-and… i don’t know if father will be able to get down as much to see you END_TOKEN
+and ELLIPSE i don’t know if father will be able to get down as much to see you END_TOKEN
 he’d already been withdrawing from battle before he got all these new responsibilities END_TOKEN
 i thought i’d stop by once in a while END_TOKEN
 not to ride you , adolin said , reading indignation in the ryshadium’s motions END_TOKEN
@@ -2496,7 +2508,7 @@ that would feel good , like the evenings he’d spent with sureblood in the dark
 at least , that was what he’d done before everything had gotten busy , with shallan and the duels and everything else END_TOKEN
 he’d ignored the horse right up until he’d needed sureblood in battle END_TOKEN
 and then , in a flash of light , he was gone END_TOKEN
-not just sureblood , but what he’d done to sadeas , and now the investigation…
+not just sureblood , but what he’d done to sadeas , and now the investigation ELLIPSE
 watching gallant seemed to help a little END_TOKEN
 adolin was still there , leaning against the wall , when renarin arrived END_TOKEN
 the younger kholin poked his head through the doorway , looking around END_TOKEN
@@ -2509,7 +2521,7 @@ you could ask shallan to draw sureblood , renarin said END_TOKEN
 i bet , um , she’d be able to do a good job END_TOKEN
 it wasn’t a bad suggestion , actually END_TOKEN
 were you looking for me , then END_TOKEN
-i… renarin watched gallant as the horse pranced by again END_TOKEN
+i ELLIPSE renarin watched gallant as the horse pranced by again END_TOKEN
 they don’t fit , you know END_TOKEN
 ryshadium have stone hooves , renarin said , stronger than ordinary horses’ END_TOKEN
 and that makes them not fit END_TOKEN
@@ -2519,7 +2531,7 @@ people had trouble following him sometimes , but that was merely because he tend
 he’d be thinking about something deep , something brilliant , and then would only mention a part END_TOKEN
 it made him seem erratic , but once you got to know him , you realized he wasn’t trying to be esoteric END_TOKEN
 his lips just sometimes failed to keep up with his brain END_TOKEN
-i… um… i have to give you back the shardblade you won for me END_TOKEN
+i ELLIPSE um ELLIPSE i have to give you back the shardblade you won for me END_TOKEN
 it hurts to hold , renarin said END_TOKEN
 it always has , to be honest END_TOKEN
 i thought it was just me , being strange END_TOKEN
@@ -2532,18 +2544,18 @@ which means you’ll be unarmed , adolin said END_TOKEN
 or not , adolin said , then poked renarin in the shoulder END_TOKEN
 you’ve got a replacement already , don’t you END_TOKEN
 you’ve managed to create a radiant blade END_TOKEN
-glys wasn’t certain he could do it… but we need more people to work the oathgate… so…
+glys wasn’t certain he could do it ELLIPSE but we need more people to work the oathgate ELLIPSE so ELLIPSE
 he took a deep breath , then stretched his hand to the side and summoned a long glowing shardblade END_TOKEN
 thin , with almost no crossguard , it had waving folds to the metal , like it had been forged END_TOKEN
 adolin gave him a flat stare END_TOKEN
-i simply… adolin , i was starting to fit in END_TOKEN
+i simply ELLIPSE adolin , i was starting to fit in END_TOKEN
 with bridge four , with being a shardbearer END_TOKEN
 now , i’m in the darkness again END_TOKEN
 father expects me to be a radiant , so i can help him unite the world END_TOKEN
 but how am i supposed to learn END_TOKEN
 adolin scratched his chin with his good hand END_TOKEN
 i assumed that it just kind of came to you END_TOKEN
-but it… frightens me , adolin END_TOKEN
+but it ELLIPSE frightens me , adolin END_TOKEN
 he held up his hand , and it started to glow , wisps of stormlight trailing off it , like smoke from a fire END_TOKEN
 what if i hurt someone , or ruin things END_TOKEN
 you’re not going to , adolin said END_TOKEN
@@ -2711,7 +2723,7 @@ they’d try to press against the kholin troops from both sides , but with three
 behind , thakka approached with a small squad of elites , joining dalinar on the stone viewing platform END_TOKEN
 thakka put his hands on the railing , whistling softly END_TOKEN
 something’s going on with this city , dalinar said END_TOKEN
-… dalinar might not pay attention to the grand plans gavilar and sadeas made , but he was a soldier END_TOKEN
+ELLIPSE dalinar might not pay attention to the grand plans gavilar and sadeas made , but he was a soldier END_TOKEN
 he knew battlefields like a woman knew her mother’s recipes : he might not be able to give you measurements , but he could taste when something was off END_TOKEN
 the fighting continued behind him , kholin soldiers clashing with tanalan’s defenders END_TOKEN
 tanalan’s armies didn’t fare well ; demoralized by the advancing kholin army , the enemy ranks quickly broke and scrambled into a retreat , clogging the ramps down into the city END_TOKEN
@@ -2738,7 +2750,7 @@ he shook his head , and found himself staring upward some fifty feet through a s
 the large section of falling rock had torn a swath through the city along the steep incline , smashing homes and walkways END_TOKEN
 dalinar had been flung just to the north , and had eventually come to rest on the wooden roof of a building END_TOKEN
 he didn’t see signs of his men END_TOKEN
-but without shardplate… he growled , angerspren boiling around him like pools of blood END_TOKEN
+but without shardplate ELLIPSE he growled , angerspren boiling around him like pools of blood END_TOKEN
 he shifted on the rooftop , but the pain in his hand made him wince END_TOKEN
 his armor all down his left arm had shattered , and in falling he appeared to have broken a few fingers END_TOKEN
 his shardplate leaked glowing white smoke from a hundred fractures , but the only pieces he’d lost completely were from his left arm and hand END_TOKEN
@@ -2895,7 +2907,8 @@ a beautiful woman was draped across him , weeping END_TOKEN
 only one other person was in the small chamber : a young boy END_TOKEN
 tears streaked the child’s face , and he struggled to lift his father’s shardblade in two hands END_TOKEN
 you can’t have my daddy , the boy said , words distorted by his sorrow END_TOKEN
-you… you… his voice fell to a whisper END_TOKEN
+you ELLIPSE you ELLIPSE his voice fell to a whisper END_TOKEN
+daddy said ELLIPSE we fight monsters END_TOKEN
 and with faith , we will win END_TOKEN
 a few hours later , dalinar sat on the edge of the rift , his legs swinging over the broken city below END_TOKEN
 his new shardblade rested across his lap , his plate—deformed and broken—in a heap beside him END_TOKEN
@@ -3119,7 +3132,7 @@ i hesitate to guess , teshav said END_TOKEN
 but i would say that they simply decided they’d given away more information than intended END_TOKEN
 we need azir , dalinar said END_TOKEN
 nobody in makabak will listen to us unless we have azir’s blessing , not to mention that oathgate END_TOKEN
-… he trailed off as a different spanreed on the table started blinking END_TOKEN
+ELLIPSE he trailed off as a different spanreed on the table started blinking END_TOKEN
 it’s the thaylens , kalami said END_TOKEN
 no , we can’t afford to wait another few days before the queen can spare time again END_TOKEN
 storms , talking to politicians was more exhausting than a hundred - mile march in full armor END_TOKEN
@@ -3129,7 +3142,7 @@ it flowed down , bathing him END_TOKEN
 he breathed in , almost feeling as if he could taste the sunlight END_TOKEN
 he’d spent too many days inside the twisting stone corridors of urithiru , lit by the frail light of candles and lamps END_TOKEN
 ‘her royal highness , ’ kalami read , ‘brightness fen rnamdi , queen of thaylenah , writes to you END_TOKEN
-brightlord… pardon the interruption , but that indicates that the queen holds the spanreed herself rather than using a scribe END_TOKEN
+brightlord ELLIPSE pardon the interruption , but that indicates that the queen holds the spanreed herself rather than using a scribe END_TOKEN
 to another woman , that would have been intimidating END_TOKEN
 to kalami , it was merely one of many footnotes—which she added copiously to the bottom of the page before preparing the reed to relay dalinar’s words END_TOKEN
 your majesty , dalinar said , clasping his hands behind his back and pacing the stage at the center of the seats END_TOKEN
@@ -3285,7 +3298,7 @@ elhokar raised his hand and lightly touched his own chest END_TOKEN
 perhaps you have been , at times END_TOKEN
 perhaps the liar here is me—lying to tell myself i could do this , that i could be a fraction of the man my father was END_TOKEN
 no , don’t interrupt me , dalinar END_TOKEN
-perhaps… perhaps i’m a fine king END_TOKEN
+perhaps ELLIPSE perhaps i’m a fine king END_TOKEN
 not extraordinary , but not an abject failure END_TOKEN
 but in the face of these events , the world needs better than fine END_TOKEN
 there seemed a fatalism to his words , and that sent a worried shiver through dalinar END_TOKEN
@@ -3308,7 +3321,7 @@ i’ve tried to include you , dalinar said END_TOKEN
 he should be better than that END_TOKEN
 i’m sorry , dalinar said , for your pain END_TOKEN
 i’m sorry that i didn’t handle this better END_TOKEN
-i’m sorry that this… this must be END_TOKEN
+i’m sorry that this ELLIPSE this must be END_TOKEN
 before you make this oath , tell me what you expect that it entails END_TOKEN
 i’ve already said the words , elhokar said , growing red faced END_TOKEN
 oh , stand up , dalinar said , grabbing him by the arm and hauling him to his feet END_TOKEN
@@ -3375,7 +3388,7 @@ the almighty has preserved me , despite my stupidity END_TOKEN
 i’ll bring the bridgeman with me , and i’ll observe him END_TOKEN
 figure out why he’s so special END_TOKEN
 see if he’ll teach me to be like him END_TOKEN
-and if i fail… he shrugged END_TOKEN
+and if i fail ELLIPSE he shrugged END_TOKEN
 well , alethkar is in safe hands regardless , right END_TOKEN
 i need to make plans , elhokar said END_TOKEN
 i’ve only just recovered from my wounds END_TOKEN
@@ -3509,7 +3522,7 @@ besides , aren’t you the one who spends his afternoons searching through fashi
 he chuckled and started a reply , but shallan , finally dressed , swept back the sheet on her doorway END_TOKEN
 adolin stood up from leaning against the wall of the corridor and took her in—frazzled hair , dress that she had missed two buttons on , cheeks flushed END_TOKEN
 then he grinned a dopey grin END_TOKEN
-ash’s eyes… he actually thought she was pretty END_TOKEN
+ash’s eyes ELLIPSE he actually thought she was pretty END_TOKEN
 this wonderful , princely man actually liked being with her END_TOKEN
 she’d traveled to the ancient city of the knights radiant , but compared to adolin’s affection , all the sights of urithiru were dun spheres END_TOKEN
 do not find a way to screw this up , shallan thought to herself as she took the books from under his arm END_TOKEN
@@ -3521,10 +3534,10 @@ i think it’s a herdazian thing END_TOKEN
 shallan hadn’t realized how hungry she was END_TOKEN
 she’d been intending to get something at one of the taverns later tonight while prowling about wearing veil’s face END_TOKEN
 those taverns had set up in the main market , despite navani’s attempts to send them elsewhere , and sebarial’s merchants had quite the stock to sell END_TOKEN
-now that this was all before her… well , she didn’t worry much about decorum as she settled down on the ground and started to spoon herself up a thin , watery curry with vegetables END_TOKEN
+now that this was all before her ELLIPSE well , she didn’t worry much about decorum as she settled down on the ground and started to spoon herself up a thin , watery curry with vegetables END_TOKEN
 he did look sharp in that blue uniform ,
 though admittedly she’d never really seen him in anything else END_TOKEN
-birthmark on the thigh , eh…
+birthmark on the thigh , eh ELLIPSE
 you’ll have to sit on the ground , shallan said END_TOKEN
 i just realized , he said , this is your bedroom END_TOKEN
 and my drawing room , and my sitting room , and my dining room , and my ‘adolin says obvious things’ room END_TOKEN
@@ -3542,7 +3555,7 @@ looking at his lips , she could think of some other creative applications for he
 it would be inappropriate , shallan said , if we were alone END_TOKEN
 your ego doesn’t count as a separate individual , shallan END_TOKEN
 you think i have an ego END_TOKEN
-it just sounded good—i don’t mean… not that… why are you grinning END_TOKEN
+it just sounded good—i don’t mean ELLIPSE not that ELLIPSE why are you grinning END_TOKEN
 sorry , shallan said , making two fists before herself and shivering in glee END_TOKEN
 she’d spent so long feeling timid , it was so satisfying to hear a reference to her confidence END_TOKEN
 jasnah’s teaching about practicing and acting like she was in control END_TOKEN
@@ -3580,6 +3593,7 @@ i just think it might give us an edge END_TOKEN
 pattern , you’re to be our chaperone tonight END_TOKEN
 what , pattern said with a hum , is a chaperone END_TOKEN
 that is someone who watches two young people when they are together , to make certain they don’t do anything inappropriate END_TOKEN
+such as ELLIPSE dividing by zero END_TOKEN
 shallan asked , looking to adolin , who shrugged END_TOKEN
 look , just keep an eye on us END_TOKEN
 pattern hummed , melting down into his two - dimensional form and taking up residence on the side of a bowl END_TOKEN
@@ -3630,12 +3644,12 @@ i don’t spend all my time hitting people with swords , shallan , adolin said E
 jasnah and aunt navani made very certain that my youth was filled with interminable periods spent listening to ardents lecture me on politics and trade END_TOKEN
 some of it stuck in my brain , against my natural inclinations END_TOKEN
 those three books are the best of the ones i remember having read to me , though the last one is an updated version END_TOKEN
-i figured , you know , if we’re going to move forward with the betrothal…
+i figured , you know , if we’re going to move forward with the betrothal ELLIPSE
 some kind of half - divine being from mythology END_TOKEN
 and all along i was thinking we were giving you a favorable match END_TOKEN
 he stood up and started pacing END_TOKEN
 i didn’t mean to say it like that END_TOKEN
-i just… i keep worrying that i’m going to screw this up somehow END_TOKEN
+i just ELLIPSE i keep worrying that i’m going to screw this up somehow END_TOKEN
 you worry you’re going to screw it up END_TOKEN
 shallan said , feeling a warmth inside that wasn’t completely due to the wine END_TOKEN
 i’m not good with relationships , shallan END_TOKEN
@@ -3756,10 +3770,10 @@ these reports , shallan said , tapping the notebook against her hand , are both 
 nothing connects perel and sadeas save their both being lighteyes—that and the part of the tower they were in END_TOKEN
 perhaps mere opportunity drove the killer’s choice of victims END_TOKEN
 you’re saying someone happened to kill a highprince , adolin said , by accident END_TOKEN
-like… a back - alley murder outside a pub END_TOKEN
+like ELLIPSE a back - alley murder outside a pub END_TOKEN
 brightness aladar suggests in here that your father lay down some rules on people moving alone through empty parts of the tower END_TOKEN
 i still think there might be two murderers , adolin said END_TOKEN
-you know… like someone saw sadeas dead , and figured they could get away with killing someone else , blaming it on the first fellow END_TOKEN
+you know ELLIPSE like someone saw sadeas dead , and figured they could get away with killing someone else , blaming it on the first fellow END_TOKEN
 oh , adolin , shallan thought END_TOKEN
 he’d arrived at a theory he liked , and now wouldn’t let it go END_TOKEN
 it was a common mistake warned of in her scientific books END_TOKEN
@@ -3776,16 +3790,17 @@ i need to get out there among them and see what i can find END_TOKEN
 she opened her mouth to tell him she should probably turn in , but he was already standing , stretching END_TOKEN
 i think we’ve done what we can with that , he said , nodding toward the report END_TOKEN
 yeah , shallan said , feigning a yawn END_TOKEN
-so… adolin said , then took a deep breath END_TOKEN
+so ELLIPSE adolin said , then took a deep breath END_TOKEN
 why did he suddenly look like he was preparing to do something difficult END_TOKEN
 he’s going to break off our betrothal END_TOKEN
 a part of her mind thought , though she pounced on that emotion and shoved it back behind the curtains where it belonged END_TOKEN
 okay , this isn’t easy , adolin said END_TOKEN
 i don’t want to offend , shallan END_TOKEN
-but… you know how i had you eat that man’s food END_TOKEN
+but ELLIPSE you know how i had you eat that man’s food END_TOKEN
 if my tongue is particularly spicy in the coming days , i blame you END_TOKEN
 shallan , there’s something similar that we need to talk about END_TOKEN
 something about you we can’t just ignore END_TOKEN
+i ELLIPSE i killed my parents END_TOKEN
 i stabbed my mother through the chest and i strangled my father while singing to him END_TOKEN
 you , adolin said , have a shardblade END_TOKEN
 i didn’t want to kill her END_TOKEN
@@ -3815,7 +3830,7 @@ i mean , the bridgeboy can have one , and he’s darkeyed END_TOKEN
 anyway , it’s not so different from that END_TOKEN
 thank you , shallan thought , for ranking all women as something equivalent to peasants END_TOKEN
 this was obviously an important moment for adolin , and he was trying to be broad - minded END_TOKEN
-but… thinking of what she’d done pained her END_TOKEN
+but ELLIPSE thinking of what she’d done pained her END_TOKEN
 holding the weapon would be worse END_TOKEN
 this truth refused to budge from her mind END_TOKEN
 so , you’re right , but—
@@ -3855,9 +3870,10 @@ the lines she sketched , ragged and unrefined from the shaking pencil , quickly 
 a poised woman , not as flighty as shallan , not as unintentionally silly END_TOKEN
 a woman who hadn’t been sheltered END_TOKEN
 a woman hard enough , strong enough , to wield this sword END_TOKEN
+a woman like ELLIPSE like jasnah END_TOKEN
 yes , jasnah’s subtle smile , composure , and self - confidence END_TOKEN
 shallan outlined her own face with these ideals , creating a harder version of it END_TOKEN
-could… could she be this woman END_TOKEN
+could ELLIPSE could she be this woman END_TOKEN
 i have to be , shallan thought , drawing in stormlight from her satchel , then breathing it out in a puff around her END_TOKEN
 she stood up as the change took hold END_TOKEN
 her heartbeat slowed , and she wiped the sweat from her brow , then calmly undid her safehand sleeve , tossed aside the foolish extra pouch she’d tied around her hand inside , then rolled the sleeve back to expose her still - gloved hand END_TOKEN
@@ -3902,7 +3918,7 @@ other than correcting her stance ten thousand times , he spoke about the art of 
 how to treat your shardblade , how to think of an opponent , how to show respect to the institutions and traditions of the duel itself END_TOKEN
 some of it was very practical END_TOKEN
 shardblades were dangerous weapons , which explained the demonstrations on how to hold hers , how to walk with it , how to take care not to slice people or things while casually turning END_TOKEN
-other parts of his monologue were more… mystical END_TOKEN
+other parts of his monologue were more ELLIPSE mystical END_TOKEN
 the blade is part of you , adolin said END_TOKEN
 the blade is more than your tool ; it is your life END_TOKEN
 it will not fail you—if you are bested , it is because you failed the sword END_TOKEN
@@ -3929,10 +3945,10 @@ radiant , however , preferred not to feel things she hadn’t considered in dept
 have you considered , she said , that your shardblade was once a living spren , wielded by one of the knights radiant END_TOKEN
 doesn’t that change how you look at it END_TOKEN
 adolin glanced toward his blade , which he’d left summoned , strapped with the sheath and set across her blankets END_TOKEN
-i mean… i’ve always known there was something special about them END_TOKEN
+i mean ELLIPSE i’ve always known there was something special about them END_TOKEN
 it’s part of being a duelist , i think END_TOKEN
 swordsmen , from what she’d seen , were superstitious END_TOKEN
-as were… well , basically everyone but scholars like radiant and jasnah END_TOKEN
+as were ELLIPSE well , basically everyone but scholars like radiant and jasnah END_TOKEN
 it was curious to her how much of adolin’s rhetoric about blades and dueling reminded her of religion END_TOKEN
 how strange that these alethi often treated their actual religion so flippantly END_TOKEN
 in jah keved , shallan had spent hours painting lengthy passages from the arguments END_TOKEN
@@ -4038,7 +4054,7 @@ more that men do not understand , and cannot END_TOKEN
 all the more reason , dalinar said , to think very carefully before using it END_TOKEN
 though i wouldn’t mind if you kept an eye on it for me END_TOKEN
 you think i can see all things END_TOKEN
-i kind of assumed… the map we made…
+i kind of assumed ELLIPSE the map we made ELLIPSE
 i see what is left out in the storms , and that darkly END_TOKEN
 i am no god , dalinar kholin END_TOKEN
 no more than your shadow on the wall is you END_TOKEN
@@ -4134,7 +4150,7 @@ he wore a scruffy beard and clothing that seemed an afterthought—not dirty , b
 not offended by my presence , zahel END_TOKEN
 you’re no more revolting than the rest , mister highprince END_TOKEN
 dalinar settled down on a stool to wait END_TOKEN
-i thought… well , they’re fighting ardents END_TOKEN
+i thought ELLIPSE well , they’re fighting ardents END_TOKEN
 you’re dangerously close to threatening them with a decision , brightlord : choose between god and their highprince END_TOKEN
 the fact that they like you doesn’t make the decision easier , but more difficult END_TOKEN
 their discomfort will pass , dalinar said END_TOKEN
@@ -4192,12 +4208,12 @@ dalinar didn’t make it easy , but he was on the bottom , lacked leverage , and
 aratin twisted him over , and before too long dalinar found himself pressed to the mat , shoulders down , completely immobilized END_TOKEN
 dalinar knew he was beaten , but couldn’t bring himself to tap out END_TOKEN
 instead he strained against the hold , teeth gritted and sweat pouring down the sides of his face END_TOKEN
-not the thrill… but stormlight in the pocket of his uniform trousers , lying beside the ring END_TOKEN
+not the thrill ELLIPSE but stormlight in the pocket of his uniform trousers , lying beside the ring END_TOKEN
 aratin grunted , arms like steel END_TOKEN
 dalinar smelled his own sweat , the rough cloth of the mat END_TOKEN
 he knew he could seize the stormlight power , but his sense of fairness protested at the mere thought END_TOKEN
 instead he arched his back , holding his breath and heaving with everything he had , then twisted , trying to get back on his face for the leverage to escape END_TOKEN
-then groaned , and dalinar felt the man’s grip slipping… slowly END_TOKEN
+then groaned , and dalinar felt the man’s grip slipping ELLIPSE slowly END_TOKEN
 oh , for storm’s sake , a feminine voice said END_TOKEN
 dalinar’s opponent let go immediately , backing away END_TOKEN
 dalinar twisted , puffing from exertion , to find navani standing outside the ring with arms folded END_TOKEN
@@ -4290,7 +4306,7 @@ i remember , kadash , dalinar said , when you weren’t nearly so judgmental END
 i’ve been informed that my laxness might have served to encourage you END_TOKEN
 i always found your perspective to be refreshing END_TOKEN
 he stared right at kadash , but spoke to navani END_TOKEN
-tell her : your majesty , as much as i welcome a challenge , i fear the suffering these new… experiences will bring END_TOKEN
+tell her : your majesty , as much as i welcome a challenge , i fear the suffering these new ELLIPSE experiences will bring END_TOKEN
 we must be unified in the face of the coming dangers END_TOKEN
 if that is your goal , dalinar , then why do you seek to rip apart your own people END_TOKEN
 dalinar drew closer , passing his longsword from one hand to the other END_TOKEN
@@ -4407,9 +4423,10 @@ i can’t simply rely on tradition END_TOKEN
 offer me proof of what you say END_TOKEN
 you shouldn’t need proof in the almighty END_TOKEN
 i’ll take that as a compliment END_TOKEN
+what ELLIPSE what of the heralds END_TOKEN
 do you deny them , dalinar END_TOKEN
 they were servants of the almighty , and their existence proved his END_TOKEN
-murmuring rose from those watching as dalinar began to glow , then did… something else END_TOKEN
+murmuring rose from those watching as dalinar began to glow , then did ELLIPSE something else END_TOKEN
 when he rose , he left kadash stuck to the ground in a pool of radiance that held him fast , binding him to the stone END_TOKEN
 the knights radiant have returned , dalinar said END_TOKEN
 and yes , i accept the authority of the heralds END_TOKEN
@@ -4425,7 +4442,7 @@ you got that through marriage , and to a lighteyes from rira , not iri END_TOKEN
 yes , the iriali claim their sister nation as a vassal , but even if the claim weren’t disputed , the queen doesn’t have any actual relation to evi or her brother END_TOKEN
 rira was never strong enough to try to claim the plate back END_TOKEN
 but if it will bring iri to our side , then i’d consider it END_TOKEN
-maybe i can agree to… he trailed off END_TOKEN
+maybe i can agree to ELLIPSE he trailed off END_TOKEN
 say it again , dalinar whispered END_TOKEN
 he staggered , then slumped against the writing table , feeling as if he’d been struck by a hammer to the head END_TOKEN
 navani called for physicians , implying his dueling had overtaxed him END_TOKEN
@@ -4490,7 +4507,7 @@ had he been here before , done this before END_TOKEN
 his captor said , speaking in a soft voice , but turning his head to direct the question at kaladin END_TOKEN
 the king is one of the most powerful cards you can place , kaladin said , struggling to remember all the rules END_TOKEN
 he can capture any other card except another king , and can’t be captured himself unless touched by three enemy cards of knight or better END_TOKEN
-um… and he is immune to the soulcaster END_TOKEN
+um ELLIPSE and he is immune to the soulcaster END_TOKEN
 when i watched men play , they used this card rarely END_TOKEN
 if it is so powerful , why delay END_TOKEN
 if your king gets captured , you lose , kaladin said END_TOKEN
@@ -4506,7 +4523,7 @@ she watched the area with the nervousness of a scout on a dangerous mission END_
 that’s it , kaladin thought , remembering why this felt familiar END_TOKEN
 it had happened after he’d been condemned by amaram , but before he’d been sent to the shattered plains END_TOKEN
 he avoided thinking of those months END_TOKEN
-his repeated failures , the systematic butchering of his last hints of idealism… well , he’d learned that dwelling on such things took him to dark places END_TOKEN
+his repeated failures , the systematic butchering of his last hints of idealism ELLIPSE well , he’d learned that dwelling on such things took him to dark places END_TOKEN
 he’d failed so many people during those months END_TOKEN
 nalma had been one of those END_TOKEN
 he could remember the touch of her hand in his : a rough , callused hand END_TOKEN
@@ -4519,7 +4536,7 @@ do you want me to kill you END_TOKEN
 the parshman asked , pulling kaladin’s face close to his own END_TOKEN
 you insist on reminding me how your kind see us END_TOKEN
 look at my forehead , parshman END_TOKEN
-storms… parshmen weren’t branded , and they didn’t mix with other slaves END_TOKEN
+storms ELLIPSE parshmen weren’t branded , and they didn’t mix with other slaves END_TOKEN
 parshmen were actually too valuable for that END_TOKEN
 when they make a human into a slave , kaladin said , they brand him END_TOKEN
 and you think that makes you understand END_TOKEN
@@ -4541,7 +4558,7 @@ you were never free while you ran ; you felt as if the open sky and the endless 
 you could feel the pursuit following , and each morning you awoke expecting to find yourself surrounded END_TOKEN
 until one day you were right END_TOKEN
 he’d accepted shen into bridge four , yes END_TOKEN
-but accepting that a sole parshman could be a bridgeman was starkly different from accepting the entire people as… well , human END_TOKEN
+but accepting that a sole parshman could be a bridgeman was starkly different from accepting the entire people as ELLIPSE well , human END_TOKEN
 as the column stopped to distribute waterskins to the children , kaladin felt at his forehead , tracing the scarred shape of the glyphs there END_TOKEN
 they’d tried to take his mind too END_TOKEN
 they’d beaten him to the stones , stolen everything he loved , and murdered his brother END_TOKEN
@@ -4559,14 +4576,14 @@ a higher spren , like me END_TOKEN
 he’s invisible to you , syl said , becoming a group of leaves and blowing around him END_TOKEN
 i think i’ve fooled him into thinking i’m just a windspren END_TOKEN
 she zipped away , leaving a dozen unanswered questions on kaladin’s lips END_TOKEN
-storms… is that spren how they know where to go END_TOKEN
+storms ELLIPSE is that spren how they know where to go END_TOKEN
 the column started again , and kaladin walked for a good hour in silence before syl next decided to come back to him END_TOKEN
 she landed on his shoulder , becoming the image of a young woman in her whimsical skirt END_TOKEN
 he’s gone ahead for a little bit , she said END_TOKEN
 the spren is guiding them , kaladin said under his breath END_TOKEN
-syl , this spren must be…
+syl , this spren must be ELLIPSE
 from him , she whispered , wrapping her arms around herself and growing small—actively shrinking to about two - thirds her normal size END_TOKEN
-these parshmen… how do they know how to talk , how to act END_TOKEN
+these parshmen ELLIPSE how do they know how to talk , how to act END_TOKEN
 yes , they’ve spent their lives around society—but to be this , well , normal after such a long time half asleep END_TOKEN
 power has filled the holes in their souls , bridging the gaps END_TOKEN
 they didn’t just wake , kaladin END_TOKEN
@@ -4613,13 +4630,13 @@ why can’t they just let us go END_TOKEN
 could you go back and tell them END_TOKEN
 we just want to go away END_TOKEN
 they have a lot of work to do in rebuilding , and they’ll want the extra hands END_TOKEN
-you are a… resource they can’t simply ignore END_TOKEN
+you are a ELLIPSE resource they can’t simply ignore END_TOKEN
 the humans he’d visited hadn’t known to expect some terrible voidbringer force ; many thought their parshmen had merely run off in the chaos END_TOKEN
 what did we do to them END_TOKEN
 i never hit anyone , even when i was mad END_TOKEN
 i didn’t mean you specifically , kaladin said END_TOKEN
 your ancestors—the people like you from long ago END_TOKEN
-there was a war , and…
+there was a war , and ELLIPSE
 how did you explain slavery to a seven - year - old END_TOKEN
 he tossed the waterskin to her , and she scampered back to her father—who had only just noticed her absence END_TOKEN
 he stood , a stark silhouette in the night , studying kaladin END_TOKEN
@@ -4712,7 +4729,7 @@ i like him , pattern said END_TOKEN
 the one you can’t mate with yet END_TOKEN
 can we please stop talking about him that way END_TOKEN
 i have come to understand , pattern said , growing excited END_TOKEN
-humans… humans don’t care about the dead END_TOKEN
+humans ELLIPSE humans don’t care about the dead END_TOKEN
 you build chairs and doors out of corpses END_TOKEN
 you make clothing from the skins of corpses END_TOKEN
 well , i guess that’s true END_TOKEN
@@ -4725,9 +4742,9 @@ yes , very , very nice man END_TOKEN
 why don’t you marry him , then END_TOKEN
 he settled down into a contented buzz on her coat , where he appeared as a strange kind of embroidery END_TOKEN
 after a short time walking , shallan found she needed to say something more END_TOKEN
-do you remember what you said to me the other night , the first time… we became radiant END_TOKEN
+do you remember what you said to me the other night , the first time ELLIPSE we became radiant END_TOKEN
 it may be the only way , shallan END_TOKEN
-mmm… you must speak truths to progress , but you will hate me for making it happen END_TOKEN
+mmm ELLIPSE you must speak truths to progress , but you will hate me for making it happen END_TOKEN
 so i can die , and once done you can—
 no , please don’t leave me END_TOKEN
 i hate myself too , she whispered END_TOKEN
@@ -4789,7 +4806,7 @@ she stumbled , catching them , then smiled sheepishly at the bartender—an old 
 let them see that veil could handle the hard stuff END_TOKEN
 we got vari , kimik , and a nice barrel of veden END_TOKEN
 that one will cost you though END_TOKEN
-uh… adolin would have known the differences END_TOKEN
+uh ELLIPSE adolin would have known the differences END_TOKEN
 the woman made her pay first , with dun spheres , but the cost didn’t seem outrageous END_TOKEN
 sebarial wanted the liquor flowing—his suggested way to make sure tensions didn’t get too high in the tower—and had subsidized the prices with low taxes , for now END_TOKEN
 while the woman worked behind her improvised bar , veil suffered beneath the gaze of one of the bouncers END_TOKEN
@@ -4821,7 +4838,7 @@ just that burning sensation , like someone was scraping her throat with a scouri
 the bouncer was holding his face , trying—and failing—not to laugh out loud END_TOKEN
 the barkeep patted shallan on the back as she kept coughing END_TOKEN
 here , the woman said , let me get you something to chase that—
-i’m just happy to be able to drink this… again after so long END_TOKEN
+i’m just happy to be able to drink this ELLIPSE again after so long END_TOKEN
 the barkeep seemed skeptical , though the bouncer was all for it—he’d settled down on the stool to watch shallan , grinning END_TOKEN
 shallan placed a sphere on the bar , defiant , and the barkeep reluctantly filled her cup again END_TOKEN
 by now , three or four other people from nearby seats had turned to watch END_TOKEN
@@ -4875,35 +4892,37 @@ sebarial’s camp had been the most eclectic END_TOKEN
 they chatted a little longer , mostly with shallan making the odd comment while the bouncer—his name was jor—went off on various stories with many tangents END_TOKEN
 he wasn’t too bad , though he didn’t seem to care what she actually said , so long as it prompted him to keep talking END_TOKEN
 she drank some more of the terrible liquid , but found her mind wandering END_TOKEN
-these people… they each had lives , families , loves , dreams END_TOKEN
+these people ELLIPSE they each had lives , families , loves , dreams END_TOKEN
 some slumped at their boxes , lonely , while others laughed with friends END_TOKEN
 some kept their clothing , poor though it was , reasonably clean—others were stained with crem and lavis ale END_TOKEN
 several of them reminded her of tyn , the way they talked with confidence , the way their interactions were a subtle game of one - upping each other END_TOKEN
 jor paused , as if expecting something from her END_TOKEN
-what… what had he been saying END_TOKEN
+what ELLIPSE what had he been saying END_TOKEN
 following him was getting harder , as her mind drifted END_TOKEN
 he smiled , and launched into another story END_TOKEN
 i’m not going to be able to imitate this , she thought , leaning against her box , until i’ve lived it END_TOKEN
 no more than i could draw their lives without having walked among them END_TOKEN
 the barkeep came back with the bottle , and shallan nodded END_TOKEN
 that last cup hadn’t burned nearly as much as the others END_TOKEN
-storms… she was starting to feel really sick END_TOKEN
+you ELLIPSE sure you want more END_TOKEN
+storms ELLIPSE she was starting to feel really sick END_TOKEN
 she’d had four cups , yes , but they were little cups END_TOKEN
 the room spun in a blur , and she groaned , resting her head on the table END_TOKEN
 beside her , the bouncer sighed END_TOKEN
 i could have told you that you were wasting your time , jor , the barkeep said END_TOKEN
 this one will be out before the hour is done END_TOKEN
-wonder what she’s trying to forget…
+wonder what she’s trying to forget ELLIPSE
 she’s just enjoying a little free time , jor said END_TOKEN
 hey , jor said , nudging shallan END_TOKEN
 i’ll call you a palanquin to cart you home END_TOKEN
 you should get going before things go too late END_TOKEN
 i know some porters who can be trusted END_TOKEN
-it’s… not even late yet… shallan mumbled END_TOKEN
+it’s ELLIPSE not even late yet ELLIPSE shallan mumbled END_TOKEN
 shallan asked , a glimmer of memory waking inside of her END_TOKEN
 never happens here in this area , at least not yet END_TOKEN
-so i… so i can stay away… shallan said END_TOKEN
+so i ELLIPSE so i can stay away ELLIPSE shallan said END_TOKEN
 someone got stabbed behind one of the taverns just last night there END_TOKEN
+real ELLIPSE real strange , eh END_TOKEN
 shallan stood up to go , but the room upended about her , and she found herself slipping down beside her stool END_TOKEN
 jor tried to catch her , but she hit the ground with a thump , knocking her elbow against the stone floor END_TOKEN
 she immediately sucked in a little stormlight to help with the pain END_TOKEN
@@ -4933,11 +4952,11 @@ veil hadn’t been sheltered , practically locked away , until she went crazy an
 shallan stopped in place , suddenly frantic END_TOKEN
 pattern , i didn’t kill them , right END_TOKEN
 i talked to balat over spanreed , shallan said , hand to her forehead END_TOKEN
-but… i had lightweaving then… even if i didn’t fully know it END_TOKEN
+but ELLIPSE i had lightweaving then ELLIPSE even if i didn’t fully know it END_TOKEN
 shallan , pattern said , sounding concerned END_TOKEN
 they are on their way here END_TOKEN
 she adopted veil again , her pain fading END_TOKEN
-this is… mmm… there is something wrong with these lies you place upon yourself END_TOKEN
+this is ELLIPSE mmm ELLIPSE there is something wrong with these lies you place upon yourself END_TOKEN
 i just need to go deeper , she whispered END_TOKEN
 i can’t be veil only on the surface END_TOKEN
 pattern buzzed with a soft , anxious vibration—fast paced , high pitched END_TOKEN
@@ -5000,7 +5019,7 @@ my sister didn’t die here , veil said END_TOKEN
 she died back in the warcamps ; i’m just hunting the one who did it END_TOKEN
 she hung on as the barkeep tried to pull away again END_TOKEN
 i’m not going to make trouble END_TOKEN
-i hear there were… unusual circumstances about this death END_TOKEN
+i hear there were ELLIPSE unusual circumstances about this death END_TOKEN
 the man who killed my sister , he has something strange about him END_TOKEN
 he kills in the same way every time END_TOKEN
 let him see , veil thought END_TOKEN
@@ -5084,12 +5103,12 @@ they seemed the type who would—small - time thugs , yes , but ones with a pres
 veil wasn’t certain how secretive mraize and his people were with their symbol , but the fact that they got it tattooed on their bodies indicated to her that it wasn’t supposed to be terribly secret END_TOKEN
 more a warning , like cremlings who displayed red claws to indicate they were poisonous END_TOKEN
 indeed , the moment betha saw the symbol , she gasped softly END_TOKEN
-we… we want nothing to do with your type , betha said END_TOKEN
+we ELLIPSE we want nothing to do with your type , betha said END_TOKEN
 one of the men at the table stood up , trembling , and looked from side to side , as if expecting assassins to tackle him right then END_TOKEN
 even cutting the hand of one of their members hadn’t provoked this strong a reaction END_TOKEN
 curiously though , one of the other women at the table—a short , younger woman wearing a havah—leaned forward , interested END_TOKEN
 we had ur drop him off the plateau outside , betha said END_TOKEN
-but… how could this be a man you would be interested in END_TOKEN
+but ELLIPSE how could this be a man you would be interested in END_TOKEN
 drunk , from sadeas’s camp , said one of the men END_TOKEN
 angry drunk ; always got into trouble END_TOKEN
 killed his wife , betha said END_TOKEN
@@ -5122,6 +5141,7 @@ course , it could have been about the other woman he killed END_TOKEN
 veil felt a shock run through her END_TOKEN
 she spun , striding back into the alcove END_TOKEN
 ur whimpered , hunching down and holding his wounded hand END_TOKEN
+i ELLIPSE betha licked her lips END_TOKEN
 i was going to tell you , but you left so fast that—
 we’d have let the watch take care of ned , but he couldn’t leave it at killing just poor rem END_TOKEN
 we protect this place , you see END_TOKEN
@@ -5156,7 +5176,7 @@ you’re forgetting about soulcasters , gavilar said END_TOKEN
 yes , sieges happen now and then , but it’s very hard to starve out a city’s soldiers while there are soulcasters and emeralds to make food END_TOKEN
 instead we usually break down the walls quickly , or—more commonly—we seize the high ground and use that vantage to pound the city for a while END_TOKEN
 we have not these things in rira or iri END_TOKEN
-fascinating , fascinating… and so many shards here END_TOKEN
+fascinating , fascinating ELLIPSE and so many shards here END_TOKEN
 perhaps half the world’s wealth of blades and plates , all contained in vorin kingdoms END_TOKEN
 dalinar took a long pull on his wine END_TOKEN
 outside , thunder shook the bunker END_TOKEN
@@ -5202,7 +5222,7 @@ one sees a glint of your ancestor in you , the great sunmaker END_TOKEN
 hopefully , gavilar noted , my accomplishments won’t be as ephemeral as his END_TOKEN
 you shouldn’t speak so of one like him END_TOKEN
 we all are , gavilar said END_TOKEN
-house kholin , house sadeas… all ten princedoms END_TOKEN
+house kholin , house sadeas ELLIPSE all ten princedoms END_TOKEN
 their founders were his sons , you know END_TOKEN
 so yes , signs of his touch are here—yet his empire didn’t last even a single generation past his death END_TOKEN
 leaves me wondering what was wrong with his vision , his planning , that his great empire broke apart so quickly END_TOKEN
@@ -5225,6 +5245,7 @@ teleb , dalinar said , standing in the doorway END_TOKEN
 did i lend you my belt knife END_TOKEN
 my favorite one , with the whitespine ivory on the grip END_TOKEN
 the tall soldier , who stood in the second rank of terrified men , gaped at him END_TOKEN
+uh ELLIPSE your knife , brightlord END_TOKEN
 lost the thing somewhere , dalinar said END_TOKEN
 i lent it to you , didn’t i END_TOKEN
 i gave it back , sir , teleb said END_TOKEN
@@ -5246,7 +5267,7 @@ lost my storming knife , dalinar said END_TOKEN
 thought i’d left it in the other bunker END_TOKEN
 he raised his mug and took a loud , lazy slurp of rainwater END_TOKEN
 excuse me , lord gavilar , toh stammered END_TOKEN
-i… i find myself in need of refreshment END_TOKEN
+i ELLIPSE i find myself in need of refreshment END_TOKEN
 the blond - haired westerner stood from his place , bowed , and retreated across the room to where a master - servant was administering drinks END_TOKEN
 his face seemed even paler than those folk normally were END_TOKEN
 dalinar asked , scooting his chair closer to his brother END_TOKEN
@@ -5269,7 +5290,7 @@ a gaggle of servants in black and white flocked to gavilar , and he requested a 
 as they split to run the errand , the doors to the women’s feast hall opened , and a figure slipped in END_TOKEN
 navani’s hair glowed with the tiny rubies she’d woven into it , a color matched by her pendant and bracelet END_TOKEN
 her face a sultry tan , her hair alethi jet black , her red - lipped smile so knowing and clever END_TOKEN
-and a figure… a figure to make a man weep for desire END_TOKEN
+and a figure ELLIPSE a figure to make a man weep for desire END_TOKEN
 dalinar steeled himself and raised his arm in a gesture like the one gavilar had made END_TOKEN
 a serving man stepped up with a springy gait END_TOKEN
 brightlord , he said , i will see to your desires of course , though you might wish to know that the sign is off END_TOKEN
@@ -5344,7 +5365,7 @@ leading his army to ‘further glory END_TOKEN
 so it was his ambition , sadeas said END_TOKEN
 no , his greed , gavilar said quietly END_TOKEN
 what’s the point of conquering if you can never sit back and enjoy it END_TOKEN
-shubreth - son - mashalan , sunmaker , even the hierocracy… they all stretched farther and farther until they collapsed END_TOKEN
+shubreth - son - mashalan , sunmaker , even the hierocracy ELLIPSE they all stretched farther and farther until they collapsed END_TOKEN
 in all the history of mankind , has any conqueror decided they had enough END_TOKEN
 has any man just said , ‘this is good END_TOKEN
 this is what i wanted , ’ and gone home END_TOKEN
@@ -5358,7 +5379,7 @@ look , it’s not so complicated END_TOKEN
 can’t you remember how it was back when we started END_TOKEN
 well , dalinar said , wagging his bent knife END_TOKEN
 we looked at this place here , this kingdom , and we realized , ‘hey , all these people have stuff END_TOKEN
-’ and we figured… hey , maybe we should have that stuff END_TOKEN
+’ and we figured ELLIPSE hey , maybe we should have that stuff END_TOKEN
 oh dalinar , sadeas said , chuckling END_TOKEN
 don’t you ever think about what it meant though END_TOKEN
 when people fight , it’s about the stuff that’s it END_TOKEN
@@ -5436,7 +5457,7 @@ you can go check on someone else , human END_TOKEN
 we should march tonight , kaladin said END_TOKEN
 we’ve been in one spot too long END_TOKEN
 and break into small groups , like i said END_TOKEN
-look , if there’s something wrong with my advice…
+look , if there’s something wrong with my advice ELLIPSE
 sah sighed , looking up and meeting kaladin’s eyes END_TOKEN
 where did a slave learn to give orders and strut about like a lighteyes END_TOKEN
 my entire life was not spent as a slave END_TOKEN
@@ -5482,7 +5503,7 @@ they’ll want to enslave us again , sah continued , taking the hatchet and hack
 we’re money lost , and a dangerous precedent END_TOKEN
 your kind will expend a fortune figuring out what changed to give us back our minds , and they’ll find a way to reverse it END_TOKEN
 they’ll strip from me my sanity , and set me to carrying water again END_TOKEN
-maybe… maybe we can convince them otherwise END_TOKEN
+maybe ELLIPSE maybe we can convince them otherwise END_TOKEN
 i know good men among the alethi lighteyes , sah END_TOKEN
 if we talk to them , show them how you can talk and think—that you’re like regular people—they’ll listen END_TOKEN
 they’ll agree to give you your freedom END_TOKEN
@@ -5557,7 +5578,7 @@ in a place serving horneater moonshine END_TOKEN
 adolin , dear , she said , finally pulling the blanket back down to her shoulders , i could literally survive being stabbed with a sword through the chest END_TOKEN
 i think i’ll be fine with some ruffians in the market END_TOKEN
 it’s kind of easy to forget END_TOKEN
-you could survive all kinds of nasty murder , but you still…
+you could survive all kinds of nasty murder , but you still ELLIPSE
 i’m an all - powerful , shardblade - wielding pseudo - immortal , but nature still sends a friendly reminder every now and then to tell me i should be getting around to having children END_TOKEN
 no mating , pattern buzzed softly on the wall END_TOKEN
 but i shouldn’t be blaming yesterday on that , shallan added to adolin END_TOKEN
@@ -5567,13 +5588,13 @@ yeah , well , you might want to watch out for the horneater wines END_TOKEN
 it’s not so bad , shallan said with a sigh END_TOKEN
 i can burn away the intoxication with a little stormlight END_TOKEN
 speaking of which , you don’t have any spheres with you , do you END_TOKEN
-i seem to have… um… eaten all of mine END_TOKEN
+i seem to have ELLIPSE um ELLIPSE eaten all of mine END_TOKEN
 father lent it to me so i could stop carrying a lantern everywhere in these halls END_TOKEN
 she tried to bat her eyelashes at him END_TOKEN
 she wasn’t exactly sure how one did that , or why , but it seemed to work END_TOKEN
 at the very least , he rolled his eyes and handed over a single ruby mark END_TOKEN
 she sucked in the light hungrily END_TOKEN
-she held her breath so it wouldn’t puff out when she breathed , and… suppressed the light END_TOKEN
+she held her breath so it wouldn’t puff out when she breathed , and ELLIPSE suppressed the light END_TOKEN
 she could do that , she’d found END_TOKEN
 to prevent herself from glowing or drawing attention END_TOKEN
 she’d done that as a child , hadn’t she END_TOKEN
@@ -5725,10 +5746,10 @@ you’re just like him , adolin END_TOKEN
 moral , just , and capable END_TOKEN
 you’re worried you can’t live up to his expectations , aren’t you END_TOKEN
 you have lived up to them in every way END_TOKEN
-i’m certain dalinar kholin couldn’t hope for a better son , and… storms END_TOKEN
+i’m certain dalinar kholin couldn’t hope for a better son , and ELLIPSE storms END_TOKEN
 shallan poked adolin in the shoulder with her freehand END_TOKEN
 well , thank the almighty for that END_TOKEN
-not… going to ask what it is END_TOKEN
+not ELLIPSE going to ask what it is END_TOKEN
 a relationship needs some measure of mystery END_TOKEN
 adolin fell silent , which was all well and good , because they were approaching the sadeas section of urithiru END_TOKEN
 though ialai had threatened to relocate back to the warcamps , she’d made no such move END_TOKEN
@@ -5865,7 +5886,7 @@ i think , ialai said to adolin , that if you honestly wish to solve this crime ,
 nobody had the opportunity or motives that you would find in your warcamp END_TOKEN
 i’m not saying dalinar did this , ialai said END_TOKEN
 she seemed calm , but she gripped the sides of her chair with white - knuckled hands END_TOKEN
-and her eyes… makeup could not hide the redness END_TOKEN
+and her eyes ELLIPSE makeup could not hide the redness END_TOKEN
 i could fake crying , shallan thought , if i knew that someone was coming to see me , and if i believed the act would strengthen my position END_TOKEN
 history is rife with examples of soldiers assuming orders when there were none , ialai said END_TOKEN
 i agree that dalinar would never knife an old friend in dark quarters END_TOKEN
@@ -5891,7 +5912,7 @@ together they collected her soldiers from right inside the door , and left into 
 bridgeboy isn’t going to be happy about this END_TOKEN
 they have a vendetta , those two END_TOKEN
 father originally appointed amaram to refound the knights radiant , adolin continued END_TOKEN
-if ialai has taken him in after he was so soundly discredited… the mere act of it calls father a liar , doesn’t it END_TOKEN
+if ialai has taken him in after he was so soundly discredited ELLIPSE the mere act of it calls father a liar , doesn’t it END_TOKEN
 she shook herself and took a deep breath END_TOKEN
 she would worry about getting answers from mraize later END_TOKEN
 it depends on how she spins things , she said softly , walking beside adolin END_TOKEN
@@ -5906,7 +5927,7 @@ because i think you’re right about there being multiple killers END_TOKEN
 i heard some things while i was out last night END_TOKEN
 when you weren’t staggering around drunk , you mean END_TOKEN
 i’ll have you know i’m a very graceful drunk , adolin kholin END_TOKEN
-let’s go… she trailed off as a pair of scribes ran past in the hallway , heading toward ialai’s rooms at a shocking speed END_TOKEN
+let’s go ELLIPSE she trailed off as a pair of scribes ran past in the hallway , heading toward ialai’s rooms at a shocking speed END_TOKEN
 adolin caught one by the arm , nearly provoking a fight as the man cursed at the blue uniform END_TOKEN
 the fellow , fortunately , recognized adolin’s face and held himself back , hand moving off the axe in a sling to his side END_TOKEN
 brightlord , the man said , reluctant END_TOKEN
@@ -5942,7 +5963,7 @@ kaladin and the parshmen had weathered this one , upon warning from the unseen s
 strange times , the old man said again END_TOKEN
 well , if you do need meat , there’s been a nest of wild hogs rooting about in the ravine to the south of here END_TOKEN
 this is highlord cadilar’s land though , so um END_TOKEN
-… well , you just understand that END_TOKEN
+ELLIPSE well , you just understand that END_TOKEN
 if kaladin’s fictional brightlord was traveling on the king’s orders , they could hunt the lands END_TOKEN
 if not , killing another highlord’s hogs would be poaching END_TOKEN
 the old man spoke like a backwater farmer , light yellow eyes notwithstanding , but he’d obviously made something of himself running a waystop END_TOKEN
@@ -6005,8 +6026,9 @@ hands behind her back , she inspected him END_TOKEN
 her face was shaped oddly—narrow , but with large , childlike eyes END_TOKEN
 kaladin jumped , which caused the little spren to smile END_TOKEN
 pretend you don’t know anything about spren like her , kaladin thought END_TOKEN
+uh ELLIPSE i can see you END_TOKEN
 because i want you to , she said END_TOKEN
-why… why do you want me to see you END_TOKEN
+why ELLIPSE why do you want me to see you END_TOKEN
 she started to stroll around him , and at each step , a spike of yellow stone shot up from the ground and met her bare foot END_TOKEN
 why are you still here , human END_TOKEN
 your mother teach you to lie like that END_TOKEN
@@ -6036,6 +6058,7 @@ i have no doubt that you are smarter than i am END_TOKEN
 i can only relate what happened , what i have done , and then let you draw conclusions END_TOKEN
 she’d been tall and willowy , with pale yellow hair—not true golden , like the hair of the iriali , but striking in its own right END_TOKEN
 shy , both she and her brother , for all that they’d been willing to flee their homeland in an act of courage END_TOKEN
+they’d brought shardplate , and ELLIPSE
 that was all that had emerged over the last few days END_TOKEN
 the rest was still a blur END_TOKEN
 he could recall meeting evi , courting her—awkwardly , since both knew it was an arrangement of political necessity—and eventually entering into a causal betrothal END_TOKEN
@@ -6069,7 +6092,7 @@ at the center of each one was a small building containing the device that—
 with a bright flash , an expanding wave of stormlight spread outward from the center of the second platform from the left END_TOKEN
 when the light faded , dalinar led his troop of honor guards up the wide steps to the top END_TOKEN
 they crossed to the building at the center , where a small group of people had stepped out and were now gawking at urithiru , surrounded by awespren END_TOKEN
-the sight of a tower as wide as a city and as tall as a small mountain… well , there wasn’t anything else like it in the world END_TOKEN
+the sight of a tower as wide as a city and as tall as a small mountain ELLIPSE well , there wasn’t anything else like it in the world END_TOKEN
 at the head of the newcomers was a man in burnt orange robes END_TOKEN
 aged , with a kindly , clean - shaven face , he stood with his head tipped back and jaw lowered as he regarded the city END_TOKEN
 near him stood a woman with silvery hair pulled up in a bun END_TOKEN
@@ -6097,6 +6120,7 @@ so many levels , taravangian said END_TOKEN
 dalinar had been around alethi politicians so much that he found honesty an obscure thing , like a language he no longer spoke END_TOKEN
 my engineers are still studying the lifts , dalinar said END_TOKEN
 it has to do with conjoined fabrials , they believe , with gears to modulate speed END_TOKEN
+i meant ELLIPSE is this stormlight END_TOKEN
 we had parshmen do ours , back in kharbranth END_TOKEN
 we had to replace the gemstones with infused ones to make it work END_TOKEN
 he shook his head , grinning END_TOKEN
@@ -6104,7 +6128,7 @@ in alethkar , this man would never have been able to hold a throne after the apo
 an unscrupulous family would have removed him by assassination END_TOKEN
 in other families , someone would have challenged him for his throne END_TOKEN
 he’d have been forced to fight or abdicate END_TOKEN
-or… well , someone might have muscled him out of power , and acted like king in all but name END_TOKEN
+or ELLIPSE well , someone might have muscled him out of power , and acted like king in all but name END_TOKEN
 dalinar sighed softly , but kept a firm grip on his guilt END_TOKEN
 in kharbranth—which didn’t wage war—a mild , congenial figurehead made more sense END_TOKEN
 the city was supposed to be unassuming , unthreatening END_TOKEN
@@ -6124,7 +6148,7 @@ you sound as if you anticipated it , your majesty , dalinar said END_TOKEN
 i try not to hasten my expectations in either direction , dalinar said END_TOKEN
 deal with today’s problems , then sleep and deal with tomorrow’s problems tomorrow END_TOKEN
 i remember , as a child , listening to an ardent pray to the almighty on my behalf as glyphwards burned nearby END_TOKEN
-i remember thinking… surely the sorrows can’t be past us END_TOKEN
+i remember thinking ELLIPSE surely the sorrows can’t be past us END_TOKEN
 surely the evils didn’t actually end END_TOKEN
 if they had , wouldn’t we be back in the tranquiline halls even now END_TOKEN
 he looked toward dalinar , and surprisingly there were tears in his pale grey eyes END_TOKEN
@@ -6152,7 +6176,7 @@ it’s done right by me on more than one occasion—better a thick head than a b
 but i don’t know that taravangian in his current state will be of much use END_TOKEN
 we’ve more than enough clever people around us , dalinar END_TOKEN
 taravangian was always a friend to alethkar during your brother’s reign , and a little illness shouldn’t change our treatment of him END_TOKEN
-… he trailed off there’s an earnestness to him , navani END_TOKEN
+ELLIPSE he trailed off there’s an earnestness to him , navani END_TOKEN
 and a melancholy i hadn’t remembered END_TOKEN
 she checked her own arm clock , like his own , though with a few more gemstones attached END_TOKEN
 some kind of new fabrial she was tinkering with END_TOKEN
@@ -6184,7 +6208,7 @@ in each case i’ve looked into , the boon and curse both lasted until death END
 about three hundred at this point , navani said END_TOKEN
 it’s been difficult to get any time from the researchers at the palanaeum ; everyone the world over is demanding research into the voidbringers END_TOKEN
 fortunately , his majesty’s impending visit here earned me special consideration , and i had some credit END_TOKEN
-they say it’s best to patronize the place in person—at least jasnah always said…
+they say it’s best to patronize the place in person—at least jasnah always said ELLIPSE
 she took a breath , steadying herself before continuing END_TOKEN
 in any case , dalinar , the research is definitive END_TOKEN
 we haven’t been able to find a single case where the effects of the old magic wore off—and it’s not like people haven’t tried over the centuries END_TOKEN
@@ -6196,13 +6220,13 @@ could you at least confirm with the stormfather again that his bond with you is 
 why would she want me to say more END_TOKEN
 i have spoken , and spren do not change like men END_TOKEN
 he says it’s not him , dalinar said END_TOKEN
-he’s… annoyed at you for asking again END_TOKEN
+he’s ELLIPSE annoyed at you for asking again END_TOKEN
 this was something she shared with her daughter , a characteristic frustration with problems she couldn’t solve END_TOKEN
 as if she were disappointed in the facts for not arranging themselves more helpfully END_TOKEN
 maybe , she said , something was different about the deal you made END_TOKEN
 if you can recount your visit to me sometime—with as much detail as you can remember—i’ll compare it to other accounts END_TOKEN
 the valley had a lot of plants END_TOKEN
-and… i remember… i asked to have my pain taken away , and she took memories too END_TOKEN
+and ELLIPSE i remember ELLIPSE i asked to have my pain taken away , and she took memories too END_TOKEN
 he shrugged , then noticed navani pursing her lips , her stare sharpening END_TOKEN
 it’s not you , navani said END_TOKEN
 giving you a deal when you were probably too distraught to think straight , then erasing your memory of the details END_TOKEN
@@ -6215,16 +6239,17 @@ once that was done , taravangian and adrotagia returned to the top of the room ,
 the new radiant , malata , lounged in a seat near the wall - mounted sigil of the dustbringers , staring at it END_TOKEN
 dalinar and navani climbed the steps to stand by taravangian END_TOKEN
 an even better view than from the lift END_TOKEN
-we think… we think that we are the most important things on roshar END_TOKEN
+we think ELLIPSE we think that we are the most important things on roshar END_TOKEN
 yet so much of roshar is empty of us END_TOKEN
-yes… perhaps some of the old taravangian lingered in there somewhere END_TOKEN
+yes ELLIPSE perhaps some of the old taravangian lingered in there somewhere END_TOKEN
 is this where you’ll have us meet END_TOKEN
 adrotagia asked , nodding toward the room END_TOKEN
 when you’ve gathered all the monarchs , will this be our council chamber END_TOKEN
 this seems too much like a lecture hall END_TOKEN
 i don’t want the monarchs to feel as if they’re being preached to END_TOKEN
+and ELLIPSE when will they come END_TOKEN
 i am looking forward to meeting the others END_TOKEN
-the king of azir… didn’t you tell me there was a new one , adrotagia END_TOKEN
+the king of azir ELLIPSE didn’t you tell me there was a new one , adrotagia END_TOKEN
 i know queen fen—she’s very nice END_TOKEN
 will we be inviting the shin END_TOKEN
 do they even have a king END_TOKEN
@@ -6267,7 +6292,7 @@ well , at least it’s clear END_TOKEN
 taravangian scratched at his head , brow furrowed , as if he didn’t agree with that statement at all END_TOKEN
 i guess , dalinar said , we can cross the tukari off our list of possible allies END_TOKEN
 i’d rather have the emuli anyway , navani said END_TOKEN
-their soldiers might be less capable , but they’re also… well , not crazy END_TOKEN
+their soldiers might be less capable , but they’re also ELLIPSE well , not crazy END_TOKEN
 taravangian said , looking from dalinar to adrotagia , uncertain END_TOKEN
 we are alone , your majesty , dalinar said END_TOKEN
 the end of the world has come , and still nobody will listen END_TOKEN
@@ -6327,7 +6352,7 @@ invisible , yet grating , like a discordant sound END_TOKEN
 she picked a direction at random and continued , finding herself in a corridor narrow enough that she could brush both walls with her fingers END_TOKEN
 the strata had an emerald cast here , an alien color for stone END_TOKEN
 she passed several small rooms before entering a much larger chamber END_TOKEN
-she stepped into it , holding a diamond broam high for light , revealing that she was on a raised portion at the front of a large room with curving walls and rows of stone… benches END_TOKEN
+she stepped into it , holding a diamond broam high for light , revealing that she was on a raised portion at the front of a large room with curving walls and rows of stone ELLIPSE benches END_TOKEN
 it’s a theater , she thought END_TOKEN
 and i’ve walked out onto the stage END_TOKEN
 yes , she could make out a balcony above END_TOKEN
@@ -6351,7 +6376,7 @@ pattern hovered in the center of the stage , like a soloist END_TOKEN
 a wonderful , wonderful lie , shallan said , settling onto a bench , veil’s satchel beside her END_TOKEN
 a time when people all imagine together END_TOKEN
 i wish i could see one , pattern said END_TOKEN
-i could understand people… mmmm… through the lies they want to be told END_TOKEN
+i could understand people ELLIPSE mmmm ELLIPSE through the lies they want to be told END_TOKEN
 shallan closed her eyes , smiling , remembering the last time she’d seen a play at her father’s END_TOKEN
 a traveling children’s troupe come to entertain her END_TOKEN
 she’d taken memories for her collection—but of course , that was now lost at the bottom of the ocean END_TOKEN
@@ -6411,7 +6436,7 @@ no sunlight , ever , directly reached the people END_TOKEN
 shallan made the illusion roll , like scenery on a scroll as the players had used END_TOKEN
 only far , far more realistic END_TOKEN
 she had painted the ceiling with light , and looking up , you seemed to be looking only at an infinite sky— dominated by that wall END_TOKEN
-this is… this is far more extensive than i’ve done before , she thought , surprised END_TOKEN
+this is ELLIPSE this is far more extensive than i’ve done before , she thought , surprised END_TOKEN
 creationspren had started to appear around her on the benches , in the form of old latches or doorknobs , rolling about or moving end over end END_TOKEN
 well , dalinar had told her to practice END_TOKEN
 the girl traveled far , shallan said , looking back toward the stage END_TOKEN
@@ -6440,15 +6465,16 @@ she remembered sitting at the edge of her seat , listening to this story END_TOK
 as a child , when moments like watching the players had been the only bright spots in life END_TOKEN
 too many memories of her father , and of her mother , who had loved telling her stories END_TOKEN
 she tried to banish those memories , but they wouldn’t go END_TOKEN
-her stormlight… she’d used up almost everything she’d pulled from her satchel END_TOKEN
+her stormlight ELLIPSE she’d used up almost everything she’d pulled from her satchel END_TOKEN
 out in the seats , a crowd of dark figures watched END_TOKEN
 eyeless , just shadows , people from her memories END_TOKEN
 the outline of her father , her mother , her brothers and a dozen others END_TOKEN
 she couldn’t create them , because she hadn’t drawn them properly END_TOKEN
-not since she’d lost her collection…
+not since she’d lost her collection ELLIPSE
 next to shallan , the girl stood triumphantly on the wall’s top , her scarves and white hair streaming out behind her in a sudden wind END_TOKEN
-… and on that side of the wall , shallan whispered , the girl saw steps END_TOKEN
+ELLIPSE and on that side of the wall , shallan whispered , the girl saw steps END_TOKEN
 the back side of the wall was crisscrossed with enormous sets of steps leading down to the ground , so distant END_TOKEN
+what ELLIPSE what does it mean END_TOKEN
 the girl stared at those steps , shallan whispered , remembering , and suddenly the gruesome statues on her side of the wall made sense END_TOKEN
 the way it cast everything into shadow END_TOKEN
 the wall did indeed hide something evil , something frightening END_TOKEN
@@ -6463,7 +6489,7 @@ no , shallan said , stormlight puffing from her lips END_TOKEN
 she goes down , sees a perfect society lit by stormlight END_TOKEN
 she steals some and brings it back END_TOKEN
 the storms come as a punishment , tearing down the wall END_TOKEN
-ah… pattern said , hovering beside her on the now - dull stage END_TOKEN
+ah ELLIPSE pattern said , hovering beside her on the now - dull stage END_TOKEN
 so that’s how the storms first began END_TOKEN
 of course not , shallan said , feeling tired END_TOKEN
 she wiped her eyes and turned away from the empty stage END_TOKEN
@@ -6542,6 +6568,7 @@ rock eyed her while his companion—a bridgeman she thought she’d seen before�
 who are you to ask me this thing END_TOKEN
 she was veil right now , but she didn’t dare expose the ruse , especially not in the open END_TOKEN
 i’m on aladar’s policing force , she said , digging in her pocket END_TOKEN
+i have my commission here ELLIPSE
 is fine , rock said , sighing , his wariness seeming to evaporate END_TOKEN
 i did not see him well—long coat , and a hat END_TOKEN
 a woman in crowd screamed , drawing my attention END_TOKEN
@@ -6572,7 +6599,7 @@ the short woman scrambled after her END_TOKEN
 i have experience moving in the market underground END_TOKEN
 you want to be my ward END_TOKEN
 she took veil by the arm END_TOKEN
-but you… your group… you know things END_TOKEN
+but you ELLIPSE your group ELLIPSE you know things END_TOKEN
 i don’t want to be blind anymore END_TOKEN
 she could understand that desire to do something , rather than just feeling the world tremble and shake END_TOKEN
 this woman would not find what she desired among them END_TOKEN
@@ -6654,7 +6681,7 @@ it wasn’t men that had attracted the scout’s attention , but horses END_TOKE
 a small herd of them , eleven or twelve in number , galloping across the battlefield END_TOKEN
 it’s rare they roam this far east END_TOKEN
 dalinar swallowed an order to round up the beasts END_TOKEN
-yes… he could see the spren trailing after them in the air END_TOKEN
+yes ELLIPSE he could see the spren trailing after them in the air END_TOKEN
 well , no use trying to capture the beasts END_TOKEN
 they couldn’t be held unless they chose a rider END_TOKEN
 i want you to do something for me today , brother , gavilar said END_TOKEN
@@ -6669,7 +6696,7 @@ so we need to force him to engage END_TOKEN
 i’m simply pleased to see you talking of tactics END_TOKEN
 i’m not an idiot , dalinar growled END_TOKEN
 he always paid attention to the tactics of a battle ; he simply wasn’t one for endless meetings and jaw wagging END_TOKEN
-though… even those seemed more tolerable these days END_TOKEN
+though ELLIPSE even those seemed more tolerable these days END_TOKEN
 or maybe it was gavilar’s talk of forging a dynasty END_TOKEN
 it was the increasingly obvious truth that this campaign—now stretching over many years—was no quick bash and grab END_TOKEN
 bring me kalanor , brother , gavilar said END_TOKEN
@@ -6729,7 +6756,7 @@ he’d broken its back ; shardplate was not meant for such common beasts END_TOK
 one group of soldiers tried a counterattack END_TOKEN
 dalinar felled them with broad sweeps of his shardblade END_TOKEN
 next , a lighteyed offi er organized his men to come press and try to trap dalinar , if not with their skill , then their weight of bodies END_TOKEN
-he spun among them , plate lending him energy , blade granting him precision , and the thrill… the thrill giving him purpose END_TOKEN
+he spun among them , plate lending him energy , blade granting him precision , and the thrill ELLIPSE the thrill giving him purpose END_TOKEN
 in moments like this , he could see why he had been created END_TOKEN
 he was wasted listening to men blab END_TOKEN
 he was wasted doing anything but this : providing the ultimate test of men’s abilities , proving them , demanding their lives at the edge of a sword END_TOKEN
@@ -6747,7 +6774,7 @@ one of the captains among his elites END_TOKEN
 dalinar lowered his sword and shook his head , trying to get the buzzing sound out of his ears END_TOKEN
 only then did he see—really see—what surrounded him END_TOKEN
 hundreds upon hundreds of them , with shriveled coals for eyes , their armor and weapons sheared but their bodies eerily untouched END_TOKEN
-almighty above… how many had he killed END_TOKEN
+almighty above ELLIPSE how many had he killed END_TOKEN
 he raised his hand to his helm , turning and looking about him END_TOKEN
 timid blades of grass crept up among the bodies , pushing between arms , fingers , beside heads END_TOKEN
 he’d blanketed the plain so thoroughly with corpses that the grass had a difficult time finding places to rise END_TOKEN
@@ -6763,7 +6790,7 @@ he pulled off his helm and took a cloth from kadash , using it to wipe his face 
 dalinar tossed away the empty skin , his heart racing , the thrill thrumming within END_TOKEN
 do not engage unless i fall END_TOKEN
 dalinar pulled his helm back on , and felt the comforting tightness as the latches cinched it into place END_TOKEN
-gather those of us who… fell , dalinar said , waving toward the kholin dead END_TOKEN
+gather those of us who ELLIPSE fell , dalinar said , waving toward the kholin dead END_TOKEN
 make certain they , and theirs , are cared for END_TOKEN
 dalinar dashed toward the oncoming force , his shardplate crunching against stones END_TOKEN
 he felt sad to have to engage a shardbearer , instead of continuing his fight against the ordinary men END_TOKEN
@@ -6896,7 +6923,7 @@ the hunger inside of dalinar grew END_TOKEN
 the thrill came upon him in a rush , overwhelming END_TOKEN
 why should he sit back so often , listening to men chat instead of war END_TOKEN
 there was the man who held what he wanted END_TOKEN
-a throne… a throne and more END_TOKEN
+a throne ELLIPSE a throne and more END_TOKEN
 the woman dalinar should have been able to claim END_TOKEN
 a love he’d been forced to abandon , for what reason END_TOKEN
 no , his fighting today was not done END_TOKEN
@@ -6919,7 +6946,7 @@ as a blessing , no shamespren appeared , though he should have earned a legion o
 highprince ruthar brought down gallam , winning shards for his son END_TOKEN
 talanor took a blade , and i hear you finally drew out kalanor END_TOKEN
 please tell me he didn’t escape you END_TOKEN
-he… dalinar licked his lips , breathing in and out END_TOKEN
+he ELLIPSE dalinar licked his lips , breathing in and out END_TOKEN
 dalinar pointed toward the fallen form , visible only as a bit of silvery metal shining amid the shadows of the rubble END_TOKEN
 dalinar , you wonderful , terrible man END_TOKEN
 gloryspren burst around gavilar , golden orbs that rotated around his head like a crown END_TOKEN
@@ -6957,7 +6984,7 @@ she finished her sketch , then tipped it toward pattern , holding the sketchbook
 he rippled up from his post to inspect her drawing : the slot obstructed by a mashed - up figure with bulging , inhuman eyes END_TOKEN
 it has to be some kind of spren , right END_TOKEN
 i feel i should know , pattern said END_TOKEN
-this… this is a thing from long ago END_TOKEN
+this ELLIPSE this is a thing from long ago END_TOKEN
 i cannot say , pattern replied END_TOKEN
 it is not a thing of us END_TOKEN
 shallan flipped the page over the top of her sketchbook and started on another drawing END_TOKEN
@@ -7028,7 +7055,7 @@ shallan blinked at the casual way it was said , along with a wink END_TOKEN
 malata smiled and sauntered back toward the front of the room END_TOKEN
 well , shallan whispered , she’s annoying END_TOKEN
 it will be worse when she starts destroying things END_TOKEN
-her spren… mmm… they like to break what is around them END_TOKEN
+her spren ELLIPSE mmm ELLIPSE they like to break what is around them END_TOKEN
 they want to know what is inside END_TOKEN
 pleasant , shallan said , as she flipped back through her drawings END_TOKEN
 this should be enough to present to dalinar and adolin , which she planned to do today , now that she had her sketches done END_TOKEN
@@ -7036,12 +7063,12 @@ i need to catch it , she thought END_TOKEN
 and a few days later , this thing will try to copy that attack END_TOKEN
 perhaps she could patrol the unexplored parts of the tower END_TOKEN
 look for it , instead of waiting for it to attack END_TOKEN
-each tunnel like a drawing’s impossible line…
+each tunnel like a drawing’s impossible line ELLIPSE
 shallan shook out of her reverie and looked up to see what was happening : ialai sadeas had arrived at the meeting , carried in a palanquin END_TOKEN
 she was accompanied by a familiar figure : meridas amaram was a tall man , tan eyed , with a square face and solid figure END_TOKEN
 he was also a murderer , a thief , and a traitor END_TOKEN
 he had been caught trying to steal a shardblade—proof that what captain kaladin said about him was true END_TOKEN
-shallan gritted her teeth , but found her anger… cool END_TOKEN
+shallan gritted her teeth , but found her anger ELLIPSE cool END_TOKEN
 no , she would not forgive this man for killing helaran END_TOKEN
 but the uncomfortable truth was that she didn’t know why , or how , her brother had fallen to amaram END_TOKEN
 she could almost hear jasnah whispering to her : don’t judge without more details END_TOKEN
@@ -7065,9 +7092,9 @@ i would ask the king to ratify this END_TOKEN
 king elhokar looked up from his seat , where he—seemingly—had been lost in thought END_TOKEN
 yes , navani said , arms folded END_TOKEN
 dalinar , amaram said , stepping down several of the steps toward the rest of them at the bottom of the auditorium END_TOKEN
-that refined diction , that perfect face , that crisp uniform… this man was what every soldier aspired to be END_TOKEN
+that refined diction , that perfect face , that crisp uniform ELLIPSE this man was what every soldier aspired to be END_TOKEN
 i’m not the only one who is good at playing pretend , she thought END_TOKEN
-i hope , amaram continued , our recent… friction will not prevent us from working together for the needs of alethkar END_TOKEN
+i hope , amaram continued , our recent ELLIPSE friction will not prevent us from working together for the needs of alethkar END_TOKEN
 i have spoken to brightness ialai , and i think i have persuaded her that our differences are secondary to the greater good of roshar END_TOKEN
 the greater good , dalinar said END_TOKEN
 you think you are one to speak about what is good END_TOKEN
@@ -7223,13 +7250,14 @@ might as well make use of the time , he said , carefully balancing on the chair 
 he jumped , grabbing the edge of the hole by the ceiling , and pulled himself up to look down it END_TOKEN
 it was three feet wide , and about one foot tall END_TOKEN
 it seemed endless , and he could feel a faint breeze coming out of it END_TOKEN
+was that ELLIPSE scraping he heard END_TOKEN
 a moment later , a mink slunk into the main tunnel from a shadowed crossroad , carrying a dead rat in its mouth END_TOKEN
 the tubular little animal twitched its snout toward him , then carried its prize away END_TOKEN
 air is circulating through those , navani said as he hopped down off the chair END_TOKEN
 perhaps some fabrial we have yet to discover END_TOKEN
 dalinar looked back up at the hole END_TOKEN
 miles upon miles of even smaller tunnels threaded through the walls and ceilings of an already daunting system END_TOKEN
-and hiding in them somewhere , the thing that shallan had drawn…
+and hiding in them somewhere , the thing that shallan had drawn ELLIPSE
 your majesty , our time is growing short END_TOKEN
 she’s still writing , teshav said END_TOKEN
 just read it , teshav , dalinar said END_TOKEN
@@ -7248,9 +7276,10 @@ the spanreed wrote , then halted almost immediately END_TOKEN
 teshav looked at him , grave END_TOKEN
 this is not a time to forge on alone END_TOKEN
 ‘you have to know by now , ’ came the reply , ‘that this coalition is never going to happen END_TOKEN
+kholin ELLIPSE i’m baffled , honestly END_TOKEN
 your garnet - lit tongue and pleasant words make it seem like you really assume this will work END_TOKEN
 a queen would have to be either stupid or desperate to let an alethi army into the very center of her city END_TOKEN
-i’ve been the former at times , and i might be approaching the latter , but… storms , kholin END_TOKEN
+i’ve been the former at times , and i might be approaching the latter , but ELLIPSE storms , kholin END_TOKEN
 i’m not going to be the one who finally lets thaylenah fall to you people END_TOKEN
 and on the off chance that you’re sincere , then i’m sorry END_TOKEN
 it had an air of finality to it END_TOKEN
@@ -7282,7 +7311,7 @@ leyten led him down some steps onto the wide field outside the first level of th
 we noticed this by accident , leyten said as they walked among the planters END_TOKEN
 the hefty bridgeman had a jovial way about him , and talked to dalinar—a highprince—as easily as he’d talk to friends at a tavern END_TOKEN
 we’ve been running patrols on your orders , watching for anything strange END_TOKEN
-and… well , peet noticed something strange END_TOKEN
+and ELLIPSE well , peet noticed something strange END_TOKEN
 he pointed up at the wall END_TOKEN
 dalinar squinted , picking out a gouge cut into the rock wall END_TOKEN
 what could score stone like that END_TOKEN
@@ -7385,7 +7414,7 @@ you can see the stormlight moving inside END_TOKEN
 our own little storm , dalinar said END_TOKEN
 captured , contained , and channeled END_TOKEN
 taravangian smiled , eyes lit by the ruby’s stormlight END_TOKEN
-dalinar kholin… do you mind me asking you something END_TOKEN
+dalinar kholin ELLIPSE do you mind me asking you something END_TOKEN
 how do you know what is right END_TOKEN
 a lofty question , your majesty END_TOKEN
 you have denied the almighty , taravangian said END_TOKEN
@@ -7429,7 +7458,7 @@ taravangian looked sorrowful , not bloodthirsty at all END_TOKEN
 the landlord’s job , taravangian said , is to prevent further murders END_TOKEN
 i doubt that what the book records actually happened END_TOKEN
 it is too neat , too simple a parable END_TOKEN
-but assuming the story did occur as claimed , and there was absolutely no way of determining who was guilty… you have to hang all four END_TOKEN
+but assuming the story did occur as claimed , and there was absolutely no way of determining who was guilty ELLIPSE you have to hang all four END_TOKEN
 one innocent dead , but three murderers stopped END_TOKEN
 is it not the best good that can be done , and the best way to protect your people END_TOKEN
 i sound like a madman , don’t i END_TOKEN
@@ -7441,7 +7470,7 @@ they’d done as men did : they’d conquered END_TOKEN
 only later had gavilar started to seek validation for their actions END_TOKEN
 why not let them all go END_TOKEN
 if you can’t prove who is guilty—if you can’t be sure—i think you should let them go END_TOKEN
-yes… one innocent in four is too many for you END_TOKEN
+yes ELLIPSE one innocent in four is too many for you END_TOKEN
 no , any innocent is too many END_TOKEN
 you say that , taravangian said END_TOKEN
 many people do , but our laws will claim innocent men—for all judges are flawed , as is our knowledge END_TOKEN
@@ -7453,7 +7482,7 @@ how many guilty may be punished before you’d accept one innocent casualty END_
 when you consider , all calculations are meaningless except one END_TOKEN
 has more good been done than evil END_TOKEN
 if so , then the law has done its job END_TOKEN
-and so… i must hang all four men END_TOKEN
+and so ELLIPSE i must hang all four men END_TOKEN
 and i would weep , every night , for having done it END_TOKEN
 again , dalinar reassessed his impression of taravangian END_TOKEN
 the king was soft - spoken , but not slow END_TOKEN
@@ -7522,7 +7551,7 @@ so far , they’d found nothing END_TOKEN
 her team was tired , as was shallan , who suff red from the long nights as veil END_TOKEN
 fortunately , shallan wasn’t doing anything particularly useful these days END_TOKEN
 sword training with adolin each day—more frolicking and flirting than useful swordplay—and the occasional meeting with dalinar where she had nothing to add but a pretty map END_TOKEN
-veil though… veil hunted the hunter END_TOKEN
+veil though ELLIPSE veil hunted the hunter END_TOKEN
 dalinar acted like a soldier : increased patrols , strict rules END_TOKEN
 he asked his scribes to find him evidence of spren attacking people in historical records END_TOKEN
 he needed more than vague explanations and abstract ideas—but those were the very soul of art END_TOKEN
@@ -7581,7 +7610,7 @@ it was good to know how the two of them were different , but it was also good to
 yes , she scammed them on occasion , but she wasn’t a thief END_TOKEN
 she was a lover of experience END_TOKEN
 she was at her best in a crowded market , watching , thinking , enjoying END_TOKEN
-now radiant… radiant could take people or leave them END_TOKEN
+now radiant ELLIPSE radiant could take people or leave them END_TOKEN
 they were a tool , but also a nuisance END_TOKEN
 how could they so often act against their own best interests END_TOKEN
 the world would be a better place if they’d all simply do what radiant said END_TOKEN
@@ -7600,7 +7629,7 @@ the stone ones that were here in the market , you know END_TOKEN
 vathah pointed as they drew close END_TOKEN
 you couldn’t miss the tall structure beside the tent he and glurv had been watching END_TOKEN
 at the top , a corpse dangled from an outcropping , hanged by the neck END_TOKEN
-the thing didn’t imitate the attack with the bottle… it imitated the execution that followed END_TOKEN
+the thing didn’t imitate the attack with the bottle ELLIPSE it imitated the execution that followed END_TOKEN
 killer dropped the person up there , leaving them to twitch END_TOKEN
 glurv is tailing , vathah said , pointing END_TOKEN
 the two charged in that direction , shoving their way through the crowds END_TOKEN
@@ -7619,7 +7648,7 @@ a few last people pointed down a tunnel at her shouted question END_TOKEN
 she was beginning to lose hope as she reached the end of the hallway at an intersection , and looked one way , then the other END_TOKEN
 she glowed brightly to light the corridors for a distance , but she saw nothing in either END_TOKEN
 she let out a sigh , slumping against the wall END_TOKEN
-mmmm… pattern said from her coat END_TOKEN
+mmmm ELLIPSE pattern said from her coat END_TOKEN
 she stepped forward , and something split out of the shadows , a figure that was jet black—though like a liquid or a polished stone , it reflected her light END_TOKEN
 it scrambled away , its shape wrong END_TOKEN
 veil ran , heedless of the danger END_TOKEN
@@ -7645,7 +7674,7 @@ radiant lowered her shardblade , letting it slice into the rock at her feet END_
 like her drawing of spiraling blackness , a pit that seemed to descend into the void itself END_TOKEN
 she released her shardblade , falling to her knees END_TOKEN
 pattern asked , rising up from the ground near where the blade had vanished END_TOKEN
-but first… first , go and get adolin END_TOKEN
+but first ELLIPSE first , go and get adolin END_TOKEN
 you won’t go alone , will you END_TOKEN
 can you make your way back END_TOKEN
 pattern buzzed affirmatively , then zipped off across the ground , dimpling the floor of the rock END_TOKEN
@@ -7679,7 +7708,7 @@ it killed someone in the market , then it came here END_TOKEN
 it’s a spren , shallan whispered END_TOKEN
 but not like one i’ve ever seen END_TOKEN
 it’s able to imitate a person for a time—but it eventually becomes something else END_TOKEN
-a broken face , a twisted shape…
+a broken face , a twisted shape ELLIPSE
 sounds like that girl you’ve been seeing , skar , one of the bridgemen noted END_TOKEN
 ha ha , skar said dryly END_TOKEN
 how about we toss you in that pit , eth , and see how far down this thing goes END_TOKEN
@@ -7711,7 +7740,7 @@ she thought his name was drehy END_TOKEN
 i brought the best men i could find , adolin said to shallan END_TOKEN
 but i feel like i should bring an entire army instead END_TOKEN
 you sure you want to do this now END_TOKEN
-and… i don’t know that an army would make a difference END_TOKEN
+and ELLIPSE i don’t know that an army would make a difference END_TOKEN
 teft , give us a hefty rearguard END_TOKEN
 i don’t fancy having something sneak up on us END_TOKEN
 lyn , i want accurate maps—stop us if we get too far ahead of your drawing END_TOKEN
@@ -7726,7 +7755,7 @@ it reminded shallan of the mausoleum carved into the hill near her manor , where
 her father’s body hadn’t been placed there END_TOKEN
 they had lacked the funds to pay for a soulcaster—and besides , they’d wanted to pretend he was alive END_TOKEN
 she and her brothers had burned the body , as the darkeyes did END_TOKEN
-i have to remind you , brightness , teft said from in front of her , you can’t expect anything… extraordinary from my men END_TOKEN
+i have to remind you , brightness , teft said from in front of her , you can’t expect anything ELLIPSE extraordinary from my men END_TOKEN
 for a bit , some of us sucked up light and strutted about like we were stormblessed END_TOKEN
 when kaladin returns , we’ll glow again good END_TOKEN
 hush , lopen , teft said END_TOKEN
@@ -7751,7 +7780,7 @@ a solitary figure hovering above the ground before a large blue disc , arms stre
 depictions of the almighty in his traditional form as a cloud bursting with energy and light END_TOKEN
 a woman in the shape of a tree , hands spreading toward the sky and becoming branches END_TOKEN
 who would have thought to find pagan symbols in the home of the knights radiant END_TOKEN
-other murals depicted shapes that reminded her of pattern , windspren… ten kinds of spren END_TOKEN
+other murals depicted shapes that reminded her of pattern , windspren ELLIPSE ten kinds of spren END_TOKEN
 adolin sent a vanguard a short distance ahead , and soon they returned END_TOKEN
 metal doors ahead , brightlord , lyn said END_TOKEN
 one on each side of the hall END_TOKEN
@@ -7791,10 +7820,10 @@ they’d finally found the books jasnah had dreamed of discovering END_TOKEN
 with a sinking feeling , shallan moved through the room , nudging at piles of dust and splinters with her toes , frightening off decayspren END_TOKEN
 she found some shapes of books , but they disintegrated at her touch END_TOKEN
 she knelt between two rows of fallen books , feeling lost END_TOKEN
-all that knowledge… dead and gone END_TOKEN
+all that knowledge ELLIPSE dead and gone END_TOKEN
 sorry , adolin said , standing awkwardly nearby END_TOKEN
 don’t let the men disturb this END_TOKEN
-maybe… maybe there’s something navani’s scholars can do to recover it END_TOKEN
+maybe ELLIPSE maybe there’s something navani’s scholars can do to recover it END_TOKEN
 want us to search the other room END_TOKEN
 she nodded , and he clanked off END_TOKEN
 a short time later , she heard hinges creak as adolin forced open the door END_TOKEN
@@ -7816,10 +7845,10 @@ that darkness seeped down the hallway END_TOKEN
 it wasn’t fast , but there was an inevitability about the way it coated everything , flowing up the sides of the walls , onto the ceiling END_TOKEN
 on the ground , shapes split from the main mass , becoming figures that stepped as if from the surf END_TOKEN
 creatures that had two feet and soon grew faces , with clothing that rippled into existence END_TOKEN
-re - shephir… the midnight mother END_TOKEN
+re - shephir ELLIPSE the midnight mother END_TOKEN
 men , start back up the hall END_TOKEN
 then—of course—he charged at the flood of things END_TOKEN
-the figures… they look like us , shallan thought , stepping back , farther from the line of bridgemen END_TOKEN
+the figures ELLIPSE they look like us , shallan thought , stepping back , farther from the line of bridgemen END_TOKEN
 there was one midnight creature that looked like teft , and another that was a copy of lopen END_TOKEN
 two larger shapes seemed to be wearing shardplate END_TOKEN
 except they were made of shiny tar , their features blobby , imperfect END_TOKEN
@@ -7847,7 +7876,7 @@ though they thrust with spears , they did so awkwardly END_TOKEN
 they struck true now and then , wounding a bridgeman , who would pull back into the center of the formation to be hastily bandaged by lyn or lopen END_TOKEN
 renarin fell into the center and started to glow with stormlight , healing those who were hurt END_TOKEN
 shallan watched all this , feeling a numbing trance settle over her END_TOKEN
-i… know you , she whispered to the blackness , realizing it was true END_TOKEN
+i ELLIPSE know you , she whispered to the blackness , realizing it was true END_TOKEN
 adolin swept before himself , shardblade trailing black smoke from the creatures’ wounds END_TOKEN
 he chopped apart dozens of the things , but new ones continued forming , wearing familiar shapes END_TOKEN
 highprinces and scouts , soldiers and scribes END_TOKEN
@@ -7894,7 +7923,7 @@ as she approached , shallan’s stormlight illuminated a bowl - like chamber END
 the center was dominated by a heaving black mass that undulated and pulsed , stretching from floor to ceiling some twenty feet above END_TOKEN
 the midnight beasts tested forward against her light , no longer seeming as intimidated END_TOKEN
 we have to choose , shallan said to adolin and renarin END_TOKEN
-this creature… she’s been watching me END_TOKEN
+this creature ELLIPSE she’s been watching me END_TOKEN
 she’s changed how i see the tower END_TOKEN
 i feel like i understand her , a connection i cannot explain END_TOKEN
 that can’t be a good thing , right END_TOKEN
@@ -7902,12 +7931,12 @@ can we even trust what i think END_TOKEN
 adolin raised his faceplate and smiled at her END_TOKEN
 highmarshal halad always said that to beat someone , you must first know them END_TOKEN
 it’s become one of the rules we follow in warfare END_TOKEN
-and… what did he say about retreat END_TOKEN
+and ELLIPSE what did he say about retreat END_TOKEN
 ‘plan every battle as if you will inevitably retreat , but fight every battle like there is no backing down END_TOKEN
 the main mass in the chamber undulated , faces appearing from its tarry surface—pressing out as if trying to escape END_TOKEN
 there was something beneath the enormous spren END_TOKEN
 yes , it was wrapped around a pillar that reached from the floor of the circular room to its ceiling END_TOKEN
-the murals , the intricate art , the fallen troves of information… this place was important END_TOKEN
+the murals , the intricate art , the fallen troves of information ELLIPSE this place was important END_TOKEN
 shallan clasped her hands before herself , and the patternblade formed in her palms END_TOKEN
 she twisted it in a sweaty grip , falling into the dueling stance adolin had been teaching her END_TOKEN
 not the screaming of a dead spren END_TOKEN
@@ -7973,10 +8002,10 @@ over time , slowly , she’d become increasingly intrigued by the things she mur
 her creations had come to imitate what she saw in the world , but lacking love or affection END_TOKEN
 like stones come alive , content to be killed or to kill with no attachment or enjoyment END_TOKEN
 no emotions beyond an overpowering curiosity , and that ephemeral attraction to violence END_TOKEN
-almighty above… it’s like a creationspren END_TOKEN
+almighty above ELLIPSE it’s like a creationspren END_TOKEN
 pattern whimpered , huddled against shallan in his shape of a man with a stiff robe and a moving pattern for a head END_TOKEN
 she tried to shield him from the onslaught END_TOKEN
-fight every battle… as if there is… no backing down END_TOKEN
+fight every battle ELLIPSE as if there is ELLIPSE no backing down END_TOKEN
 shallan looked into the depths of the swirling void , the dark spinning soul of re - shephir , the midnight mother END_TOKEN
 then , growling , shallan struck END_TOKEN
 she didn’t attack like the prim , excitable girl who had been trained by cautious vorin society END_TOKEN
@@ -8008,11 +8037,11 @@ when she forced her eyes open , she found the room clean of the darkness END_TOK
 the corpses of the midnight creatures had dissolved END_TOKEN
 renarin quickly knelt next to a bridgeman who had been hurt , removing his gauntlet and infusing the man with healing stormlight END_TOKEN
 adolin helped shallan sit up , and she tucked her exposed safehand under her other arm END_TOKEN
-storms… she’d somehow kept up the illusion of the havah END_TOKEN
+storms ELLIPSE she’d somehow kept up the illusion of the havah END_TOKEN
 even after all of that , she didn’t want adolin to know of veil END_TOKEN
 adolin pointed toward the other side of the room , where a tunnel extended farther down into the depths of the mountain END_TOKEN
 it fled in that direction , like moving smoke END_TOKEN
-so… should we chase it down END_TOKEN
+so ELLIPSE should we chase it down END_TOKEN
 eth asked , making his way carefully toward the tunnel END_TOKEN
 his lantern revealed steps cut into the stone END_TOKEN
 this goes down a long ways END_TOKEN
@@ -8030,7 +8059,7 @@ if they cannot make you less foolish , at least let them give you hope END_TOKEN
 throughout his youth , kaladin had dreamed of joining the military and leaving quiet little hearthstone END_TOKEN
 everyone knew that soldiers traveled extensively and saw the world END_TOKEN
 he’d seen dozens upon dozens of empty hills , weed - covered plains , and identical warcamps END_TOKEN
-actual sights , though… well , that was another story END_TOKEN
+actual sights , though ELLIPSE well , that was another story END_TOKEN
 the city of revolar was , as his hike with the parshmen had proven , only a few weeks away from hearthstone by foot END_TOKEN
 storms , he’d never actually lived in a city before , unless you counted the warcamps END_TOKEN
 he suspected most cities weren’t surrounded by an army of parshmen as this one was END_TOKEN
@@ -8049,7 +8078,7 @@ he’d even begun teaching them to use a sling END_TOKEN
 he probably shouldn’t have shown them any of these things ; that didn’t stop him from feeling proud as he walked with them , entering the city END_TOKEN
 where had all these parshmen come from END_TOKEN
 this was a force of at least forty or fifty thousand END_TOKEN
-he knew most people ignored parshmen… and , well , he’d done the same END_TOKEN
+he knew most people ignored parshmen ELLIPSE and , well , he’d done the same END_TOKEN
 but he’d always had tucked into the back of his mind this idea that there weren’t that many out there END_TOKEN
 each high - ranking lighteyes owned a handful END_TOKEN
 and a lot of the caravaneers END_TOKEN
@@ -8096,7 +8125,7 @@ zipping through the air , dancing through buildings END_TOKEN
 to the east , she said END_TOKEN
 crammed into some army barracks and old parshman quarters END_TOKEN
 others are in big pens , watched under guard END_TOKEN
-kaladin… there’s another highstorm coming today END_TOKEN
+kaladin ELLIPSE there’s another highstorm coming today END_TOKEN
 i doubt anyone is expecting it END_TOKEN
 everything has been thrown off ; the charts will all be wrong until people can make new ones END_TOKEN
 kaladin hissed slowly through his teeth END_TOKEN
@@ -8111,7 +8140,7 @@ some of those in khen’s group had hints of it , but nothing this strong END_TO
 the scribe parshman wrote down the list of towns khen gave him , then noted their spears END_TOKEN
 i’ll recommend you for special training END_TOKEN
 send your captive to the pens ; i’ll write down a description here , and once you’re settled , you can put him to work END_TOKEN
-he… khen said , looking at kaladin END_TOKEN
+he ELLIPSE khen said , looking at kaladin END_TOKEN
 he was one of the humans’ slaves , like us END_TOKEN
 he wishes to join and fight END_TOKEN
 the parshman looked up in the air at nothing END_TOKEN
@@ -8157,7 +8186,7 @@ he still had time before it arrived END_TOKEN
 he’d have to fly up above the storm to avoid being caught in its winds END_TOKEN
 urithiru is out there somewhere , to the west , kaladin said END_TOKEN
 you’re a force of nature , syl , kaladin said END_TOKEN
-don’t you have some kind of… location sense END_TOKEN
+don’t you have some kind of ELLIPSE location sense END_TOKEN
 you’re the one from this realm , she said , batting away another gloryspren and hanging in the air beside him , folding her arms END_TOKEN
 besides , i’m less a force of nature and more one of the raw powers of creation transformed by collective human imagination into a personification of one of their ideals END_TOKEN
 where did you come up with that END_TOKEN
@@ -8192,10 +8221,10 @@ it’s about what you see as right and wrong END_TOKEN
 what we see , she corrected END_TOKEN
 tell me that during your time planning to betray elhokar , you didn’t—deep down—think you were doing something wrong END_TOKEN
 kaladin let the winds blow him , feeling a pit open in his belly END_TOKEN
-storms , i’d hoped… i’d hoped you could tell me , give me an absolute right END_TOKEN
+storms , i’d hoped ELLIPSE i’d hoped you could tell me , give me an absolute right END_TOKEN
 for once , i’d like my moral code not to come with a list of exceptions at the end END_TOKEN
 i’d have expected you to object , kaladin said END_TOKEN
-you’re a… what , embodiment of human perceptions of honor END_TOKEN
+you’re a ELLIPSE what , embodiment of human perceptions of honor END_TOKEN
 shouldn’t you at least think you have all the answers END_TOKEN
 or maybe if there are answers , i should be the one who wants to find them END_TOKEN
 the stormwall was now fully visible : the great wall of water and refuse pushed by the oncoming winds of a highstorm END_TOKEN
@@ -8303,7 +8332,7 @@ one of those bunkers still had the doors open , and a few men were trying—bles
 they huddled against the ground , holding to the wall or outcroppings of rock END_TOKEN
 kaladin could barely make them out in flashes of lightning—terrified lumps alone in the tempest END_TOKEN
 he’d been powerless before them , tied to the side of a building END_TOKEN
-kaladin… syl said in his mind as he dropped END_TOKEN
+kaladin ELLIPSE syl said in his mind as he dropped END_TOKEN
 within the highstorm , his stormlight constantly renewed END_TOKEN
 it preserved him , had saved his life a dozen times over END_TOKEN
 that very power that had tried to kill him had been his salvation END_TOKEN
@@ -8397,12 +8426,12 @@ they’re out there , and always have been , shallan said END_TOKEN
 she felt exhausted , and her eyes were drooping in direct defiance of her insistence to adolin that she was not that kind of tired END_TOKEN
 surely we’d have discovered them by now END_TOKEN
 i don’t know , shallan said END_TOKEN
-they’ll… they’ll just be normal to us END_TOKEN
+they’ll ELLIPSE they’ll just be normal to us END_TOKEN
 the way things have always been END_TOKEN
 she yawned , then nodded absently as palona continued talking , her comments degenerating into praise of shallan for acting as she had END_TOKEN
 adolin had been the same way , which she hadn’t minded , and dalinar had been downright nice to her—instead of being his usual stern rock of a human being END_TOKEN
 she didn’t tell them how near she’d come to breaking , and how terrified she was that she might someday meet that creature again END_TOKEN
-but… maybe she did deserve some acclaim END_TOKEN
+but ELLIPSE maybe she did deserve some acclaim END_TOKEN
 she’d been a child when she’d left her home , seeking salvation for her family END_TOKEN
 for the first time since that day on the ship , watching jah keved fade behind her , she felt like she actually might have a handle on all of this END_TOKEN
 like she might have found some stability in her life , some control over herself and her surroundings END_TOKEN

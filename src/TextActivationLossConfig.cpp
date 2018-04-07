@@ -17,10 +17,11 @@ std::unique_ptr<arma::colvec> TextActivationLossConfig::evalSavedStateActivation
 	return std::unique_ptr<arma::colvec>(new arma::colvec(arma::tanh(in)));
 }
 
+// Everywhere we use saved_state, we increase the index by 1, because the first saved_state is for time step -1.
 void TextActivationLossConfig::addGradients(const TextRnn<TextActivationLossConfig>& network, int bptt_truncate, const Sentence& x, const Sentence& y, const arma::mat& saved_states, const arma::mat& outputs, arma::mat& out_dCdW, arma::mat& out_dCdU, arma::mat& out_dCdV) {
 	for(int time = x.n_cols - 1; time >= 0; time--) {
 		// Derivative of cost for this time w/r/t V is trivial
-		out_dCdV += arma::kron((outputs.col(time) - y.col(time)), saved_states.col(time));
+		out_dCdV += arma::kron((outputs.col(time) - y.col(time)), arma::trans(saved_states.col(time + 1)));
 
 		/*
 		 * Calculate some common terms for dC/dW and dC/dU
@@ -29,21 +30,21 @@ void TextActivationLossConfig::addGradients(const TextRnn<TextActivationLossConf
 		arma::mat common_term_a = arma::trans(network.getV()) * (outputs.col(time) - y.col(time));
 
 		// Output of this is the derivative of the Kth saved state w/r/t the Kth tanh input
-		arma::mat common_term_b = 1 - arma::pow(arma::tanh(saved_states.col(time)), 2);
+		arma::mat common_term_b = 1 - arma::pow(saved_states.col(time + 1), 2);
 
 		// Derivative of cost w/r/t the Kth tanh input.
 		arma::mat common_term_c = common_term_a % common_term_b;
 
-		for(int time_inner = time; time_inner >= (time - bptt_truncate); time_inner--) {
+		for(int time_inner = time; time_inner >= std::max((time - bptt_truncate), 0); time_inner--) {
 			// For the first iteration, this is just the
 			// derivative of cost w/r/t weight for the current time_inner step.
 			// (1,1) => (derivative of cost w/r/t 1st saved state) * (derivative of 1st saved state w/r/t W(1,1))
 			// (1,2) => (derivative of cost w/r/t 1st saved state) * (derivative of 1st saved state w/r/t W(1,2))
-			out_dCdW += arma::kron(common_term_c, saved_states.col(time_inner - 1));
+			out_dCdW += arma::kron(common_term_c, arma::trans(saved_states.col(time_inner - 1 + 1)));
 
 			// Derivative of cost w/r/t U is the same as w/r/t W for every term,
 			// except the final factor is X instead of the previous saved state.
-			out_dCdU += arma::kron(common_term_c, x.col(time_inner));
+			out_dCdU += arma::kron(common_term_c, arma::trans(x.col(time_inner)));
 
 			// For the second iteration, dCdW should add the second term:
 			// => Derivative of dCdW for the time'th example, w/r/t the weights applied to the saved state for T-2
@@ -57,7 +58,7 @@ void TextActivationLossConfig::addGradients(const TextRnn<TextActivationLossConf
 			// So that's what we do here.
 			// This is equivalent to setting common_term_c(K) to the derivative of the cost w/r/t the
 			// Kth tanh input T-1.
-			common_term_c = (arma::trans(network.getW()) * common_term_c) % (1 - arma::pow(arma::tanh(saved_states.col(time - 1)), 2));
+			common_term_c = (arma::trans(network.getW()) * common_term_c) % (1 - arma::pow(saved_states.col(time - 1 + 1), 2));
 		}
 	}
 }
