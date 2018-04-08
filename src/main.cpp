@@ -45,15 +45,15 @@ int main(int argc, char **argv)
 
 	BOOST_LOG_TRIVIAL(info) << "Creating vocab...";
 
-	// Create vocab with top 3 words + unknown val
-	std::shared_ptr<TextVocab> tv = std::move(generateVocab(3, data));
+	// Create vocab with top 100 words + unknown val
+	std::shared_ptr<TextVocab> tv = std::move(generateVocab(100, data));
 
 	BOOST_LOG_TRIVIAL(info) << "Creating network...";
 
 	// Create text network
 	std::shared_ptr<TextRnn<TextActivationLossConfig>> trnn(new TextRnn<TextActivationLossConfig>(
-		4,
-		4,
+		101,
+		101,
 		100,
 		tv
 	));
@@ -72,7 +72,10 @@ int main(int argc, char **argv)
 		100,
 		0.1,
 		0.05,
-		5,
+		500,
+		true,
+		0.001,
+		0.01,
 		trnn
 	);
 	nnt.train(*x, *y);

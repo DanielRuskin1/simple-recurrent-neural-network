@@ -22,7 +22,10 @@ public:
 	static std::unique_ptr<arma::colvec> evalOutputActivation(const arma::colvec& in);
 	static std::unique_ptr<arma::colvec> evalSavedStateActivation(const arma::colvec& in);
 
-	static void addGradients(const TextRnn<TextActivationLossConfig>& network, int bptt_truncate, const Sentence& x, const Sentence& y, const arma::mat& saved_states, const arma::mat& outputs, arma::mat& out_dCdW, arma::mat& out_dCdU, arma::mat& out_dCdV);
+	static double evalCost(const Sentence& correct, const Sentence& predict);
+
+
+	static void setGradients(const TextRnn<TextActivationLossConfig>& network, int bptt_truncate, const Sentence& x, const Sentence& y, const arma::mat& saved_states, const arma::mat& outputs, std::unique_ptr<arma::mat>& out_dCdW, std::unique_ptr<arma::mat>& out_dCdU, std::unique_ptr<arma::mat>& out_dCdV);
 };
 
 #endif /* SRC_TEXTACTIVATIONLOSSCONFIG_H_ */

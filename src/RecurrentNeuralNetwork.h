@@ -31,7 +31,7 @@ public:
 	// In input, each col is one X value.
 	// In return vals, each col is one saved state/output.
 	// First saved state is always 0.
-	void feedForward(const Sentence& x, std::unique_ptr<arma::mat>& out_saved_states, std::unique_ptr<arma::mat>& out_outputs) {
+	void feedForward(const Sentence& x, std::unique_ptr<arma::mat>& out_saved_states, std::unique_ptr<Sentence>& out_outputs) {
 		out_saved_states.reset(new arma::mat(W.n_rows, x.n_cols + 1, arma::fill::zeros));
 		out_outputs.reset(new arma::mat(V.n_rows, x.n_cols, arma::fill::zeros));
 
@@ -45,8 +45,11 @@ public:
 	}
 
 	const arma::mat& getW() const { return W; }
+	void updateWVal(int row, int col, int change) { W(row, col) += change; }
 	const arma::mat& getU() const { return U; }
+	void updateUVal(int row, int col, int change) { U(row, col) += change; }
 	const arma::mat& getV() const { return V; }
+	void updateVVal(int row, int col, int change) { V(row, col) += change; }
 	void setW(const arma::mat& newW) { W = newW; }
 	void setU(const arma::mat& newU) { U = newU; }
 	void setV(const arma::mat& newV) { V = newV; }
