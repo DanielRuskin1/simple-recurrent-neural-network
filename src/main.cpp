@@ -15,12 +15,15 @@
 #include <boost/algorithm/string.hpp>
 #include <boost/lexical_cast.hpp>
 #include <boost/algorithm/string.hpp>
+#include <boost/date_time/posix_time/posix_time.hpp>
+#include <boost/date_time/posix_time/posix_time_io.hpp>
 
 #include "TextVocabGenerator.h"
 #include "TextRnn.h"
 #include "TextActivationLossConfig.h"
 #include "TextProgressEvaluator.h"
 #include "NetworkTrainer.h"
+#include "GradientChecker.h"
 
 int main(int argc, char **argv)
 {
@@ -43,7 +46,8 @@ int main(int argc, char **argv)
 		("test_data_frac", boost::program_options::value<double>(), "Percent of data to use as test data (represented as decimal).")
 		("bptt_truncate", boost::program_options::value<int>(), "Max number of BPTT steps to run when calculating the gradient for each example (-1 to not truncate).")
 		("grad_check_h", boost::program_options::value<double>(), "If performing a grad check, the differential value to use.")
-		("grad_check_error_threshold", boost::program_options::value<double>(), "If performing a grad check, the percent error threshold to raise an exception.")
+		("grad_check_error_threshold_pct", boost::program_options::value<double>(), "If performing a grad check, the percent error threshold (error must be over pct AND abs to count).")
+		("grad_check_error_threshold_abs", boost::program_options::value<double>(), "If performing a grad check, the absolute error threshold (error must be over pct AND abs to count).")
 		("command", boost::program_options::value<std::string>(), "The task to perform.  Must be one of: train_model, grad_check.")
 		("output_prefix", boost::program_options::value<std::string>(), "Prefix for output files.  Can be a folder.")
 	;
@@ -77,9 +81,10 @@ int main(int argc, char **argv)
 				"data_file",
 				"text_vocab_size",
 				"saved_state_size",
-				"bptt_truncate"
+				"bptt_truncate",
 				"grad_check_h",
-				"grad_check_error_threshold"
+				"grad_check_error_threshold_pct",
+				"grad_check_error_threshold_abs",
 			};
 		} else {
 			throw std::runtime_error("An invalid command was specified!");
@@ -96,10 +101,17 @@ int main(int argc, char **argv)
 
 	BOOST_LOG_TRIVIAL(info) << "Executing command...";
 	if(cmd == "train_model" || cmd == "grad_check") {
-		BOOST_LOG_TRIVIAL(info) << "Creating output directory...";
-		boost::filesystem::create_directories(vm["output_prefix"].as<std::string>() + "/model/");
+		std::string outputDir;
+		if(vm.count("output_prefix")) {
+			outputDir = vm["output_prefix"].as<std::string>();
+		} else {
+			outputDir = "./output-";
+		}
+		outputDir += boost::posix_time::to_iso_string(boost::posix_time::second_clock::local_time()) + "/";
+		boost::filesystem::create_directories(outputDir);
+		BOOST_LOG_TRIVIAL(info) << "Created output directory: " << outputDir;
 
-		BOOST_LOG_TRIVIAL(info) << "Loading and parsing data data...";
+		BOOST_LOG_TRIVIAL(info) << "Loading and parsing data...";
 		std::ifstream data_file;
 		data_file.open(vm["data_file"].as<std::string>());
 		TextSentenceList data_loaded;
@@ -131,31 +143,32 @@ int main(int argc, char **argv)
 			BOOST_LOG_TRIVIAL(info) << "Training network...";
 
 			NetworkTrainer<TextRnn<TextActivationLossConfig>, TextActivationLossConfig, TextProgressEvaluator<TextActivationLossConfig>> trainer(
-				vm["num_epochs"],
-				vm["num_samples_per_batch"],
-				vm["learning_rate"],
-				vm["test_data_frac"],
-				vm["bptt_truncate"],
+				vm["num_epochs"].as<int>(),
+				vm["num_samples_per_batch"].as<int>(),
+				vm["learning_rate"].as<double>(),
+				vm["test_data_frac"].as<double>(),
+				vm["bptt_truncate"].as<int>(),
 				network
 			);
 			trainer.train(*data_final_x, *data_final_y);
 
 			BOOST_LOG_TRIVIAL(info) << "Saving model...";
-			network->save(vm["output_prefix"].as<std::string>());
+			network->save(outputDir);
 		} else {
 			BOOST_LOG_TRIVIAL(info) << "Saving model...";
-			network->save(vm["output_prefix"].as<std::string>());
+			network->save(outputDir);
 
 			BOOST_LOG_TRIVIAL(info) << "Saving first training example...";
-			(*data_final_x)[0].save(vm["output_prefix"].as<std::string>() + "/example_x.csv", arma::csv_ascii);
-			(*data_final_y)[0].save(vm["output_prefix"].as<std::string>() + "/example_y.csv", arma::csv_ascii);
+			(*data_final_x)[0].save(outputDir + "example_x.csv", arma::csv_ascii);
+			(*data_final_y)[0].save(outputDir + "example_y.csv", arma::csv_ascii);
 
 			BOOST_LOG_TRIVIAL(info) << "Checking gradients with first example...";
 			GradientChecker<TextRnn<TextActivationLossConfig>, TextActivationLossConfig> gradient_checker(
 				vm["grad_check_h"].as<double>(),
-				vm["grad_check_error_threshold"].as<double>()
+				vm["grad_check_error_threshold_pct"].as<double>(),
+				vm["grad_check_error_threshold_abs"].as<double>()
 			);
-			gradient_checker.checkGradients(vm["output_prefix"].as<std::string>(), *network, (*data_final_x)[0], (*data_final_y)[0]);
+			gradient_checker.checkGradients(outputDir, vm["bptt_truncate"].as<int>(), *network, (*data_final_x)[0], (*data_final_y)[0]);
 		}
 	} else {
 		throw std::runtime_error("An invalid command was specified!");
