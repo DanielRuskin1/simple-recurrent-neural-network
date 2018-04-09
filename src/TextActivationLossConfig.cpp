@@ -43,7 +43,12 @@ void TextActivationLossConfig::setGradients(const TextRnn<TextActivationLossConf
 		// Derivative of cost w/r/t the Kth tanh input.
 		arma::mat common_term_c = common_term_a % common_term_b;
 
-		for(int time_inner = time; time_inner >= std::max((time - bptt_truncate), 0); time_inner--) {
+		int min_time = 0;
+		if(bptt_truncate != -1) {
+			min_time = std::max((time - bptt_truncate), 0);
+		}
+
+		for(int time_inner = time; time_inner >= min_time; time_inner--) {
 			// For the first iteration, this is just the
 			// derivative of cost w/r/t weight for the current time_inner step.
 			// (1,1) => (derivative of cost w/r/t 1st saved state) * (derivative of 1st saved state w/r/t W(1,1))

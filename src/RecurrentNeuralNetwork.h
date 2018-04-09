@@ -10,6 +10,7 @@
 
 #include <armadillo>
 #include <memory>
+#include <boost/filesystem.hpp>
 #include "Utils.h"
 
 template<class ActivationLossConfig>
@@ -42,6 +43,13 @@ public:
 			));
 			out_outputs->col(x_iter) = *(ActivationLossConfig::evalOutputActivation(V * out_saved_states->col(x_iter + 1)));
 		}
+	}
+
+	void save(const std::string& output_prefix) {
+		boost::filesystem::create_directories(output_prefix + "/model/");
+		W.save(output_prefix + "/model/W.csv", arma::csv_ascii);
+		U.save(output_prefix + "/model/U.csv", arma::csv_ascii);
+		V.save(output_prefix + "/model/V.csv", arma::csv_ascii);
 	}
 
 	const arma::mat& getW() const { return W; }
