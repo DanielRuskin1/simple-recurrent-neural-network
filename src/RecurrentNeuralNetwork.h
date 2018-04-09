@@ -29,6 +29,12 @@ public:
 		V /= 10;
 	}
 
+	RecurrentNeuralNetwork(const std::string& prev_output_prefix) {
+		W.load(prev_output_prefix + "model/W.csv", arma::csv_ascii);
+		U.load(prev_output_prefix + "model/U.csv", arma::csv_ascii);
+		V.load(prev_output_prefix + "model/V.csv", arma::csv_ascii);
+	}
+
 	// In input, each col is one X value.
 	// In return vals, each col is one saved state/output.
 	// First saved state is always 0.

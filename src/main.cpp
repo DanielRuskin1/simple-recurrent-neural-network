@@ -13,8 +13,6 @@
 #include <boost/log/utility/setup/common_attributes.hpp>
 #include <boost/program_options.hpp>
 #include <boost/algorithm/string.hpp>
-#include <boost/lexical_cast.hpp>
-#include <boost/algorithm/string.hpp>
 #include <boost/date_time/posix_time/posix_time.hpp>
 #include <boost/date_time/posix_time/posix_time_io.hpp>
 
@@ -48,7 +46,11 @@ int main(int argc, char **argv)
 		("grad_check_h", boost::program_options::value<double>(), "If performing a grad check, the differential value to use.")
 		("grad_check_error_threshold_pct", boost::program_options::value<double>(), "If performing a grad check, the percent error threshold (error must be over pct AND abs to count).")
 		("grad_check_error_threshold_abs", boost::program_options::value<double>(), "If performing a grad check, the absolute error threshold (error must be over pct AND abs to count).")
-		("command", boost::program_options::value<std::string>(), "The task to perform.  Must be one of: train_model, grad_check.")
+		("predict_prev_output_folder", boost::program_options::value<std::string>(), ("Output folder where the model is saved, if you are loading an existing model for predictions."))
+		("predict_text_gen_first_char", boost::program_options::value<std::string>(), ("The first character for text generation."))
+		("predict_text_gen_last_char", boost::program_options::value<std::string>(), ("The first character for text generation."))
+		("predict_text_gen_max_chars", boost::program_options::value<int>(), ("Max chars for text generation."))
+		("command", boost::program_options::value<std::string>(), "The task to perform.  Must be one of: train_model, grad_check, predict_text_gen.")
 		("output_prefix", boost::program_options::value<std::string>(), "Prefix for output files.  Can be a folder.")
 	;
 	boost::program_options::variables_map vm;
@@ -85,6 +87,13 @@ int main(int argc, char **argv)
 				"grad_check_h",
 				"grad_check_error_threshold_pct",
 				"grad_check_error_threshold_abs",
+			};
+		} else if(cmd == "predict_text_gen") {
+			required_opts = {
+				"predict_prev_output_folder",
+				"predict_text_gen_first_char",
+				"predict_text_gen_last_char",
+				"predict_text_gen_max_chars"
 			};
 		} else {
 			throw std::runtime_error("An invalid command was specified!");
@@ -170,7 +179,20 @@ int main(int argc, char **argv)
 			);
 			gradient_checker.checkGradients(outputDir, vm["bptt_truncate"].as<int>(), *network, (*data_final_x)[0], (*data_final_y)[0]);
 		}
+	} else if(cmd == "predict_text_gen") {
+		BOOST_LOG_TRIVIAL(info) << "Loading model...";
+		TextRnn<TextActivationLossConfig> model(vm["predict_prev_output_folder"].as<std::string>());
+
+		BOOST_LOG_TRIVIAL(info) << "Generating text...";
+		std::unique_ptr<TextSentence> sent = model.generateSentence(vm["predict_text_gen_first_char"].as<std::string>(), vm["predict_text_gen_last_char"].as<std::string>(), vm["predict_text_gen_max_chars"].as<int>());
+
+		BOOST_LOG_TRIVIAL(info) << "Generated text!  Output: ";
+		for(TextSentence::const_iterator it = sent->begin(); it != sent->end(); it++) {
+			BOOST_LOG_TRIVIAL(info) << *it;
+		}
 	} else {
 		throw std::runtime_error("An invalid command was specified!");
 	}
+
+	BOOST_LOG_TRIVIAL(info) << "Done!";
 }

@@ -9,6 +9,10 @@
 #define SRC_TEXTRNN_H_
 
 #include <memory>
+#include <ostream>
+#include <istream>
+#include <boost/lexical_cast.hpp>
+#include <boost/algorithm/string.hpp>
 #include "Utils.h"
 #include "RecurrentNeuralNetwork.h"
 
@@ -24,6 +28,23 @@ public:
 		for(std::unordered_map<TextWord, int>::const_iterator it = vocab->begin(); it != vocab->end(); it++) {
 			vocab_rev[it->second] = it->first;
 		}
+	}
+
+	TextRnn(const std::string& prev_output_prefix)
+		: RecurrentNeuralNetwork<ActivationLossConfig>(prev_output_prefix) {
+
+		// Laod vocab
+		TextVocab vocab_in;
+		std::ifstream ifs(prev_output_prefix + "model/vocab.map");
+		std::string _tmp_line;
+		while(getline(ifs, _tmp_line)) {
+			TextSentence words;
+			boost::split(words, _tmp_line, boost::is_any_of(","));
+
+			vocab_in[words[0]] = boost::lexical_cast<int>(words[1]);
+			vocab_rev[vocab_in[words[0]]] = words[0];
+		}
+		vocab.reset(new TextVocab(vocab_in));
 	}
 
 	std::unique_ptr<Word> textWordToWord(const TextWord& text_word) const {
@@ -58,7 +79,7 @@ public:
 	std::unique_ptr<TextSentence> sentenceToTextSentence(const Sentence& sentence) const {
 		std::unique_ptr<TextSentence> ret(new TextSentence);
 
-		for(int at = 0; at < sentence.n_cols(); at ++) {
+		for(int at = 0; at < sentence.n_cols; at ++) {
 			ret->push_back(vocab_rev.at(sentence.col(at).index_max()));
 		}
 
@@ -110,6 +131,16 @@ public:
 		}
 
 		return ts;
+	}
+
+	void save(const std::string& output_prefix) const {
+		RecurrentNeuralNetwork<ActivationLossConfig>::save(output_prefix);
+
+		// Save map to file
+		std::ofstream ofs(output_prefix + "model/vocab.map");
+		for(TextVocab::const_iterator it = vocab->begin(); it != vocab->end(); it++) {
+			ofs << it->first << "," << it->second << "\n";
+		}
 	}
 
 private:
