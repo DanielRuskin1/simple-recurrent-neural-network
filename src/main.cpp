@@ -16,6 +16,8 @@
 #include <boost/date_time/posix_time/posix_time.hpp>
 #include <boost/date_time/posix_time/posix_time_io.hpp>
 
+#include "omp.h"
+
 #include "TextVocabGenerator.h"
 #include "TextRnn.h"
 #include "TextActivationLossConfig.h"
@@ -52,6 +54,7 @@ int main(int argc, char **argv)
 		("predict_text_gen_max_chars", boost::program_options::value<int>(), ("Max chars for text generation."))
 		("command", boost::program_options::value<std::string>(), "The task to perform.  Must be one of: train_model, grad_check, predict_text_gen.")
 		("output_prefix", boost::program_options::value<std::string>(), "Prefix for output files.  Can be a folder.")
+		("num_threads", boost::program_options::value<int>(), "Number of threads to run the program with.")
 	;
 	boost::program_options::variables_map vm;
 	boost::program_options::store(boost::program_options::parse_command_line(argc, argv, desc), vm);
@@ -106,6 +109,12 @@ int main(int argc, char **argv)
 		}
 	} else {
 		throw std::runtime_error("No command was specified!");
+	}
+
+	if(vm.count("num_threads")) {
+		int num_threads = vm["num_threads"].as<int>();
+		omp_set_num_threads(num_threads);
+		BOOST_LOG_TRIVIAL(info) << "Running with " << num_threads << " threads!";
 	}
 
 	BOOST_LOG_TRIVIAL(info) << "Executing command...";

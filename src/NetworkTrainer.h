@@ -47,37 +47,39 @@ public:
 		}
 
 		// Iterate through training epochs
-		int num_batches_per_epoch = std::floor(training_examples.size() / samples_per_batch);
-		if(num_batches_per_epoch == 0) { num_batches_per_epoch = 1; }
 		for(int epoch = 0; epoch < num_epochs; epoch++) {
 			BOOST_LOG_TRIVIAL(info) << "Training epoch " << epoch << "...";
 
 			// Randomize training example #s
 			BOOST_LOG_TRIVIAL(info) << "Randomizing training examples...";
-			std::vector<int> examples_remaining_for_epoch(training_examples.size());
-			std::iota(examples_remaining_for_epoch.begin(), examples_remaining_for_epoch.end(), 0);
-			std::random_shuffle(examples_remaining_for_epoch.begin(), examples_remaining_for_epoch.end());
+			std::vector<int> examples_for_epoch(training_examples.size());
+			std::iota(examples_for_epoch.begin(), examples_for_epoch.end(), 0);
+			std::random_shuffle(examples_for_epoch.begin(), examples_for_epoch.end());
 
 			// Iterate through batches and take examples each time
-			for(int batch = 0; batch < num_batches_per_epoch; batch++) {
+			int at_epoch_example = 0;
+			int batch = 0;
+			while(at_epoch_example < examples_for_epoch.size()) {
 				BOOST_LOG_TRIVIAL(info) << "Training epoch " << epoch << ", batch " << batch << "...";
 
 				// If on last batch, take rest of examples.  Otherwise, take normal size.
-				int num_examples_in_batch;
-				if(batch == num_batches_per_epoch - 1) { num_examples_in_batch = examples_remaining_for_epoch.size(); }
-				else { num_examples_in_batch = samples_per_batch; }
+				int unused_examples_for_epoch = examples_for_epoch.size() - at_epoch_example;
+				int num_examples_in_batch = std::min(samples_per_batch, unused_examples_for_epoch);
 
 				// Calculate avg gradients
 				BOOST_LOG_TRIVIAL(info) << "Calculating gradients...";
 				arma::mat dCdW(network->getW().n_rows, network->getW().n_cols, arma::fill::zeros);
 				arma::mat dCdU(network->getU().n_rows, network->getU().n_cols, arma::fill::zeros);
 				arma::mat dCdV(network->getV().n_rows, network->getV().n_cols, arma::fill::zeros);
-				std::unique_ptr<arma::mat> tmpW;
-				std::unique_ptr<arma::mat> tmpU;
-				std::unique_ptr<arma::mat> tmpV;
+
+				#pragma omp parallel
+				#pragma omp for
 				for(int ex = 0; ex < num_examples_in_batch; ex++) {
-					int exNum = training_examples[examples_remaining_for_epoch.back()];
-					examples_remaining_for_epoch.pop_back();
+					std::unique_ptr<arma::mat> tmpW;
+					std::unique_ptr<arma::mat> tmpU;
+					std::unique_ptr<arma::mat> tmpV;
+
+					int exNum = training_examples[at_epoch_example + ex];
 
 					std::unique_ptr<arma::mat> saved_states;
 					std::unique_ptr<arma::mat> outputs;
@@ -93,9 +95,13 @@ public:
 						tmpU,
 						tmpV
 					);
-					dCdW += *tmpW;
-					dCdU += *tmpU;
-					dCdV += *tmpV;
+
+					#pragma omp critical
+					{
+						dCdW += *tmpW;
+						dCdU += *tmpU;
+						dCdV += *tmpV;
+					}
 				}
 				dCdW /= num_examples_in_batch;
 				dCdU /= num_examples_in_batch;
@@ -106,6 +112,9 @@ public:
 				network->setW(network->getW() - (dCdW * learning_rate));
 				network->setU(network->getU() - (dCdU * learning_rate));
 				network->setV(network->getV() - (dCdV * learning_rate));
+
+				at_epoch_example += num_examples_in_batch;
+				batch++;
 			}
 
 			// Eval progress
