@@ -120,7 +120,7 @@ public:
 		std::unique_ptr<TextSentence> ts(new TextSentence);
 		ts->push_back(word_zero);
 
-		arma::colvec last_saved_state(this->W.n_rows);
+		arma::colvec last_saved_state(this->W.n_rows, arma::fill::zeros);
 		Word last_output = *(textWordToWord(word_zero));
 		while(ts->back() != end_token && ts->size() < max_words) {
 			last_saved_state = *(ActivationLossConfig::evalSavedStateActivation(
