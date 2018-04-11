@@ -1,0 +1,20 @@
+CC := g++
+CFLAGS := -fopenmp -std=c++0x -DBOOST_ALL_DYN_LINK
+LFLAGS := -fopenmp
+LIBS := -lboost_system -lboost_filesystem -lboost_log_setup -lboost_log -lboost_date_time -lboost_program_options -lboost_thread -larmadillo
+TARGET := simple_recurrent_neural_network
+
+# $(wildcard *.cpp /xxx/xxx/*.cpp): get all .cpp files from the current directory and dir "/xxx/xxx/"
+SRCS := $(wildcard *.cpp)
+# # $(patsubst %.cpp,%.o,$(SRCS)): substitute all ".cpp" file name strings to ".o" file name strings
+OBJS := $(patsubst %.cpp,%.o,$(SRCS))
+
+all: $(TARGET)
+$(TARGET): $(OBJS)
+	$(CC) ${LFLAGS} ${LIBS} -o $@ $^
+%.o: %.cpp
+	$(CC) $(CFLAGS) -c $<
+clean:
+	rm -rf $(TARGET) *.o
+
+.PHONY: all clean

@@ -11,6 +11,8 @@
 #include <boost/log/trivial.hpp>
 #include <boost/log/expressions.hpp>
 #include <boost/log/utility/setup/common_attributes.hpp>
+#include <boost/log/utility/setup/file.hpp>
+#include <boost/log/utility/setup/console.hpp>
 #include <boost/program_options.hpp>
 #include <boost/algorithm/string.hpp>
 #include <boost/date_time/posix_time/posix_time.hpp>
@@ -27,13 +29,7 @@
 
 int main(int argc, char **argv)
 {
-	BOOST_LOG_TRIVIAL(info) << "Initializing...";
-
-	boost::log::add_common_attributes();
-	srand(time(0));
-	arma::arma_rng::set_seed_random();
-
-	BOOST_LOG_TRIVIAL(info) << "Parsing options...";
+	// Parse options
 	boost::program_options::options_description desc("Options");
 	desc.add_options()
 		("help", "produce help message")
@@ -64,7 +60,7 @@ int main(int argc, char **argv)
 	    return 1;
 	}
 
-	BOOST_LOG_TRIVIAL(info) << "Validating options...";
+	// Validate options
 	std::string cmd;
 	if(vm.count("command")) {
 		cmd = vm["command"].as<std::string>();
@@ -111,24 +107,46 @@ int main(int argc, char **argv)
 		throw std::runtime_error("No command was specified!");
 	}
 
+	// Create output dir
+	std::string outputDir;
+	if(vm.count("output_prefix")) {
+		outputDir = vm["output_prefix"].as<std::string>();
+	} else {
+		outputDir = "./output-";
+	}
+	outputDir += boost::posix_time::to_iso_string(boost::posix_time::second_clock::local_time()) + "/";
+	boost::filesystem::create_directories(outputDir);
+
+	// Setup logging
+	boost::log::core::get()->add_global_attribute("TimeStamp", boost::log::attributes::local_clock());
+	boost::log::add_file_log(
+		boost::log::keywords::file_name = outputDir + "log.txt",
+		boost::log::keywords::auto_flush = true,
+		boost::log::keywords::format = "[%TimeStamp%] %Message%"
+	);
+	boost::log::add_console_log(
+		std::cout,
+		boost::log::keywords::format = "[%TimeStamp%] %Message%"
+	);
+	boost::log::add_common_attributes();
+
+	// Setup random, threads
+	srand(time(0));
+	arma::arma_rng::set_seed_random();
+	int num_threads = 1;
 	if(vm.count("num_threads")) {
-		int num_threads = vm["num_threads"].as<int>();
+		num_threads = vm["num_threads"].as<int>();
 		omp_set_num_threads(num_threads);
-		BOOST_LOG_TRIVIAL(info) << "Running with " << num_threads << " threads!";
 	}
 
+	// Log work thus far
+	BOOST_LOG_TRIVIAL(info) << "Initialization done!";
+	BOOST_LOG_TRIVIAL(info) << "Logging to output directory: " << outputDir;
+	BOOST_LOG_TRIVIAL(info) << "Number of threads: " << num_threads;
+
+	// Do work
 	BOOST_LOG_TRIVIAL(info) << "Executing command...";
 	if(cmd == "train_model" || cmd == "grad_check") {
-		std::string outputDir;
-		if(vm.count("output_prefix")) {
-			outputDir = vm["output_prefix"].as<std::string>();
-		} else {
-			outputDir = "./output-";
-		}
-		outputDir += boost::posix_time::to_iso_string(boost::posix_time::second_clock::local_time()) + "/";
-		boost::filesystem::create_directories(outputDir);
-		BOOST_LOG_TRIVIAL(info) << "Created output directory: " << outputDir;
-
 		BOOST_LOG_TRIVIAL(info) << "Loading and parsing data...";
 		std::ifstream data_file;
 		data_file.open(vm["data_file"].as<std::string>());

@@ -79,7 +79,7 @@ public:
 					std::unique_ptr<arma::mat> tmpU;
 					std::unique_ptr<arma::mat> tmpV;
 
-					int exNum = training_examples[at_epoch_example + ex];
+					int exNum = training_examples[examples_for_epoch[at_epoch_example + ex]];
 
 					std::unique_ptr<arma::mat> saved_states;
 					std::unique_ptr<arma::mat> outputs;

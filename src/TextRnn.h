@@ -39,7 +39,7 @@ public:
 		std::string _tmp_line;
 		while(getline(ifs, _tmp_line)) {
 			TextSentence words;
-			boost::split(words, _tmp_line, boost::is_any_of(","));
+			boost::split(words, _tmp_line, boost::is_any_of(" "));
 
 			vocab_in[words[0]] = boost::lexical_cast<int>(words[1]);
 			vocab_rev[vocab_in[words[0]]] = words[0];
@@ -127,6 +127,7 @@ public:
 				(this->U * last_output) + (this->W * last_saved_state)
 			));
 			last_output = *(ActivationLossConfig::evalOutputActivation(this->V * last_saved_state));
+			last_output(vocab->at(UNKNOWN_CHAR_VAL)) = 0; // Never guess unknown char
 			ts->push_back(*(wordToTextWord(last_output)));
 		}
 
@@ -139,7 +140,7 @@ public:
 		// Save map to file
 		std::ofstream ofs(output_prefix + "model/vocab.map");
 		for(TextVocab::const_iterator it = vocab->begin(); it != vocab->end(); it++) {
-			ofs << it->first << "," << it->second << "\n";
+			ofs << it->first << " " << it->second << "\n";
 		}
 	}
 
