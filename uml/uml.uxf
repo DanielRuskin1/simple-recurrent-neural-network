@@ -1,147 +1,185 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>5</zoom_level>
+  <zoom_level>4</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>200</x>
-      <y>35</y>
-      <w>350</w>
-      <h>110</h>
+      <x>308</x>
+      <y>152</y>
+      <w>416</w>
+      <h>116</h>
     </coordinates>
-    <panel_attributes>RecurrentNeuralNetwork&lt;SavedStateActivation, OutputActivation&gt;
+    <panel_attributes>RecurrentNeuralNetwork&lt;ActivationLossConfig&gt;
 -
 - W: arma::mat
 - U: arma::mat
 - V: arma::mat
 -
-+ RecurrentNeuralNetwork()
-+ const feedForward(const arma::mat&amp; x, 
++ RecurrentNeuralNetwork(x_size: int, out_size: int, saved_state_size: int)
++ RecurrentNeuralNetwork(prev_output_prefix: const std::string&amp;)
++ const feedForward(const Sentence&amp; x, 
 						                                 std::unique_ptr&lt;arma::mat&gt;&amp; out_saved_states,
-						                                 std::unique_ptr&lt;arma::mat&gt;&amp; out_outputs)
+						                                 std::unique_ptr&lt;Sentence&gt;&amp; out_outputs)
++ const save(output_prefix: const std::string&amp;)
 + const getW() : const arma::mat&amp;
++ updateWVal(row: int, col: int, change: double)
 + const getU() : const arma::mat&amp;
-+ const getV() : const arma::mat&amp;</panel_attributes>
++ updateUVal(row: int, col: int, change: double)
++ const getV() : const arma::mat&amp;
++ updateVVal(row: int, col: int, change: double)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>200</x>
-      <y>160</y>
-      <w>350</w>
-      <h>85</h>
+      <x>308</x>
+      <y>276</y>
+      <w>416</w>
+      <h>116</h>
     </coordinates>
-    <panel_attributes>TextRnn&lt;SavedStateActivation, OutputActivation&gt; &lt; RecurrentNeuralNetwork&lt;...&gt;
+    <panel_attributes>TextRnn&lt;ActivationLossConfig&gt; &lt; RecurrentNeuralNetwork&lt;ActivationLossConfig&gt;
 -
-- vocab: const std::shared_ptr&lt;TextVocab&gt;
+- vocab: std::shared_ptr&lt;const TextVocab&gt;
+- vocab_rev: TextVocabRev
 -
-+ TextRnn(new_vocab: const std::shared_ptr&lt;TextVocab&gt;)
-+ const strsToOneHotMat(const std::vector&lt;std::string&gt;&amp; strs): std::unique_ptr&lt;arma::mat&gt;
-+ const oneHotMatToStrs(const arma::mat&amp; one_hot_mat): std::unique_ptr&lt;std::vector&lt;std::string\&gt;&gt;
-+ const oneHotVecToStr(const arma::colvec&amp; one_hot_vec): std::unique_ptr&lt;std::string&gt;
-+ const generateText(const std::string&amp; x_zero)</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>200</x>
-      <y>365</y>
-      <w>235</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>SoftMaxActivation
--
-+ eval(arma::colvec in): std::unique_ptr&lt;arma::colvec&gt;
-+ evalPrime(arma::colvec in): std::unique_ptr&lt;arma::mat&gt;</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>200</x>
-      <y>300</y>
-      <w>235</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>TanHActivation
--
-+ eval(arma::colvec in): std::unique_ptr&lt;arma::colvec&gt;
-+ evalPrime(arma::colvec in): std::unique_ptr&lt;arma::colvec&gt;</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>615</x>
-      <y>35</y>
-      <w>380</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>NetworkTrainer&lt;NetworkType, ProgressEvaluator, CostFunction&gt;
--
-- num_epochs: int
-- samples_per_epoch: int
-- learning_rate: double
-- test_data_frac: double
-- network: std::shared_ptr&lt;NetworkType&gt;
--
-- train(const std::vector&lt;std::vector&lt;arma::colvec\&gt;&gt;)</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>200</x>
-      <y>425</y>
-      <w>325</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>TextCrossEntropyLossFunction
--
-+ eval(arma::colvec correct, arma::colvec predict): std::unique_ptr&lt;arma::colvec&gt;
-+ evalPrime(arma::colvec correct, arma::colvec predict): std::unique_ptr&lt;arma::colvec&gt;</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>200</x>
-      <y>485</y>
-      <w>420</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>TextProgressEvaluator
--
-+ evalPercentCorrect&lt;NetworkType&gt;(const NetworkType&amp; network, const arma::mat&amp; predict, const arma::mat&amp; correct): double</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>680</x>
-      <y>285</y>
-      <w>350</w>
-      <h>75</h>
-    </coordinates>
-    <panel_attributes>TextVocabGenerator
--
-+ generateVocab(int max_vocab, std::vector&lt;std::vector&lt;std::string\&gt;&gt;): TextVocab</panel_attributes>
++ TextRnn(x_size: int, 
+                 out_size: int,
+                 saved_state_size: int, 
+                 new_vocab: std::shared_ptr&lt;const TextVocab&gt;)
++ TextRnn(prev_output_prefix: const std:string&amp;)
++ const textWordToWord(text_word: const TextWord&amp;): std::unique_ptr&lt;Word&gt;
++ const wordToTextWord(word: const Word&amp;): std::unique_ptr&lt;TextWord&gt;
++ const textSentenceToSentence(text_sentence: const TextSentence&amp;): std::unique_ptr&lt;Sentence&gt;
++ const sentenceToTextSentence(sentence: const Sentence&amp;): std::unique_ptr&lt;TextSentence&gt;
++ const textSentenceListToSentenceList(text_sentences: const TextSentenceList&amp;): std::unique_ptr&lt;SentenceList&gt;
++ const sentenceListToTrainingSentenceList(sl: const SentenceList&amp;, out_x: std::unique_ptr&lt;SentenceList&gt;&amp;, out_y: std::unique_ptr&lt;SentenceList&gt;&amp;)
++ const sentenceListToTextSentenceList(sentences: const SentenceList&amp;): std::unique_ptr&lt;TextSentenceList&gt;
++ const generateSentence(word_zero: const TextWord&amp;, end_token: const TextWord&amp;, max_words: int): std::unique_ptr&lt;TextSentence&gt;)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>35</y>
-      <w>175</w>
-      <h>110</h>
+      <y>332</y>
+      <w>288</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>TextActivationLossConfig
+-
++ static evalOutputActivation(in: const arma::colvec&amp;): std::unique_ptr&lt;arma::colvec&gt;
++ static evalSavedStateActivation(in: const arma::colvec&amp;): std::unique_ptr&lt;arma::colvec&gt;
+
++ static evalCost(correct: const Sentence&amp;, predict: const Sentence&amp;): double
+
++ static setGradients(network: const TextRnn&lt;TextActivationLossConfig&gt;&amp;, 
+                                 bptt_truncate: int, 
+                                 x: const Sentence&amp;, 
+                                 y: const Sentence&amp;,
+                                 saved_states: const arma::mat&amp;,
+                                 outputs: const arma::mat&amp;,
+                                 out_dCdW: std::unique_ptr&lt;arma::mat&gt;&amp;,
+                                 out_dCdU: std::unique_ptr&lt;arma::mat&gt;&amp;,
+                                 out_dCdV: std::unique_ptr&lt;arma::mat&gt;&amp;)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>744</x>
+      <y>152</y>
+      <w>412</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>NetworkTrainer&lt;NetworkType, ActivationLossConfig, ProgressEvaluator&gt;
+-
+- num_epochs: int
+- samples_per_epoch: int
+- learning_rate: double
+- test_data_frac: double
+- bptt_truncate: int
+- network: std::shared_ptr&lt;NetworkType&gt;
+-
++ NetworkTrainer(num_epochs_new: int, 
+                            samples_per_batch_new: int, 
+                            learning_rate_new: int, 
+                            test_data_frac_new: int, 
+                            bptt_truncate_new: int, 
+                            network_new: std::shared_ptr&lt;NetworkType&gt;)
++ train(x: const SentenceList&amp;, y: const SentenceList&amp;)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>448</y>
+      <w>288</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>TextProgressEvaluator&lt;ActivationLossConfig&gt;
+-
++ static evalPercentWordsCorrect(const TextRnn&lt;ActivationLossConfig&gt;&amp; network, 
+                                                    const SentenceList&amp; predict, 
+                                                    const SentenceList&amp; correct): double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>264</y>
+      <w>288</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>TextVocabGenerator
+-
++ generateVocab(max_vocab: int, sentences: const TextSentenceList&amp;): std::unique_ptr&lt;TextVocab&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>152</y>
+      <w>288</w>
+      <h>104</h>
     </coordinates>
     <panel_attributes>Utils
 -
-typedef std::map&lt;std::string, int&gt; TextVocab;
-typedef std::vector&lt;std::string&gt; TextSentence;</panel_attributes>
+typedef arma::colvec Word
+typedef arma::mat Sentence
+typedef std::vector&lt;Sentence&gt; SentenceList
+
+typedef std::string TextWord
+typedef std::vector&lt;TextWord&gt; TextSentence
+typedef std::vector&lt;TextSentence&gt; TextSentenceList
+
+typedef std::unordered_map&lt;TextWord, int&gt; TextVocab
+typedef std::unordered_map&lt;int, TextWord&gt; TextVocabRev
+typedef std::vector&lt;std::pair&lt;TextWord, int&gt;&gt; TextOccurrenceCountsVec
+typedef std::unordered_map&lt;TextWord, int&gt; TextOccurrenceCountsMap
+
+#define UNKNOWN_CHAR_VAL "UNKNOWN_CHAR"</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>744</x>
+      <y>268</y>
+      <w>412</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>GradientChecker&lt;NetworkType, ActivationLossConfig&gt;
+-
+- h: double
+- error_threshold_percent: double
+- error_threshold_abs: double
+-
++ GradientChecker(h_new: double, error_threshold_percent_new: double, error_threshold_abs_new: double)
++ const checkGradients(output_prefix: const std::string&amp;, bptt_truncate: int, network: const NetworkType&amp;, x: const Sentence&amp;, y: const Sentence&amp;)
+- const estimateGradient(network: NetworkType, var: const std::string&amp;, row: int, col: int, x: const Sentence&amp;, y: const Sentence&amp;): double </panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
